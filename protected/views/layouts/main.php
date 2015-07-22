@@ -7,7 +7,7 @@
         <!-- META TAGS -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>O Monitor <?= date("Y") ?></title>
+        <title>O Monitor</title>
         <link rel="shortcut icon" href="<?php echo Yii::app()->baseUrl ?>/webroot/monitor/images/favicon.png?v=2" />
 
 
@@ -38,7 +38,7 @@
                     <?php if (!$this->showMainSearch): ?>
                         <div class="logo-container">
                             <!-- Website Logo -->
-                            <a href="<?= Yii::app()->baseUrl ?>"  title="O Monitor" style="font-size: 26px!important; text-decoration: none!important;">
+                            <a href="/"  title="O Monitor" style="font-size: 26px!important; text-decoration: none!important;">
                                 O Monitor
                             </a>
                         </div>

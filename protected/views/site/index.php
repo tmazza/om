@@ -19,6 +19,8 @@
         margin: 6px;
         min-height: 40px; 
         padding: 10px;
+        color: #777;
+        font-weight: bold;
     }
     .card .card-label, .card .card-value {
         display: inline-block;
