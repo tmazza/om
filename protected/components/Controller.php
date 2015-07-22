@@ -11,6 +11,7 @@ class Controller extends CController implements IRootController {
     protected $processaLatex = true;
     // Se o botao para resolver problemas deve aparever ou não
     public $showSolver = true;
+    protected $lite = true;
 
     protected function beforeAction($action) {
         if (!Yii::app()->request->isAjaxRequest) {

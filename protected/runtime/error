@@ -2246,3 +2246,12 @@ Stack trace:
 REQUEST_URI=/aaa/monitor/index.php/site/updateWidgetView
 HTTP_REFERER=http://localhost/aaa/monitor/index.php/site/teste
 ---
+2015/07/22 18:12:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "meuEspaco/meusCursos/default/index".' in C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php:1765
+Stack trace:
+#0 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php(1681): CWebApplication->runController('meuEspaco/meusC...')
+#1 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php(1202): CWebApplication->processRequest()
+#2 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-lite\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/aaa/monitor-lite/index.php/meuEspaco/meusCursos/default/index
+HTTP_REFERER=http://localhost/aaa/monitor-lite/index.php/meuEspaco/site/index
+---
