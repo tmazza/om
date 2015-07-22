@@ -15,7 +15,7 @@ return array(
 //            'questionarios',
 //            'gerenciamentoCursos',
 //            'estrutura',
-//            'edicaoPerfil',
+            'edicaoPerfil',
 //            'controleAcesso',
 //            'meusCursos',
             'mensagem',
