@@ -1,0 +1,50 @@
+.sage-hide {
+
+}
+.afirmacao {
+    padding: 10px;
+    color: #8A6D3B;
+    background-color: #FCF8E3;
+    border-color: #FAEBCC;
+}
+.dica{
+    padding: 10px;
+    background-color: #ccffcc;
+    border-color: #009900;    
+}
+.detalhe {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    background: #eee;
+    padding: 12px;
+    box-shadow: 3px 3px 2px 1px #bbb;    
+}
+.explicacao {
+    padding: 10px;
+    background-color: #D4E9E9;
+    border-color: #1d558c;    
+}
+.teorema {
+    padding: 10px;
+    background-color: #ff9900;
+    border-color: #ff9900;    
+}
+.definicao {
+    padding: 10px;
+    background-color: #009999;
+    border-color: #1d558c;    
+}
+.prova {
+    padding: 10px;
+    background-color: #f8d2f8;
+    border-color: #1d558c;    
+}
+
+.detalhe .detalhe { background: #f6f6f6; }
+.detalhe .detalhe .detalhe { background: #ffffff; }
+
+.sagecell .CodeMirror {
+/*    height: 0px!important;
+    overflow: hidden!important;
+    cursor: pointer!important;*/
+}
