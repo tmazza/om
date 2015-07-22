@@ -19,6 +19,7 @@ class SearchController extends MonitorController {
     }
 
     public function actionResults($s) {
+        $this->showMainSearch  = false;
         $this->layout = "semColunas";
         if (strlen($s) >= 1) {
             if (substr($s, 0, 1) === '=') {
@@ -40,6 +41,7 @@ class SearchController extends MonitorController {
     }
 
     public function actionResultEq() {
+        $this->showMainSearch  = false;
         $this->layout = "semColunas";
         $this->render('equationResults');
     }

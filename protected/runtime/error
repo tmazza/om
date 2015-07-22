@@ -2246,12 +2246,20 @@ Stack trace:
 REQUEST_URI=/aaa/monitor/index.php/site/updateWidgetView
 HTTP_REFERER=http://localhost/aaa/monitor/index.php/site/teste
 ---
-2015/07/22 18:12:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "meuEspaco/meusCursos/default/index".' in C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php:1765
+2015/07/22 22:28:17 [error] [php] Undefined variable: examples (C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-lite\protected\views\site\index.php:3)
 Stack trace:
-#0 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php(1681): CWebApplication->runController('meuEspaco/meusC...')
-#1 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php(1202): CWebApplication->processRequest()
-#2 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-lite\index.php(18): CApplication->run()
-#3 {main}
-REQUEST_URI=/aaa/monitor-lite/index.php/meuEspaco/meusCursos/default/index
-HTTP_REFERER=http://localhost/aaa/monitor-lite/index.php/meuEspaco/site/index
----
+#0 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php(3904): SiteController->renderFile()
+#1 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php(3872): SiteController->renderPartial()
+#2 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-lite\protected\controllers\SiteController.php(25): SiteController->render()
+#3 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php(4139): SiteController->actionIndex()
+#4 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php(3652): CInlineAction->runWithParams()
+#5 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php(3637): SiteController->runAction()
+#6 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php(3627): SiteController->runActionWithFilters()
+#7 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php(1761): SiteController->run()
+#8 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php(1681): CWebApplication->runController()
+#9 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\framework\yiilite.php(1202): CWebApplication->processRequest()
+#10 C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-lite\index.php(18): CWebApplication->run()
+REQUEST_URI=/aaa/monitor-lite/
+in C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-lite\protected\views\site\index.php (3)
+in C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-lite\protected\controllers\SiteController.php (25)
+in C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-lite\index.php (18)

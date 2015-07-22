@@ -1,3 +1,7 @@
-assets/**
-protected/runtime/**
-protected/runtime/*
+/assets/**
+/protected/runtime/**
+/protected/runtime/*
+/protected/runtime/error/*
+/protected/runtime/trace/*
+**/runtime/
+

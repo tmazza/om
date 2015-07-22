@@ -53,7 +53,7 @@
                                 $acesso = CHtml::link("(Sair)", $this->createUrl('site/logout'));
                             } else {
                                 $usuario = "";
-                                $acesso = CHtml::link("Acesso ao <b style='font-size:16px;'>Studio</b>", $this->createUrl('site/login'), array('class' => 'link-login'));
+                                $acesso = CHtml::link("Entrar/Cadastra-se", $this->createUrl('site/login'), array('class' => 'link-login'));
                             }
                             ?>
 

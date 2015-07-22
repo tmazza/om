@@ -1,25 +1,37 @@
-<?php //$this->widget("application.widgets.MainSageCell.MainSageCell");             ?>
-<?php foreach ($topicos as $top): ?>
-    <div class="row-fluid topico">
-        <div class="span12">
-            <h5><?= CHtml::link($top->nome, $this->createUrl('topico/ver', array('id' => $top->id, 'nome' => ViewHelper::makeID($top->nome)))) ?></h5>
-            <?php if (count($top->interacoesComDestaque) > 0): ?>
-                <?php
-                $select = rand(0, count($top->interacoesComDestaque) - 1);
-                if (isset($top->interacoesComDestaque[$select]->descricao)) {
-                    echo '<p>' . $top->interacoesComDestaque[$select]->descricao->valor . '</p>';
-                }
-                $this->renderPartial('_testePanel', array(
-                    'conteudo' => $top->interacoesComDestaque[$select]->conteudo,
-                    'camada_id' => $top->interacoesComDestaque[$select]->id,
-                ));
-                ?>
-            <?php endif; ?>
-        </div>
-    </div>
-<?php endforeach; ?>
-<?php
-$this->widget('CLinkPager', array(
-    'pages' => $pages,
-));
+<div class="container textCenter">
+    <br><br><br>
+    <?php foreach ($exemplos as $e): ?>
+        <a class="card" href="<?= $this->createUrl('search/ResultEq', array('q' => $e->valor)); ?>">
+            <span class="card-label">$$<?= $e->latex; ?>$$</span>
+            <span class="card-value"><?= $e->valor; ?></span>
+        </a>    
+    <?php endforeach; ?>
+    <br><br><br>
+</div>
+<style>
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        box-shadow: 1px 1px 1px 1px #ded;
+        /*background: red;*/
+        width: 340px;
+        display: inline-block;
+        margin: 6px;
+        min-height: 40px; 
+        padding: 10px;
+    }
+    .card .card-label, .card .card-value {
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    .card .card-label {
+        border-right: 1px solid #ddd;
 
+    }
+    .card .card-label {
+        width: 35%;
+    }
+    .card .card-value {
+        width: 60%;
+    }
+</style>

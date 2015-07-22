@@ -18,26 +18,10 @@ class SiteController extends MonitorController {
 
 
     public function actionIndex() {
-        $this->layout = 'index';
-        $this->showMainSearch = true;
-        // Topicos paginados
-        $criteria = new CDbCriteria;
-        $criteria->condition = "publicado = 1 AND publico = 1"; // TODO: quando user logado acesso a não público
-        $criteria->with = array(
-            'autor' => array(
-                'condition' => "tipo = 'autor'",
-            ),
-        );
-        $criteria->order = "comDestaque DESC"; // TODO: quando user logado acesso a não público
-        $total = Topico::model()->count($criteria);
-
-        $pages = new CPagination($total);
-        $pages->pageSize = 10;
-        $pages->applyLimit($criteria);
-        $topicos = Topico::model()->findAll($criteria);
+        $this->layout = 'main';
+        $exemplos = ExemplosSearch::model()->findAll();
         $this->render('index', array(
-            'topicos' => $topicos,
-            'pages' => $pages,
+            'exemplos' => $exemplos,
         ));
     }
 
@@ -69,9 +53,25 @@ class SiteController extends MonitorController {
         }
     }
 
+    //social integration
+    public function actionSocialLogin(){
+        //reference >>> http://www.yiiframework.com/wiki/459/integrating-hybridauth-directly-into-yii-without-an-extension/
+        Yii::import('shared.components.HybridAuthIdentity');
+        require_once Yii::getPathOfAlias('shared.extensions') . '/hybridauth-' . HybridAuthIdentity::VERSION . '/hybridauth/index.php';
+    }
+
     public function actionLogin() {
         $this->layout = 'semColunas';
         $model = new LoginForm;
+
+        if (isset($_GET['provider'])){
+            if($model->socialLogin($_GET['provider'])){
+                $this->redirect($this->createUrl('/meuEspaco/default/index'));
+            }else {
+                $this->redirect($this->createUrl('site/index'));
+            }
+
+        }
 
         if (isset($_POST['LoginForm'])) {
             $model->attributes = $_POST['LoginForm'];
@@ -149,7 +149,7 @@ class SiteController extends MonitorController {
 
         if ($form->submitted('cadastro') && $form->validate()) {
             $model->attributes = $_POST['ShCadastro'];
-            if (Aluno::salvaNovoAluno($model)) {
+            if (User::salvaNovoAluno($model)) {
                 $user = User::model()->findByAttributes(array(
                     'username' => $model->username,
                 ));

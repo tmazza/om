@@ -49,6 +49,12 @@ $this->breadcrumbs = array(
                 <?= CHtml::link('Não tenho cadastro &raquo;', $this->createUrl('site/cadastro')); ?>
             </div>
         </section>
+        <br>
+        <section class="widget" style="margin: 0 auto; margin-top: 20px; min-width: 300px; max-width: 400px;">
+            <div class="">
+                <?=ViewHelper::getSocialLoginButtons();?>
+            </div>
+        </section>
 
     </div>
 </div>

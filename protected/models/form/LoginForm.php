@@ -64,4 +64,30 @@ class LoginForm extends CFormModel {
             return false;
     }
 
+    public function socialLogin($provider){
+        try
+        {
+            $haComp = new HybridAuthIdentity();
+
+            if (!$haComp->validateProviderName($_GET['provider']))
+                throw new CHttpException ('500', 'Invalid Action. Please try again.');
+
+            $haComp->adapter = $haComp->hybridAuth->authenticate($provider);
+            $haComp->userProfile = $haComp->adapter->getUserProfile();
+
+            if(User::usuarioExistente($haComp->userProfile->email)){
+                User::logaUsuarioSocial($haComp->userProfile->email);
+            }else{
+                User::salvaAlunoImportadoDeRedeSocial($haComp);
+                User::logaUsuarioSocial($haComp->userProfile->email);
+            }
+
+        }
+        catch (Exception $e)
+        {
+            Yii::app()->user->setFlash('erro',$e->getMessage());
+            Yii::app()->controller->redirect(array('/site/login'));
+        }
+    }
+
 }
