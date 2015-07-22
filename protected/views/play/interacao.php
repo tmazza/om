@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="textRight" style="color: #aaa;">
-            Utilizando linguagem <?= CHtml::link(ucfirst($note->getLanguage()), '#'); ?>. Autor: <?= CHtml::link($note->autor->perfil->nome, $this->createUrl('/' . $note->user_id)); ?>
+            Utilizando linguagem <?= CHtml::link(ucfirst($note->getLanguage()), '#'); ?>. Autor: <?= CHtml::link($note->autor->perfil->nome, $this->createUrl('/' . $note->autor->username)); ?>
         </div>
     </div>
 </div>

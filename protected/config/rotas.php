@@ -5,8 +5,7 @@ return array(
 //    '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
     '/' => 'site/index',
     '<action:(login|logout)>' => 'site/<action>',
-//    '<username>' => 'autor/ind
-//    
+    '<username>' => 'autor/index',
     'topico/<id:\d+>/<nome>' => 'topico/ver',
     'topico/<id>/<nome>' => 'topico/ver',
 //    'topico/<id>' => 'topico/ver',
