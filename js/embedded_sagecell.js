@@ -77,7 +77,7 @@ _gaq.push(['sagecell._trackPageview']);
     sagecell.URLs.terms = sagecell.URLs.root + "tos.html";
     sagecell.URLs.help = sagecell.URLs.root + "static/help.html"
     sagecell.URLs.sage_logo = sagecell.URLs.root + "static/sagelogo.png";
-    sagecell.URLs.spinner = "/om/webroot/monitor/images/lll.gif";
+    sagecell.URLs.spinner = "/webroot/monitor/images/lll.gif";
     sagecell.modes = {"sage": "python", "python": "python",
         "html": "htmlmixed", "r": "r"};
     if (sagecell.loadMathJax === undefined) {
