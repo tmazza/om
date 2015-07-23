@@ -29,17 +29,16 @@
         <script src='<?php echo Yii::app()->baseUrl ?>/webroot/monitor/js/html5.js'></script>
         <![endif]-->
     </head>
-    
+
     <body>
         <!-- Start of Header -->
         <div class="header-wrapper">
             <header>
                 <div class="container">
                     <?php if (!$this->showMainSearch): ?>
-                        <div class="logo-container">
-                            <!-- Website Logo -->
-                            <a href="/"  title="O Monitor" style="font-size: 26px!important; text-decoration: none!important;">
-                                O Monitor
+                        <div class="logo-container" style="" >
+                            <a href="<?= Yii::app()->baseUrl . '/'; ?>">
+                                <?= CHtml::image(Yii::app()->baseUrl . '/webroot/logo.png', 'Logo O Monitor', array('style' => 'height: 40px;')); ?>
                             </a>
                         </div>
                     <?php endif; ?>
@@ -58,18 +57,6 @@
                             ?>
 
                             <ul id="menu-top-menu" class="clearfix">
-                                <?php if (!$this->showMainSearch): ?>
-                                    <li><?= CHtml::link(CHtml::image(Yii::app()->baseUrl . '/webroot/monitor/images/search-icon.png', 'Buscar', array('style' => 'width: 30px')), '#', array('onClick' => '$("#mini-busca").slideToggle(0);$("#menu-search-box").focus();')); ?></li>
-                                    <li id="mini-busca" style="display: none;">
-                                        <?php
-                                        $this->widget('application.widgets.SearchBox.SearchBox', array(
-                                            'enableAjax' => false,
-                                            'formAction' => $this->createUrl('search/Results'),
-                                            'title' => null,
-                                        ));
-                                        ?>
-                                    </li>
-                                <?php endif; ?>
                                 <?= $usuario ?>
                                 <li><?= $acesso ?></li>
                             </ul>
@@ -86,8 +73,10 @@
         <div class="search-area-wrapper">
             <div class="search-area container">
                 <?php if ($this->showMainSearch): ?>
-                    <h3 class="search-header"> <?php echo CHtml::link("O Monitor", $this->createUrl('site/index'), array("style" => "color:white;")); ?> </h3>
-                    <p class="search-tag-line"><?php // echo CHtml::link("de Fundamentos, Álgebra, Geometria, Cálculo e Equações Diferenciais.", $this->createUrl('site/index'), array("style" => "color:white;"));        ?></p>
+
+                    <div class="textCenter">
+                        <?= CHtml::image(Yii::app()->baseUrl . '/webroot/logo.png', 'Logo O Monitor', array('style' => 'height: 80px;')); ?>
+                    </div>
 
                     <form id="search-form" class="search-form clearfix" method="get" action="<?php echo $this->createUrl('search/ResultEq'); ?>" autocomplete="off">
                         <?php
@@ -111,7 +100,7 @@
                     <br>
                     <div id="search-menu" class="search-form" style="width: 50%; margin: 0 auto;">
                         <a href="#" style="color:#fff;" onclick="$('#teclado-s').slideToggle();
-                                    return false"><?= CHtml::image(Yii::app()->baseUrl . '/webroot/monitor/images/li-key.png', 'Teclado comandos') ?></a>
+                                return false"><?= CHtml::image(Yii::app()->baseUrl . '/webroot/monitor/images/li-key.png', 'Teclado comandos') ?></a>
                         <div id="teclado-s" style="display: none;">
                             <?php
                             $this->widget('shared.widgets.Teclado.ViewTeclado', array(
