@@ -52,7 +52,7 @@
                                 $acesso = CHtml::link("(Sair)", $this->createUrl('site/logout'));
                             } else {
                                 $usuario = "";
-                                $acesso = CHtml::link("Entrar/Cadastra-se", $this->createUrl('site/login'), array('class' => 'link-login'));
+                                $acesso = CHtml::link("Login", $this->createUrl('site/login'), array('class' => 'link-login'));
                             }
                             ?>
 
@@ -152,7 +152,7 @@
                     </div>
                     <div class="span3">
                         <section class="widget">
-                            <h3 class="title"><?= CHtml::link(CHtml::image(Yii::app()->baseUrl . '/webroot/monitor/images/tflow.png') . ' Árvore de conteúdo', $this->createUrl('arvore/ver4')) ?></h3>
+                            <!--<h3 class="title"><?//= CHtml::link(CHtml::image(Yii::app()->baseUrl . '/webroot/monitor/images/tflow.png') . ' Árvore de conteúdo', $this->createUrl('arvore/ver4')) ?></h3>-->
                         </section>
                     </div>
 

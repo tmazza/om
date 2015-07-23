@@ -16,7 +16,7 @@ class MonitorController extends Controller {
     public $pageCaption = ''; // SEO
     public $pageDescription = ''; //
     // Se o bloco com busca deve ser mostrado ou não. LAYOUTS: todos.
-    public $showMainSearch = true;
+    public $showMainSearch = false;
     // Se a busca deve ser mostrada no menu lateral
     public $titleMenuSearch = 'Buscar tópico';
     public $showMenuSearch = true;

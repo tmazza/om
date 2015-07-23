@@ -19,6 +19,7 @@ class SiteController extends MonitorController {
 
     public function actionIndex() {
         $this->layout = 'main';
+        $this->showMainSearch = true;
         $exemplos = ExemplosSearch::model()->findAll();
         $this->render('index', array(
             'exemplos' => $exemplos,
