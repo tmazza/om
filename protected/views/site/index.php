@@ -14,9 +14,9 @@
         border-radius: 2px;
         box-shadow: 1px 1px 1px 1px #ded;
         /*background: red;*/
-        width: 340px;
+        width: 280px;
         display: inline-block;
-        margin: 6px;
+        margin: 6px 50px;
         min-height: 40px; 
         padding: 10px;
         color: #777;
