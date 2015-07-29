@@ -1,7 +1,7 @@
 <?php
 
 // remove the following lines when in production mode
-defined('YII_DEBUG') or define('YII_DEBUG', in_array($_SERVER['REMOTE_ADDR'], array('localhost', '::1', '127.0.0.1')));
+defined('YII_DEBUG') or define('YII_DEBUG', !in_array($_SERVER['REMOTE_ADDR'], array('omonitor.io', 'omonitor.net', 'omonitor.info', 'omonitor.xyz')));
 
 // change the following paths if necessary
 $yii = dirname(__FILE__) . '/src/framework/yiilite.php';
