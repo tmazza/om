@@ -3,11 +3,7 @@
 defined('YII_DEBUG') or define('YII_DEBUG', in_array($_SERVER['REMOTE_ADDR'], array('localhost', '192.168.0.104', '::1', '127.0.0.1')));
 
 // change the following paths if necessary
-if (YII_DEBUG) {
-    $yii = dirname(__FILE__) . '/../monitor-src/framework/yiilite.php';
-} else {
-    $yii = dirname(__FILE__) . '/monitor-src/framework/yiilite.php';
-}
+$yii = dirname(__FILE__) . '/src/framework/yiilite.php';
 $config = dirname(__FILE__) . '/protected/config/main.php';
 
 //define('YII_DEBUG', true);
