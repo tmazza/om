@@ -1,6 +1,7 @@
 <?php
+
 // remove the following lines when in production mode
-defined('YII_DEBUG') or define('YII_DEBUG', in_array($_SERVER['REMOTE_ADDR'], array('localhost', '192.168.0.104', '::1', '127.0.0.1')));
+defined('YII_DEBUG') or define('YII_DEBUG', in_array($_SERVER['REMOTE_ADDR'], array('localhost', '::1', '127.0.0.1')));
 
 // change the following paths if necessary
 $yii = dirname(__FILE__) . '/src/framework/yiilite.php';
@@ -11,4 +12,5 @@ $config = dirname(__FILE__) . '/protected/config/main.php';
 defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL', 3);
 
 require_once($yii);
+
 Yii::createWebApplication($config)->run();

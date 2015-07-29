@@ -1,9 +1,5 @@
 <?php
-if(YII_DEBUG){
-    Yii::setPathOfAlias('shared', __DIR__ . '/../../../monitor-src/shared');
-} else {
-    Yii::setPathOfAlias('shared', __DIR__ . '/../../monitor-src/shared');
-}
+Yii::setPathOfAlias('shared', __DIR__ . '/../../src/shared');
 
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
