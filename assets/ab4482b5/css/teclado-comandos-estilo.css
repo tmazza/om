@@ -1,0 +1,8 @@
+.btn-tec-container {
+    display: inline-block;
+    margin: 2px;
+}
+.btn-tec-container .btn {
+    font-size: 16px;
+    overflow: hidden;
+}
