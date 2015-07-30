@@ -1,4 +1,5 @@
 <?php
+
 Yii::setPathOfAlias('shared', __DIR__ . '/../../src/shared');
 
 return array(
@@ -21,6 +22,7 @@ return array(
         'shared.extensions.imperavi-redactor-widget.*',
         'shared.extensions.yii-debug-toolbar.*',
         'shared.extensions.curl.*',
+        'shared.extensions..*',
     ),
     'language' => 'pt_br',
     'modules' => require(dirname(__FILE__) . '/modulos.php'),
@@ -38,11 +40,10 @@ return array(
         ),
         // uncomment the following to enable URLs in path-format
         'urlManager' => array(
-            'urlFormat' => 'path',
-            'caseSensitive' => true,
-            //'showScriptName' => YII_DEBUG,
-            'showScriptName' => true,
-            'rules' => require(dirname(__FILE__) . '/rotas.php'),
+ //           'urlFormat' => 'path',
+//            'caseSensitive' => true,
+//            'showScriptName' => YII_DEBUG,
+//            'rules' => require(dirname(__FILE__) . '/rotas.php'),
         ),
         'db' => require(dirname(__FILE__) . '/dbMonitor.php'),
         'orgDb' => require(dirname(__FILE__) . '/database.php'),

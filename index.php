@@ -1,5 +1,4 @@
 <?php
-
 // remove the following lines when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG', !in_array($_SERVER['REMOTE_HOST'], array('omonitor.io', 'omonitor.net', 'omonitor.info', 'omonitor.xyz')));
 
