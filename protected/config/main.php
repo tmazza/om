@@ -42,7 +42,7 @@ return array(
         'urlManager' => array(
             'urlFormat' => 'path',
             'caseSensitive' => true,
-            'showScriptName' => YII_DEBUG,
+            'showScriptName' => true,
             'rules' => require(dirname(__FILE__) . '/rotas.php'),
         ),
         'db' => require(dirname(__FILE__) . '/dbMonitor.php'),
