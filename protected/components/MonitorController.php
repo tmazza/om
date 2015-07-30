@@ -44,7 +44,6 @@ class MonitorController extends Controller {
                         'emCriacao' => $td->emCriacao,
             ));
         }
-
         return parent::beforeAction($action);
     }
 

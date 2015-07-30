@@ -46,8 +46,6 @@ class Controller extends CController implements IRootController {
     public function actionError() {
         echo '<pre>';
         print_r(Yii::app()->errorHandler->error);
-        exit;
-        echo '<pre>';
         print_r('Erro');
         exit;
     }
