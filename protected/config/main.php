@@ -40,10 +40,10 @@ return array(
         ),
         // uncomment the following to enable URLs in path-format
         'urlManager' => array(
- //           'urlFormat' => 'path',
-//            'caseSensitive' => true,
-//            'showScriptName' => YII_DEBUG,
-//            'rules' => require(dirname(__FILE__) . '/rotas.php'),
+            'urlFormat' => 'path',
+            'caseSensitive' => true,
+            'showScriptName' => YII_DEBUG,
+            'rules' => require(dirname(__FILE__) . '/rotas.php'),
         ),
         'db' => require(dirname(__FILE__) . '/dbMonitor.php'),
         'orgDb' => require(dirname(__FILE__) . '/database.php'),
