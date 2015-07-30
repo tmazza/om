@@ -9,7 +9,7 @@ return array(
     'meuEspaco' => array(
         'modulosHabilitados' => array(
 //            'publicacoes',
-//            'instituicao',
+            'instituicao',
 //            'arquivos',
 //            'questionarios',
 //            'gerenciamentoCursos',
