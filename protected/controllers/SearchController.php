@@ -131,6 +131,9 @@ class SearchController extends MonitorController {
         return array_merge($porNome, $porSubTopico);
     }
     
+    /**
+     * Salvar link de processamento da busca
+     */
     public function actionSave($q){
 		if(Yii::app()->user->isGuest){
 			$this->renderPartial('_loginSearch');
