@@ -138,7 +138,11 @@ class SearchController extends MonitorController {
 		if(Yii::app()->user->isGuest){
 			$this->renderPartial('_loginSearch');
 		} else {
-			$this->renderPartial('_savedSearch');
+			if(SearchLinks::inclui($q)){
+				$this->renderPartial('_savedSearch');
+			} else {
+				echo 'Não foi possível salvar.';
+			}			 
 		}
 	}
 
