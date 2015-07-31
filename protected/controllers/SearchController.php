@@ -130,5 +130,13 @@ class SearchController extends MonitorController {
         $porSubTopico = Topico::buscaTituloSubTopico($palavra);
         return array_merge($porNome, $porSubTopico);
     }
+    
+    public function actionSave($q){
+		if(Yii::app()->user->isGuest){
+			$this->renderPartial('_loginSearch');
+		} else {
+			$this->renderPartial('_savedSearch');
+		}
+	}
 
 }

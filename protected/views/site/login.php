@@ -10,7 +10,7 @@ $this->breadcrumbs = array(
     <div class="span5">
         <section class="widget" style="margin: 0 auto; min-width: 300px; max-width: 400px;">
             <div class="quick-links-widget textCenter">
-                <h4>Acesso ao Studio</h4>
+                <h4>Entrar</h4>
                 <br>
                 <?php
                 $form = $this->beginWidget('CActiveForm', array(
@@ -44,8 +44,9 @@ $this->breadcrumbs = array(
         <section class="widget" style="margin: 0 auto; min-width: 300px; max-width: 400px;">
             <div class="quick-links-widget textCenter">
                 <h4>Não tenho cadastro</h4>
+                <br><br>
                 <?= CHtml::link('Cadastro usando meu email', $this->createUrl('site/cadastro'), array('style' => 'font-size: 16px;')); ?>
-                <br>
+                <br><br>
                 <section class="widget" style="margin: 0 auto; margin-top: 20px; min-width: 300px; max-width: 400px;">
                     <div class="">
                         <?= ViewHelper::getSocialLoginButtons(); ?>

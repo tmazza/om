@@ -109,9 +109,12 @@
 
 				
 					<div class="span9">
+						<br>
+						<div id="s-save">
+						<?php $this->renderPartial('/search/_saveSearch', array('q' => isset($_GET['q']) ? $_GET['q'] : null)); ?>
+						</div>
 						<div id="s-mini-hist">
-							<br>
-							<button type="button" class="btn btn-mini btn-default" onclick="$('#mini-hist').slideToggle();" >Histórico</button>
+							<button type="button" class="btn btn-mini btn-card" onclick="$('#mini-hist').slideToggle();" >Histórico</button>
 							<div id="mini-hist" style="display: none;">
 								<div class="s-hist"></div>
 							</div>
