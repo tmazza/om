@@ -7,6 +7,7 @@
         <!-- META TAGS -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:image" content="webroot/logo-mini.png" />
         <title>O Monitor</title>
         <link rel="shortcut icon" href="<?php echo Yii::app()->baseUrl ?>/webroot/monitor/images/favicon.png?v=2" />
 
