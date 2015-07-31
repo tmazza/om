@@ -24,9 +24,9 @@
 		height: 290px;
 		overflow: hidden;
 		overflow-y: auto;	
--webkit-box-shadow: inset 0px 3px 4px 0px rgba(207,203,207,1);
--moz-box-shadow: inset 0px 3px 4px 0px rgba(207,203,207,1);
-box-shadow: inset 0px 3px 4px 0px rgba(207,203,207,1);	}
+-webkit-box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);
+-moz-box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);
+box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);	}
 	.card-container-title {
 		border-bottom: 1px solid #ddd;
 		margin: 0px;
@@ -37,12 +37,13 @@ box-shadow: inset 0px 3px 4px 0px rgba(207,203,207,1);	}
         border-radius: 2px;
         box-shadow: 1px 1px 1px 1px #ded;
         /*background: red;*/
-        width: 90%;
+        width: 87%;
         display: inline-block;
         margin: 6px;
         min-height: 40px; 
         padding: 10px;
         color: #777;
+        text-align: center;
     }
     .card .card-label, .card .card-value {
         display: inline-block;

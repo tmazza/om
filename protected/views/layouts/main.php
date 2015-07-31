@@ -24,6 +24,12 @@
         <link rel='stylesheet' href='<?php echo Yii::app()->baseUrl ?>/webroot/monitor/css/main.css?ver=1.0' type='text/css' media='all' />
         <link rel='stylesheet' href='<?php echo Yii::app()->baseUrl ?>/webroot/monitor/css/camada.css' type='text/css' media='all' />
 
+		<!-- Facebook -->
+		<meta property="og:title" content="Facebook Open Graph META Tags"/>
+		<meta property="og:image" content="http://davidwalsh.name/wp-content/themes/klass/img/facebooklogo.png"/>
+		<meta property="og:site_name" content="David Walsh Blog"/>
+		<meta property="og:description" content="Facebook's Open Graph protocol allows for web developers to turn their websites into Facebook "graph" objects, allowing a certain level of customization over how information is carried over from a non-Facebook website to Facebook when a page is 'recommended', 'liked', or just generally shared."/>			
+
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
         <script src='<?php echo Yii::app()->baseUrl ?>/webroot/monitor/js/html5.js'></script>
