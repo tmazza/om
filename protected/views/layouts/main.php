@@ -27,7 +27,7 @@
 		<?php if($this->faceData): ?>
 			<!-- Facebook -->
 			<meta property="og:title" content="O Monitor<?=isset($_GET['q']) ? ': ' . $_GET['q'] : null; ?>"/>
-			<meta property="og:image" content="http://omonitor.io/dev/monitor-lite/webroot/logo-face2.png"/>
+			<meta property="og:image" content="http://omonitor.io/dev/monitor-lite/webroot/logo-face3.png"/>
 			<meta property="og:site_name" content="O Monitor"/>
 			<meta property="og:description" content="Calcule problemas matemáticos em diversas áreas: ..."/>			
 		<?php endif; ?>
