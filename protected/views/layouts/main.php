@@ -26,10 +26,10 @@
 
 		<?php if($this->faceData): ?>
 			<!-- Facebook -->
-			<meta property="og:title" content="O Monitor <?=isset($_GET['q']) ? ': ' . $_GET['q'] : null; ?>"/>
+			<meta property="og:title" content="O Monitor<?=isset($_GET['q']) ? ': ' . $_GET['q'] : null; ?>"/>
 			<meta property="og:image" content="http://omonitor.io/dev/monitor-lite/webroot/logo-face.png"/>
 			<meta property="og:site_name" content="O Monitor"/>
-			<meta property="og:description" content="TODO"/>			
+			<meta property="og:description" content="Calcule problemas matemáticos em diversas áreas: ..."/>			
 		<?php endif; ?>
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
