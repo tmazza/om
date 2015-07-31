@@ -80,52 +80,37 @@
         <!-- Start of Search Wrapper -->
         <div class="search-area-wrapper">
             <div class="search-area container">
-                <?php if ($this->showMainSearch): ?>
-
-                    <div class="textCenter">
-                        <?= CHtml::image(Yii::app()->baseUrl . '/webroot/logo.png', 'Logo O Monitor', array('style' => 'height: 80px;')); ?>
-                    </div>
-
-                    <form id="search-form" class="search-form clearfix" method="get" action="<?php echo $this->createUrl('search/ResultEq'); ?>" autocomplete="off">
-                        <?php
-                        $this->widget('zii.widgets.jui.CJuiAutoComplete', array(
-                            'name' => 'q',
-                            'source' => Yii::app()->controller->createUrl('search/AutocompleteInstrucao'),
-                            // additional javascript options for the autocomplete plugin
-                            'options' => array(
-                                'minLength' => '1',
-                            ),
-                            'htmlOptions' => array(
-                                'id' => 's',
-                                'autocomplete' => 'off',
-                                'class' => 'search-term required',
-                                'placeholder' => 'Use números, funções f(x), f(y) ou f(x,y) ou comandos da calculadora',
-                            ),
-                        ));
-                        ?>
-                        <input class="search-btn" type="submit" value="=" />
-                    </form>
-                    <br>
-                    <div id="search-menu" class="search-form" style="width: 50%; margin: 0 auto;">
-                        <a href="#" style="color:#fff;" onclick="$('#teclado-s').slideToggle();
-                                return false"><?= CHtml::image(Yii::app()->baseUrl . '/webroot/monitor/images/li-key.png', 'Teclado comandos') ?></a>
-                        <div id="teclado-s" style="display: none;">
-                            <?php
-                            $this->widget('shared.widgets.Teclado.ViewTeclado', array(
-                                'inputID' => 's',
-                                'tecladoID' => Teclado::Arquimedes,
-                                'template' => 'template3',
-                            ));
-                            ?>
-                        </div>
-                    </div>
-                <?php endif; ?>
             </div>
         </div>
-
         <!-- End of Search Wrapper -->
+        <div class="container">
+				<div class="row">	
+					<div class="span3" id='s-menu'>
+						<br><br><br>
+						<?php
+						$items = ExemplosSearchCategoria::model()->findAll(array('order'=>'ordem'));
+						echo '<ul>';
+						foreach($items as $i){
+							echo CHtml::tag('li',array(),CHtml::ajaxLink($i->nome, $this->createUrl('search/exemplos', array('c'=>$i->id)),array(
+								'beforeSenf' => 'js: function() { $("#s-ex").html("..."); }',
+								'success' => 'js: function(html) {
+									$("#s-ex").hide(0).html(html).fadeIn(300);			
+									MathJax.Hub.Queue(["Typeset",MathJax.Hub,document.getElementById("s-ex")]);			
+								}',
+							),array('id' => 'load-s-ex'.$i->id,)));
+						}
+						echo '</ul>';						
+						?>
+					</div>
+					
+					<div class="span9">
+						<div id="s-ex"></div>
+						<?php echo $content; ?>
+					</div>        
+				</div>
+		</div>
         <!-- Start of Page Container -->
-        <?php echo $content; ?>
+        
         <!-- End of Page Container -->
 
 

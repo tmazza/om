@@ -43,9 +43,21 @@ class SearchController extends MonitorController {
     public function actionResultEq() {
 		$this->faceData = true;
         $this->showMainSearch  = false;
-        $this->layout = "semColunas";
+        $this->layout = "search";
         $this->render('equationResults');
     }
+    
+    public function actionExemplos($c){
+		$cat = ExemplosSearchCategoria::model()->findByPk((int) $c);
+		if(is_null($cat)){
+			echo '...';
+		} else {
+			$this->renderPartial('exemplos', array(
+				'nome' => $cat->nome,
+				'exemplos' => $cat->exemplos,
+			));
+		}
+	}
 
     /**
      * Resultados ajax da busca principal
