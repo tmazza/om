@@ -41,6 +41,7 @@ class SearchController extends MonitorController {
     }
 
     public function actionResultEq() {
+		$this->faceData = true;
         $this->showMainSearch  = false;
         $this->layout = "semColunas";
         $this->render('equationResults');

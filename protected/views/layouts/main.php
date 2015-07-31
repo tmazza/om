@@ -24,11 +24,13 @@
         <link rel='stylesheet' href='<?php echo Yii::app()->baseUrl ?>/webroot/monitor/css/main.css?ver=1.0' type='text/css' media='all' />
         <link rel='stylesheet' href='<?php echo Yii::app()->baseUrl ?>/webroot/monitor/css/camada.css' type='text/css' media='all' />
 
-		<!-- Facebook -->
-		<meta property="og:title" content="TESTE"/>
-		<meta property="og:image" content="http://omonitor.io/dev/monitor-lite/webroot/logo-face.png"/>
-		<meta property="og:site_name" content="O Monitor"/>
-		<meta property="og:description" content="Teste teste."/>			
+		<?php if($this->faceData): ?>
+			<!-- Facebook -->
+			<meta property="og:title" content="O Monitor <?=isset($_GET['q']) ? ': ' . $_GET['q'] : null; ?>"/>
+			<meta property="og:image" content="http://omonitor.io/dev/monitor-lite/webroot/logo-face.png"/>
+			<meta property="og:site_name" content="O Monitor"/>
+			<meta property="og:description" content="TODO"/>			
+		<?php endif; ?>
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
