@@ -1589,3 +1589,94 @@ a#scroll-top:hover {
 .sage-hide-code .sage-code .sagecell_sessionOutput{
     border: none;
 }
+	.card-box {
+		height: 290px;
+		overflow: hidden;
+		overflow-y: auto;	
+-webkit-box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);
+-moz-box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);
+box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);	}
+.card-container-title {
+	border-bottom: 1px solid #ddd;
+	margin: 0px;
+	height: 40px;		
+}
+.card {
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px 1px #ded;
+	/*background: red;*/
+	width: 87%;
+	display: inline-block;
+	margin: 6px;
+	min-height: 40px; 
+	padding: 10px;
+	color: #777;
+	text-align: center;
+}
+.card .card-label, .card .card-value {
+	display: inline-block;
+	box-sizing: border-box;
+}
+.card .card-label {
+	border-right: 1px solid #ddd;
+
+}
+.card .card-label {
+	width: 35%;
+}
+.card .card-value {
+	font-family:monospace;
+	width: 60%;
+}
+@media (max-width: 800px) {
+	#s-menu {
+		display: none;
+	}
+}
+@media (min-width: 800px) {
+	#s-mini-hist {
+		display: none;
+	}
+}
+.btn-card {
+    display: inline-block;
+    vertical-align: top;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 10px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	margin-left: 5px;
+	float: left;
+}
+.toggle dt, .accordion dt {
+	color: #6F7579;
+}
+.card-hint {
+	display: inline-block;
+	width: auto;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+	border-bottom-left-radius: 100px;
+	border-top-left-radius: 100px;
+	padding: 0px 10px;
+}
+.card-hint img {
+	margin-right: 3px;
+	margin-left: -19px;
+}
+.card-hint .hide-hint {
+    display: none;
+    overflow: hidden;
+}
+
+.card-hint:hover .hide-hint {
+	display: inline;
+}

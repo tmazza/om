@@ -1,3 +1,4 @@
+<!--TESTE share-->
 <?php
 $this->widget('shared.widgets.Arquimedes.Arquimedes', array(
     'tecladoTemplate' => 'template3',
