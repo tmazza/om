@@ -101,6 +101,9 @@
 						}
 						echo '</ul>';						
 						?>
+						<br><br>
+						<div class="s-hist"></div>
+						<br><br>
 					</div>
 					
 					<div class="span9">
@@ -198,7 +201,8 @@
             </div>
             <!-- End of Footer Bottom -->
 
-        </footer>
+        </footer>     
+
         <!-- End of Footer -->
         <script src="<?php echo Yii::app()->baseUrl; ?>/webroot/monitor/js/main.js" type="text/javascript"></script>
     </body>

@@ -1634,3 +1634,6 @@ box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);	}
 		display: none;
 	}
 }
+.toggle dt, .accordion dt {
+	color: #6F7579;
+}
