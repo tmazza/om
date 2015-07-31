@@ -85,25 +85,30 @@
         <!-- End of Search Wrapper -->
         <div class="container">
 				<div class="row">	
-					<div class="span3" id='s-menu'>
-						<br><br><br>
-						<?php
-						$items = ExemplosSearchCategoria::model()->findAll(array('order'=>'ordem'));
-						echo '<ul>';
-						foreach($items as $i){
-							echo CHtml::tag('li',array(),CHtml::ajaxLink($i->nome, $this->createUrl('search/exemplos', array('c'=>$i->id)),array(
-								'beforeSenf' => 'js: function() { $("#s-ex").html("..."); }',
-								'success' => 'js: function(html) {
-									$("#s-ex").hide(0).html(html).fadeIn(300);			
-									MathJax.Hub.Queue(["Typeset",MathJax.Hub,document.getElementById("s-ex")]);			
-								}',
-							),array('id' => 'load-s-ex'.$i->id,)));
-						}
-						echo '</ul>';						
-						?>
+					<div class="span3">
+						<div id='s-menu'>
+							<br><br><br>
+							<?php
+							$items = ExemplosSearchCategoria::model()->findAll(array('order'=>'ordem'));
+							echo '<ul>';
+							foreach($items as $i){
+								echo CHtml::tag('li',array(),CHtml::ajaxLink($i->nome, $this->createUrl('search/exemplos', array('c'=>$i->id)),array(
+									'beforeSenf' => 'js: function() { $("#s-ex").html("..."); }',
+									'success' => 'js: function(html) {
+										$("#s-ex").hide(0).html(html).fadeIn(300);			
+										MathJax.Hub.Queue(["Typeset",MathJax.Hub,document.getElementById("s-ex")]);			
+									}',
+								),array('id' => 'load-s-ex'.$i->id,)));
+							}
+							echo '</ul>';						
+							?>
 						<br><br>
-						<div class="s-hist"></div>
+						<button type="button" class="btn btn-mini btn-card" onclick="$('#main-hist').slideToggle();" >Histórico</button>
+						<div id="main-hist" style="display: none;">
+							<div class="s-hist"></div>
+						</div>
 						<br><br>
+						</div>
 
 					</div>
 
