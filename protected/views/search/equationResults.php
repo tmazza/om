@@ -3,6 +3,7 @@
 $this->widget('shared.widgets.Arquimedes.Arquimedes', array(
     'tecladoTemplate' => 'template3',
 ));
+
 ?>
 
 <?php
