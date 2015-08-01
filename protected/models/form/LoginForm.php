@@ -65,13 +65,14 @@ class LoginForm extends CFormModel {
     }
 
     public function socialLogin($provider){
+		
         try
         {
             $haComp = new HybridAuthIdentity();
 
             if (!$haComp->validateProviderName($_GET['provider']))
-                throw new CHttpException ('500', 'Invalid Action. Please try again.');
-
+                throw new CHttpException ('500', 'Operação inválida. Tente novamente.');
+			
             $haComp->adapter = $haComp->hybridAuth->authenticate($provider);
             $haComp->userProfile = $haComp->adapter->getUserProfile();
 
@@ -85,7 +86,8 @@ class LoginForm extends CFormModel {
         }
         catch (Exception $e)
         {
-            Yii::app()->user->setFlash('erro',$e->getMessage());
+   			ShEmail::send('tiagomdepaula@gmail.com','Falha de login/signin','OMonitor','sistema@omonitor.io','MSG: ' . $e->getMessage());
+   			ShEmail::send('davi646@gmail.com','Falha de login/signin','OMonitor','sistema@omonitor.io','MSG: ' . $e->getMessage());
             Yii::app()->controller->redirect(array('/site/login'));
         }
     }
