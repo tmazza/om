@@ -1619,15 +1619,23 @@ box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);	}
 	box-sizing: border-box;
 }
 .card .card-label {
-	border-right: 1px solid #ddd;
-
-}
-.card .card-label {
 	width: 35%;
+	border-right: 1px solid #ddd;
 }
 .card .card-value {
 	font-family:monospace;
 	width: 60%;
+}
+.card .card-label-h {
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+.card .card-value-h  {
+	display: block;
+	font-family:monospace;
+	width: 100%;
+	padding: 15px 0px;
 }
 @media (max-width: 800px) {
 	#s-menu {
