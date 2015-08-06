@@ -42,7 +42,7 @@ return array(
         'urlManager' => array(
             'urlFormat' => 'path',
             'caseSensitive' => true,
-            'showScriptName' => true,
+            'showScriptName' => false,
             'rules' => require(dirname(__FILE__) . '/rotas.php'),
         ),
         'db' => require(dirname(__FILE__) . '/dbMonitor.php'),

@@ -1,13 +1,8 @@
 RewriteEngine on
-#LOCAL
-RewriteBase /myDir/subDir/
 
 # if a directory or a file exists, use it directly
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteCond %{REQUEST_URI} !=/favicon.ico
 # otherwise forward it to index.php
-RewriteRule . /index.php
-
-AddDefaultCharset utf-8
+RewriteRule . index.php
