@@ -1,4 +1,4 @@
-.btn-p {
+'.btn-p {
     width: 40px;
     height: 40px;
 }
@@ -163,18 +163,18 @@ blockquote p {
 .header-wrapper {
     top: 0px;
     position: absolute;
-    background-color: transparent;/*BLUE: #6392C6*/  
+    background-color: transparent;/*BLUE: #6392C6*/
     width: 100%;
     height: auto;
 }
 .header-wrapper a {
     font-size: 14px!important;
     color: white!important;
-    font-weight: bold!important;   
-    text-decoration: underline!important;   
+    font-weight: bold!important;
+    text-decoration: underline!important;
 }
 .header-wrapper a:hover {
-    text-decoration: none!important;   
+    text-decoration: none!important;
 }
 .header-wrapper .container {
     position: relative;
@@ -311,8 +311,8 @@ form.search-form {
     margin: 40px 0 0;
     text-align: center;
 }
-form.search-form .input-common, 
-form.search-form input.search-term, 
+form.search-form .input-common,
+form.search-form input.search-term,
 form.search-form input.search-btn {
     font-family: "Open Sans", sans-serif;
     box-shadow: none;
@@ -729,7 +729,7 @@ ul.articles li.article-entry:last-child {
     color: #395996;
 }
 #footer {
-    z-index: 100000;    
+    z-index: 100000;
 }
 
 #footer .article-entry .like-count {
@@ -1592,27 +1592,37 @@ a#scroll-top:hover {
 	.card-box {
 		height: 290px;
 		overflow: hidden;
-		overflow-y: auto;	
+		overflow-y: auto;
 -webkit-box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);
 -moz-box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);
 box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);	}
 .card-container-title {
 	border-bottom: 1px solid #ddd;
 	margin: 0px;
-	height: 40px;		
+	height: 40px;
 }
 .card {
 	border: 1px solid #ddd;
 	border-radius: 2px;
 	box-shadow: 1px 1px 1px 1px #ded;
 	/*background: red;*/
-	width: 87%;
+	width: 100%;
 	display: inline-block;
 	margin: 6px;
-	min-height: 40px; 
+	min-height: 40px;
 	padding: 10px;
 	color: #777;
 	text-align: center;
+}
+.card-micro {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 1px #ded;
+  padding: 4px;
+  max-width:460px;
+	color: #777;
+  margin: 4px 0px;
 }
 .card .card-label, .card .card-value {
 	display: inline-block;
@@ -1688,3 +1698,4 @@ box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);	}
 .card-hint:hover .hide-hint {
 	display: inline;
 }
+'
