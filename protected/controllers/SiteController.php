@@ -5,7 +5,7 @@ class SiteController extends MonitorController {
 //    use CamadaHelper;
 
     public function actions() {
-        
+
         return array(
             'loadType' => array(
                 'class' => 'shared.actions.ParseString'
@@ -150,9 +150,10 @@ class SiteController extends MonitorController {
 
         if ($form->submitted('cadastro') && $form->validate()) {
             $model->attributes = $_POST['ShCadastro'];
+
             if (User::salvaNovoAluno($model)) {
                 $user = User::model()->findByAttributes(array(
-                    'username' => $model->username,
+                    'email' => $model->email,
                 ));
                 if ($model->logaUsuario($user)) {
                     $this->redirect($this->createUrl('/meuEspaco/default/index'));

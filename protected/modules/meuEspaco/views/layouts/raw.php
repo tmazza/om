@@ -6,27 +6,27 @@
         <meta charset="UTF-8">
         <title><?= Yii::app()->name; ?> | <?= strlen($this->pageTitle) <= 0 ? ($this->id . ' ' . $this->action->id) : $this->pageTitle; ?></title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-        <!--Bootstrap 3.3.2--> 
-        <link href="<?= $basePath; ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />    
-        <!--FontAwesome 4.3.0--> 
+        <!--Bootstrap 3.3.2-->
+        <link href="<?= $basePath; ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!--FontAwesome 4.3.0-->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <!--Ionicons 2.0.0--> 
-        <link href="<?= $basePath; ?>/fonts/ionicons.min.css" rel="stylesheet" type="text/css" />    
-        <!--Theme style--> 
+        <!--Ionicons 2.0.0-->
+        <link href="<?= $basePath; ?>/fonts/ionicons.min.css" rel="stylesheet" type="text/css" />
+        <!--Theme style-->
         <link href="<?= $basePath; ?>/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
         <!--         AdminLTE Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
         <link href="<?= $basePath; ?>/dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
-        <!--iCheck--> 
+        <!--iCheck-->
         <link href="<?= $basePath; ?>/plugins/iCheck/flat/blue.css" rel="stylesheet" type="text/css" />
-        <!--Morris chart--> 
+        <!--Morris chart-->
         <link href="<?= $basePath; ?>/plugins/morris/morris.css" rel="stylesheet" type="text/css" />
-        <!--jvectormap--> 
+        <!--jvectormap-->
         <link href="<?= $basePath; ?>/plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
-        <!--Date Picker--> 
+        <!--Date Picker-->
         <link href="<?= $basePath; ?>/plugins/datepicker/datepicker3.css" rel="stylesheet" type="text/css" />
-        <!--Daterange picker--> 
+        <!--Daterange picker-->
         <link href="<?= $basePath; ?>/plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
-        <!--bootstrap wysihtml5 - text editor--> 
+        <!--bootstrap wysihtml5 - text editor-->
         <link href="<?= $basePath; ?>/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -110,7 +110,7 @@
                                 </ul>
                             </li>
                             <!--
-                            <!-- Notifications: style can be found in dropdown.less 
+                            <!-- Notifications: style can be found in dropdown.less
                             <li class="dropdown notifications-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <i class="fa fa-bell-o"></i>
@@ -151,7 +151,7 @@
                                     <li class="footer"><a href="#">View all</a></li>
                                 </ul>
                             </li>
-                            Tasks: style can be found in dropdown.less 
+                            Tasks: style can be found in dropdown.less
                             <li class="dropdown tasks-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <i class="fa fa-flag-o"></i>
@@ -160,9 +160,9 @@
                                 <ul class="dropdown-menu">
                                     <li class="header">You have 9 tasks</li>
                                     <li>
-                            <!-- inner menu: contains the actual data 
+                            <!-- inner menu: contains the actual data
                             <ul class="menu">
-                                <li><!-- Task item 
+                                <li><!-- Task item
                                     <a href="#">
                                         <h3>
                                             Design some buttons
@@ -174,8 +174,8 @@
                                             </div>
                                         </div>
                                     </a>
-                                </li><!-- end task item 
-                                <li><!-- Task item 
+                                </li><!-- end task item
+                                <li><!-- Task item
                                     <a href="#">
                                         <h3>
                                             Create a nice theme
@@ -188,7 +188,7 @@
                                         </div>
                                     </a>
                                 </li><!-- end task item
-                                <li><!-- Task item 
+                                <li><!-- Task item
                                     <a href="#">
                                         <h3>
                                             Some task I need to do
@@ -200,8 +200,8 @@
                                             </div>
                                         </div>
                                     </a>
-                                </li><!-- end task item 
-                                <li><!-- Task item 
+                                </li><!-- end task item
+                                <li><!-- Task item
                                     <a href="#">
                                         <h3>
                                             Make beautiful transitions
@@ -213,7 +213,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                </li><!-- end task item 
+                                </li><!-- end task item
                             </ul>
                         </li>
                         <li class="footer">
@@ -232,7 +232,7 @@
                                     <li class="user-header">
                                         <img src="<?= $basePath; ?>/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
                                         <p>
-                                            <?= Yii::app()->user->nome; ?>  
+                                            <?= Yii::app()->user->nome; ?>
                                             <small>Member since Nov. 2012</small>
                                         </p>
                                     </li>
@@ -265,6 +265,7 @@
             </header>
             <!-- Left side column. contains the logo and sidebar -->
             <aside class="main-sidebar">
+                <br>
                 <!-- sidebar: style can be found in sidebar.less -->
                 <section class="sidebar">
                     <!-- Sidebar user panel -->
@@ -282,7 +283,9 @@
                             <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
                         </div>
                     </div>
-                    <!-- search form -->
+
+                    <br>
+                    <!--
                     <form action="#" method="get" class="sidebar-form">
                         <div class="input-group">
                             <input type="text" name="q" class="form-control" placeholder="Cursos, materiais, etc..."/>
@@ -291,6 +294,7 @@
                             </span>
                         </div>
                     </form>
+                    search form -->
                     <?php
                     $this->widget('meuEspaco.widgets.MainMenuMeuEspaco.MainMenuMeuEspaco', array(
                         'menu' => $this->menu,
@@ -424,35 +428,35 @@
                 z-index: 1000000!important;
             }
         </style>
-        <!--jQuery UI 1.11.2--> 
+        <!--jQuery UI 1.11.2-->
         <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.min.js" type="text/javascript"></script>
-        <!--Resolve conflict in jQuery UI tooltip with Bootstrap tooltip--> 
+        <!--Resolve conflict in jQuery UI tooltip with Bootstrap tooltip-->
         <script>
 //            $.widget.bridge('uibutton', $.ui.button);
         </script>
-        <!--Bootstrap 3.3.2 JS--> 
-        <script src="<?= $basePath; ?>/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>    
-        <!--Morris.js charts--> 
+        <!--Bootstrap 3.3.2 JS-->
+        <script src="<?= $basePath; ?>/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <!--Morris.js charts-->
        <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>-->
         <script src="<?= $basePath; ?>/plugins/morris/morris.min.js" type="text/javascript"></script>
-        <!--Sparkline--> 
+        <!--Sparkline-->
         <script src="<?= $basePath; ?>/plugins/sparkline/jquery.sparkline.min.js" type="text/javascript"></script>
-        <!--jvectormap--> 
+        <!--jvectormap-->
         <script src="<?= $basePath; ?>/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" type="text/javascript"></script>
         <script src="<?= $basePath; ?>/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" type="text/javascript"></script>
-        <!--jQuery Knob Chart--> 
+        <!--jQuery Knob Chart-->
         <script src="<?= $basePath; ?>/plugins/knob/jquery.knob.js" type="text/javascript"></script>
-        <!--daterangepicker--> 
+        <!--daterangepicker-->
         <script src="<?= $basePath; ?>/plugins/daterangepicker/daterangepicker.js" type="text/javascript"></script>
-        <!--datepicker--> 
+        <!--datepicker-->
         <script src="<?= $basePath; ?>/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>
-        <!--Bootstrap WYSIHTML5--> 
+        <!--Bootstrap WYSIHTML5-->
         <script src="<?= $basePath; ?>/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
-        <!--iCheck--> 
+        <!--iCheck-->
         <script src="<?= $basePath; ?>/plugins/iCheck/icheck.min.js" type="text/javascript"></script>
-        <!--Slimscroll--> 
+        <!--Slimscroll-->
         <script src="<?= $basePath; ?>/plugins/slimScroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-        <!--AdminLTE App--> 
+        <!--AdminLTE App-->
         <script src="<?= $basePath; ?>/dist/js/app.min.js" type="text/javascript"></script>
     </body>
 </html>

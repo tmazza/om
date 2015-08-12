@@ -10,7 +10,7 @@ class Controller extends CController implements IRootController {
     protected $activeSagecell = true;
     protected $processaLatex = true;
     // Se o botao para resolver problemas deve aparever ou não
-    public $showSolver = true;
+    public $showSolver = false;
     protected $lite = true;
 
     protected function beforeAction($action) {
