@@ -4,7 +4,7 @@ return array(
     'gii' => array(
         'class' => 'system.gii.GiiModule',
         'password' => '345',
-        'ipFilters' => array('127.0.0.1', '::1'),
+        'ipFilters' => array('127.0.0.1','::1'),
     ),
     'meuEspaco' => array(
         'modulosHabilitados' => array(
@@ -20,6 +20,7 @@ return array(
             'mensagem',
             'grupos',
             'notebook',
+            'questoes',
         ),
     ),
 );
