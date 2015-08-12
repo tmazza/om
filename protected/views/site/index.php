@@ -12,7 +12,7 @@
 			<a class="card-micro" href="<?= $this->createUrl('search/ResultEq', array('q' => $e->valor)); ?>">
 					<div class='l' style="display:inline-block;">$<?= $e->latex; ?>$</div>
 					<?php if($e->layout == ExemplosSearch::LayHor): ?>
-						<div style=""><?= $e->valor; ?></div>
+						<div style="text-align:right"><?= $e->valor; ?></div>
 					<?php else:; ?>
 						<div style="float: right;"><?= $e->valor; ?></div>
 					<?php endif; ?>
