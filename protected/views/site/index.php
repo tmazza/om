@@ -2,6 +2,7 @@
 	<br><br>
 	<?php $count = 1; ?>
 	<?php foreach ($cats as $c): ?>
+	<?php if(count($c->exemplos) > 0): ?>
 	<div class="row">
 		<div class="span12 card-container">
 		<p style="cursor:pointer;color: #555;font-size:14px;" onclick='$(this).next().slideToggle();' class='card-container-title'><?=$c->nome;?></p>
@@ -21,5 +22,6 @@
 		</div>
 		</div>
 	<?php $count++; ?>
-    <?php endforeach; ?>
+	<?php endif; ?>
+  <?php endforeach; ?>
 </div>

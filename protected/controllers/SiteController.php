@@ -5,7 +5,6 @@ class SiteController extends MonitorController {
 //    use CamadaHelper;
 
     public function actions() {
-
         return array(
             'loadType' => array(
                 'class' => 'shared.actions.ParseString'
@@ -20,7 +19,9 @@ class SiteController extends MonitorController {
     public function actionIndex() {
         $this->layout = 'main';
         $this->showMainSearch = true;
-        $exemplos = ExemplosSearchCategoria::model()->findAll(array('order'=>'ordem'));
+        $exemplos = ExemplosSearchCategoria::model()->findAll(array(
+          'order'=>'ordem',
+        ));
         $this->render('index', array(
             'cats' => $exemplos,
         ));
