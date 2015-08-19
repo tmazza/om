@@ -1624,14 +1624,14 @@ box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);	}
 	color: #777;
   margin: 4px 0px;
 }
+  .hide-mob{
+    display: none;
+  }
 @media (max-width: 800px){
   .card-micro {
     max-width: 90%;
     margin: 6px auto;
     padding: 8px;
-  }
-  .hide-mob{
-    display: none;
   }
   .card-container-title {
     text-align: center;
