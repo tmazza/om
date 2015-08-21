@@ -15,12 +15,12 @@ class SiteController extends MonitorController {
         );
     }
 
-
     public function actionIndex() {
         $this->layout = 'main';
         $this->showMainSearch = true;
         $exemplos = ExemplosSearchCategoria::model()->findAll(array(
           'order'=>'ordem',
+          'condition' => 'pai_id IS NULL',
         ));
         $this->render('index', array(
             'cats' => $exemplos,
