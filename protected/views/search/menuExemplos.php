@@ -8,10 +8,10 @@ foreach($items as $i){
       MathJax.Hub.Queue(["Typeset",MathJax.Hub,document.getElementById("s-ex")]);
     }',
   ),array('id' => 'load-s-ex'.$i->id,)));
-}
-if(count($i->filhas)>0){
-  echo '<li>';
-  $this->renderPartial('menuExemplos',array('items'=>$i->filhas));
-  echo '</li>';
+  if(count($i->filhas)>0){
+    echo '<li>';
+    $this->renderPartial('menuExemplos',array('items'=>$i->filhas));
+    echo '</li>';
+  }
 }
 echo '</ul>';
