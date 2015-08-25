@@ -29,7 +29,7 @@
 			<meta property="og:title" content="<?=isset($_GET['q']) ?  $_GET['q'] : null; ?>"/>
 			<meta property="og:image" content="http://omonitor.io/dev/monitor-lite/webroot/logo-face3.png"/>
 			<meta property="og:site_name" content="O Monitor"/>
-			<meta property="og:description" content="Calcule problemas matemáticos em diversas áreas: ... - O Monitor"/>			
+			<meta property="og:description" content="Calcule problemas matemáticos em diversas áreas: ... - O Monitor"/>
 		<?php endif; ?>
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -99,7 +99,7 @@
                                 'id' => 's',
                                 'autocomplete' => 'off',
                                 'class' => 'search-term required',
-                                'placeholder' => 'Use números, funções f(x), f(y) ou f(x,y) ou comandos da calculadora',
+                                'placeholder' => 'números, funções f(x),  f(x,y) ou exemplos de instruções abaixo',
                             ),
                         ));
                         ?>
