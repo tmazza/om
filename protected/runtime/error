@@ -4274,3 +4274,220 @@ Stack trace:
 REQUEST_URI=/dev/monitor-lite/index.php?r=dev/monitor-lite/meuEspaco/grupos/default/index
 HTTP_REFERER=http://localhost:8081/dev/monitor-lite/index.php?r=meuEspaco/notebook/default/index
 ---
+2015/08/16 19:07:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'app'@'localhost' (using password: YES)' in /var/www/monitor-src/framework/yiilite.php:8586
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(8558): CDbConnection->open()
+#1 /var/www/monitor-src/framework/yiilite.php(8547): CDbConnection->setActive(true)
+#2 /var/www/monitor-src/framework/yiilite.php(1070): CDbConnection->init()
+#3 /var/www/monitor-src/framework/yiilite.php(1327): CModule->getComponent('db')
+#4 /var/www/monitor-src/framework/yiilite.php(7605): CApplication->getDb()
+#5 /var/www/monitor-src/framework/yiilite.php(7383): CActiveRecord->getDbConnection()
+#6 /var/www/monitor-src/shared/models/Topico.php(261): CActiveRecord->cache(300)
+#7 /var/www/monitor-lite/protected/components/MonitorController.php(44): Topico::getDestaquesAleatorios(12)
+#8 /var/www/monitor-src/framework/yiilite.php(3650): MonitorController->beforeAction(Object(CInlineAction))
+#9 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#12 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/index')
+#13 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /var/www/monitor-lite/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/monitor-lite/
+---
+2015/08/24 18:26:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'app'@'localhost' (using password: YES)' in /var/www/monitor-src/framework/yiilite.php:8586
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(8558): CDbConnection->open()
+#1 /var/www/monitor-src/framework/yiilite.php(8547): CDbConnection->setActive(true)
+#2 /var/www/monitor-src/framework/yiilite.php(1070): CDbConnection->init()
+#3 /var/www/monitor-src/framework/yiilite.php(1327): CModule->getComponent('db')
+#4 /var/www/monitor-src/framework/yiilite.php(7605): CApplication->getDb()
+#5 /var/www/monitor-src/framework/yiilite.php(7383): CActiveRecord->getDbConnection()
+#6 /var/www/monitor-src/shared/models/Topico.php(261): CActiveRecord->cache(300)
+#7 /var/www/monitor-lite/protected/components/MonitorController.php(44): Topico::getDestaquesAleatorios(12)
+#8 /var/www/monitor-src/framework/yiilite.php(3650): MonitorController->beforeAction(Object(CInlineAction))
+#9 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#12 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/index')
+#13 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /var/www/monitor-lite/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/monitor-lite/
+---
+2015/08/24 21:00:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'app'@'localhost' (using password: YES)' in /var/www/monitor-src/framework/yiilite.php:8586
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(8558): CDbConnection->open()
+#1 /var/www/monitor-src/framework/yiilite.php(8547): CDbConnection->setActive(true)
+#2 /var/www/monitor-src/framework/yiilite.php(1070): CDbConnection->init()
+#3 /var/www/monitor-src/framework/yiilite.php(1327): CModule->getComponent('db')
+#4 /var/www/monitor-src/framework/yiilite.php(7605): CApplication->getDb()
+#5 /var/www/monitor-src/framework/yiilite.php(7383): CActiveRecord->getDbConnection()
+#6 /var/www/monitor-src/shared/models/Topico.php(261): CActiveRecord->cache(300)
+#7 /var/www/monitor-lite/protected/components/MonitorController.php(44): Topico::getDestaquesAleatorios(12)
+#8 /var/www/monitor-src/framework/yiilite.php(3650): MonitorController->beforeAction(Object(CInlineAction))
+#9 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#12 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/index')
+#13 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /var/www/monitor-lite/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/monitor-lite/
+---
+2015/08/24 22:26:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'app'@'localhost' (using password: YES)' in /var/www/monitor-src/framework/yiilite.php:8586
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(8558): CDbConnection->open()
+#1 /var/www/monitor-src/framework/yiilite.php(8547): CDbConnection->setActive(true)
+#2 /var/www/monitor-src/framework/yiilite.php(1070): CDbConnection->init()
+#3 /var/www/monitor-src/framework/yiilite.php(1327): CModule->getComponent('db')
+#4 /var/www/monitor-src/framework/yiilite.php(7605): CApplication->getDb()
+#5 /var/www/monitor-src/framework/yiilite.php(7383): CActiveRecord->getDbConnection()
+#6 /var/www/monitor-src/shared/models/Topico.php(261): CActiveRecord->cache(300)
+#7 /var/www/monitor-lite/protected/components/MonitorController.php(44): Topico::getDestaquesAleatorios(12)
+#8 /var/www/monitor-src/framework/yiilite.php(3650): MonitorController->beforeAction(Object(CInlineAction))
+#9 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#12 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/index')
+#13 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /var/www/monitor-lite/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/monitor-lite/
+---
+2015/08/25 09:55:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'app'@'localhost' (using password: YES)' in /var/www/monitor-src/framework/yiilite.php:8586
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(8558): CDbConnection->open()
+#1 /var/www/monitor-src/framework/yiilite.php(8547): CDbConnection->setActive(true)
+#2 /var/www/monitor-src/framework/yiilite.php(1070): CDbConnection->init()
+#3 /var/www/monitor-src/framework/yiilite.php(1327): CModule->getComponent('db')
+#4 /var/www/monitor-src/framework/yiilite.php(7605): CApplication->getDb()
+#5 /var/www/monitor-src/framework/yiilite.php(7383): CActiveRecord->getDbConnection()
+#6 /var/www/monitor-src/shared/models/Topico.php(261): CActiveRecord->cache(300)
+#7 /var/www/monitor-lite/protected/components/MonitorController.php(44): Topico::getDestaquesAleatorios(12)
+#8 /var/www/monitor-src/framework/yiilite.php(3650): MonitorController->beforeAction(Object(CInlineAction))
+#9 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#12 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/index')
+#13 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /var/www/monitor-lite/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/monitor-lite/
+---
+2015/08/25 10:40:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'app'@'localhost' (using password: YES)' in /var/www/monitor-src/framework/yiilite.php:8586
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(8558): CDbConnection->open()
+#1 /var/www/monitor-src/framework/yiilite.php(8547): CDbConnection->setActive(true)
+#2 /var/www/monitor-src/framework/yiilite.php(1070): CDbConnection->init()
+#3 /var/www/monitor-src/framework/yiilite.php(1327): CModule->getComponent('db')
+#4 /var/www/monitor-src/framework/yiilite.php(7605): CApplication->getDb()
+#5 /var/www/monitor-src/framework/yiilite.php(7383): CActiveRecord->getDbConnection()
+#6 /var/www/monitor-src/shared/models/Topico.php(261): CActiveRecord->cache(300)
+#7 /var/www/monitor-lite/protected/components/MonitorController.php(44): Topico::getDestaquesAleatorios(12)
+#8 /var/www/monitor-src/framework/yiilite.php(3650): MonitorController->beforeAction(Object(CInlineAction))
+#9 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#12 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/index')
+#13 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /var/www/monitor-lite/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/monitor-lite/
+---
+2015/08/25 10:41:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'app'@'localhost' (using password: YES)' in /var/www/monitor-src/framework/yiilite.php:8586
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(8558): CDbConnection->open()
+#1 /var/www/monitor-src/framework/yiilite.php(8547): CDbConnection->setActive(true)
+#2 /var/www/monitor-src/framework/yiilite.php(1070): CDbConnection->init()
+#3 /var/www/monitor-src/framework/yiilite.php(1327): CModule->getComponent('db')
+#4 /var/www/monitor-src/framework/yiilite.php(7605): CApplication->getDb()
+#5 /var/www/monitor-src/framework/yiilite.php(7383): CActiveRecord->getDbConnection()
+#6 /var/www/monitor-src/shared/models/Topico.php(261): CActiveRecord->cache(300)
+#7 /var/www/monitor-lite/protected/components/MonitorController.php(44): Topico::getDestaquesAleatorios(12)
+#8 /var/www/monitor-src/framework/yiilite.php(3650): MonitorController->beforeAction(Object(CInlineAction))
+#9 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#12 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/index')
+#13 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /var/www/monitor-lite/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/monitor-lite/
+---
+2015/08/25 10:41:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database '#monitor1'' in /var/www/monitor-src/framework/yiilite.php:8586
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(8558): CDbConnection->open()
+#1 /var/www/monitor-src/framework/yiilite.php(8547): CDbConnection->setActive(true)
+#2 /var/www/monitor-src/framework/yiilite.php(1070): CDbConnection->init()
+#3 /var/www/monitor-src/framework/yiilite.php(1327): CModule->getComponent('db')
+#4 /var/www/monitor-src/framework/yiilite.php(7605): CApplication->getDb()
+#5 /var/www/monitor-src/framework/yiilite.php(7383): CActiveRecord->getDbConnection()
+#6 /var/www/monitor-src/shared/models/Topico.php(261): CActiveRecord->cache(300)
+#7 /var/www/monitor-lite/protected/components/MonitorController.php(44): Topico::getDestaquesAleatorios(12)
+#8 /var/www/monitor-src/framework/yiilite.php(3650): MonitorController->beforeAction(Object(CInlineAction))
+#9 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#12 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/index')
+#13 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /var/www/monitor-lite/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/monitor-lite/
+---
+2015/08/25 11:48:00 [error] [exception.CException] exception 'CException' with message 'O alias "shared.widgets.Feedback.Feedback" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in /var/www/monitor-src/framework/yiilite.php:166
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(6063): YiiBase::import('shared.widgets....', true)
+#1 /var/www/monitor-src/framework/yiilite.php(3501): CWidgetFactory->createWidget(Object(SearchController), 'shared.widgets....', Array)
+#2 /var/www/monitor-src/framework/yiilite.php(3525): CBaseController->createWidget('shared.widgets....', Array)
+#3 /var/www/monitor-lite/protected/views/search/equationResults.php(18): CBaseController->widget('shared.widgets....', Array)
+#4 /var/www/monitor-src/framework/yiilite.php(3493): require('/var/www/monito...')
+#5 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', NULL, true)
+#6 /var/www/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/var/www/monito...', NULL, true)
+#7 /var/www/monitor-src/framework/yiilite.php(3872): CController->renderPartial('equationResults', NULL, true)
+#8 /var/www/monitor-lite/protected/controllers/SearchController.php(47): CController->render('equationResults')
+#9 /var/www/monitor-src/framework/yiilite.php(4139): SearchController->actionResultEq()
+#10 /var/www/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#11 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#12 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('ResultEq')
+#14 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('search/ResultEq')
+#15 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#16 /var/www/monitor-lite/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/monitor-lite/do?q=campotraj++-x3%2Bx%2By%2C-x
+---
+2015/08/25 16:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "uploadImageFeedback" solicitada.' in /var/www/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(3632): CController->missingAction('uploadImageFeed...')
+#1 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('uploadImageFeed...')
+#2 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/uploadImag...')
+#3 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /var/www/monitor-lite/index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/monitor-lite/site/uploadImageFeedback
+HTTP_REFERER=http://localhost/monitor-lite/do?q=campotraj++-x3%2Bx%2By%2C-x
+---
+2015/08/27 21:08:05 [error] [exception.CException] exception 'CException' with message 'A propriedade "ExemplosSearchCategoria.filhas" não está definida.' in /var/www/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(7401): CComponent->__get('filhas')
+#1 /var/www/monitor-lite/protected/views/site/cat.php(8): CActiveRecord->__get('filhas')
+#2 /var/www/monitor-src/framework/yiilite.php(3493): require('/var/www/monito...')
+#3 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, true)
+#4 /var/www/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/var/www/monito...', Array, true)
+#5 /var/www/monitor-lite/protected/views/site/index.php(2): CController->renderPartial('cat', Array)
+#6 /var/www/monitor-src/framework/yiilite.php(3493): require('/var/www/monito...')
+#7 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, true)
+#8 /var/www/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/var/www/monito...', Array, true)
+#9 /var/www/monitor-src/framework/yiilite.php(3872): CController->renderPartial('index', Array, true)
+#10 /var/www/monitor-lite/protected/controllers/SiteController.php(27): CController->render('index', Array)
+#11 /var/www/monitor-src/framework/yiilite.php(4139): SiteController->actionIndex()
+#12 /var/www/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#13 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#14 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#16 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/index')
+#17 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#18 /var/www/monitor-lite/index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/monitor-lite/
+---
