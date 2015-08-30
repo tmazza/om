@@ -130,7 +130,7 @@
         <!-- End of Page Container -->
 
         <?php
-            $this->widget('application.widgets.Feedback.Feedback', array(
+            $this->widget('shared.widgets.Feedback.Feedback', array(
                 'mensagem' => "Deixe seu feedback ... ",
                 'autor_id' => Mensagem::ParaDaviDosSantos))
         ?>

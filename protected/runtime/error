@@ -5580,3 +5580,26 @@ Stack trace:
 REQUEST_URI=/monitor-lite/assets/d045fc6d/bootstrap.css
 HTTP_REFERER=http://localhost/monitor-lite/do?q=corda+x%2F10%2C%2830-x%29%2F20%2C10%2C30
 ---
+2015/08/30 03:53:42 [error] [exception.CException] exception 'CException' with message 'Alias "shareds.widgets.Feedback.Feedback" é inválido. Tenha certeza de apontar para um diretório ou arquivo existente.' in /var/www/monitor-src/framework/yiilite.php:188
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(6063): YiiBase::import('shareds.widgets...', true)
+#1 /var/www/monitor-src/framework/yiilite.php(3501): CWidgetFactory->createWidget(Object(SearchController), 'shareds.widgets...', Array)
+#2 /var/www/monitor-src/framework/yiilite.php(3525): CBaseController->createWidget('shareds.widgets...', Array)
+#3 /var/www/monitor-lite/protected/views/search/equationResults.php(24): CBaseController->widget('shareds.widgets...', Array)
+#4 /var/www/monitor-src/framework/yiilite.php(3493): require('/var/www/monito...')
+#5 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', NULL, true)
+#6 /var/www/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/var/www/monito...', NULL, true)
+#7 /var/www/monitor-src/framework/yiilite.php(3872): CController->renderPartial('equationResults', NULL, true)
+#8 /var/www/monitor-lite/protected/controllers/SearchController.php(47): CController->render('equationResults')
+#9 /var/www/monitor-src/framework/yiilite.php(4139): SearchController->actionResultEq()
+#10 /var/www/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#11 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#12 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('ResultEq')
+#14 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('search/ResultEq')
+#15 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#16 /var/www/monitor-lite/index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/monitor-lite/do?q=fourier+x2%2Cpi%2F2
+HTTP_REFERER=http://localhost/monitor-lite/
+---
