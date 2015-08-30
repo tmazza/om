@@ -15,11 +15,14 @@ if (!isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0)) {
 <?php
 
 $instrucao = isset($_GET['q'])?$_GET['q']:'';
-$this->widget('shared.widgets.Feedback.Feedback', array(
-    'topico' => "Instrução<br> ".$instrucao,
-    'autor_nome' => "Luis Gustavo Mendes", 'autor_id' => "19"))
+
 ?>
 
+<?php
+$this->widget('application.widgets.Feedback.Feedback', array(
+    'mensagem' => "Deixe seu feedback ... ",
+    'autor_id' => Mensagem::ParaDaviDosSantos))
+?>
 
 <style>
     <!--
