@@ -21,7 +21,7 @@ $instrucao = isset($_GET['q'])?$_GET['q']:'';
 <?php
 $this->widget('shared.widgets.Feedback.Feedback', array(
     'mensagem' => "Deixe seu feedback ... ",
-    'autor_id' => Mensagem::ParaDaviDosSantos))
+    'autor_id' => Mensagem::ParaGustavoMendes))
 ?>
 
 <style>

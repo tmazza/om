@@ -132,7 +132,7 @@
         <?php
             $this->widget('shared.widgets.Feedback.Feedback', array(
                 'mensagem' => "Deixe seu feedback ... ",
-                'autor_id' => Mensagem::ParaDaviDosSantos))
+                'autor_id' => Mensagem::ParaGustavoMendes))
         ?>
 
         <footer id="footer-wrapper">
