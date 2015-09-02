@@ -175,9 +175,16 @@ class SiteController extends MonitorController {
     public function actionFeedback() {
         if (!is_null($_POST['destino']) && !is_null($_POST['mensagem'])) {
             $user = User::model()->findByAttributes(array(
-                'username' => $_POST['destino'],
+                'id' => $_POST['destino'],
             ));
-            if (!is_null($user) && ShMsg::enviar($user->id, $_POST['mensagem']))
+
+            $file = Arquivo::uploadFeedbackScreenshot($_POST['screenschot_src']);
+            $link = Yii::app()->getBaseUrl(true)."/assets/feedback/".$file;
+            $link = "<a href='$link' target='_blank'>Imagem Associada</a>";
+
+            $mensagem = $_POST['email']."<br>".$_POST['mensagem']."<br>".$link;
+
+            if (!is_null($user) && ShMsg::enviar($user->id, $mensagem))
                 echo 1;
             else
                 echo 0;

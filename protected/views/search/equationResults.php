@@ -11,6 +11,19 @@ if (!isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0)) {
     $this->renderPartial('emptySearch');
 }
 ?>
+
+<?php
+
+$instrucao = isset($_GET['q'])?$_GET['q']:'';
+
+?>
+
+<?php
+$this->widget('shared.widgets.Feedback.Feedback', array(
+    'mensagem' => "Deixe seu feedback ... ",
+    'autor_id' => Mensagem::ParaGustavoMendes))
+?>
+
 <style>
     <!--
     *, *::before, *::after{

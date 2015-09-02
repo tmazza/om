@@ -36,9 +36,10 @@
         <!--[if lt IE 9]>
         <script src='<?php echo Yii::app()->baseUrl ?>/webroot/monitor/js/html5.js'></script>
         <![endif]-->
+
     </head>
 
-    <body>
+    <body class="feedback-content">
         <!-- Start of Header -->
         <div class="header-wrapper">
             <header>
@@ -128,6 +129,11 @@
         <?php echo $content; ?>
         <!-- End of Page Container -->
 
+        <?php
+            $this->widget('shared.widgets.Feedback.Feedback', array(
+                'mensagem' => "Deixe seu feedback ... ",
+                'autor_id' => Mensagem::ParaGustavoMendes))
+        ?>
 
         <footer id="footer-wrapper">
             <?php if ($this->showArvoreConteudo): ?>
