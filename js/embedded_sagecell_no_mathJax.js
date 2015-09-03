@@ -29,7 +29,8 @@ if (jQuery === undefined) {
 }
 sagecell.jQuery = $;
 sagecell.URLs = {};
-sagecell.root = 'http://omonitor.info:8080/';
+// sagecell.root = 'http://omonitor.info:8080/';
+sagecell.root = 'http://aleph.sagemath.org';
 (function () {
     /* Read the Sage Cell server's  root url from one of the following locations:
          1. the variable sagecell.root
