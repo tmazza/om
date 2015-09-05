@@ -1,3 +1,0 @@
-2015/07/19 00:52:45 [warning] [application] Failed to set unsafe attribute "possui_titulo" of "CamadaTipo".
-in C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor-src\shared\modules\publicacoes\controllers\CamadasController.php (41)
-in C:\Users\tiago\Desktop\xampp\htdocs\aaa\monitor\index.php (14)

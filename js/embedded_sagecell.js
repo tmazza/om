@@ -32,7 +32,7 @@ _gaq.push(['sagecell._trackPageview']);
     }
     sagecell.jQuery = $;
     sagecell.URLs = {};
-//sagecell.root = 'http://davilab.ddns.net:8888';
+    // sagecell.root = 'http://omonitor.info:8080/';
     sagecell.root = 'http://aleph.sagemath.org';
     (function() {
         /* Read the Sage Cell server's  root url from one of the following locations:
@@ -48,7 +48,7 @@ _gaq.push(['sagecell._trackPageview']);
             /* get the first part of the last script element's src that loaded something called 'embedded_sagecell.js'
              also, strip off the static/ part of the url if the src looked like 'static/embedded_sagecell.js'
              modified from MathJax source
-             We could use the jquery reverse plugin at  http://www.mail-archive.com/discuss@jquery.com/msg04272.html 
+             We could use the jquery reverse plugin at  http://www.mail-archive.com/discuss@jquery.com/msg04272.html
              and the jquery .each() to get this as well, but this approach avoids creating a reversed list, etc. */
             var scripts = (document.documentElement || document).getElementsByTagName("script");
             var namePattern = /^.*?(?=(?:static\/)?embedded_sagecell.js)/;
@@ -174,7 +174,7 @@ _gaq.push(['sagecell._trackPageview']);
             return;
         }
         var load = function(config) {
-            // We can't use the jquery .append to load javascript because then the script tag disappears.  At least mathjax depends on the script tag 
+            // We can't use the jquery .append to load javascript because then the script tag disappears.  At least mathjax depends on the script tag
             // being around later to get the mathjax path.  See http://stackoverflow.com/questions/610995/jquery-cant-append-script-element.
             var script = document.createElement("script");
             if (config.type !== undefined) {
