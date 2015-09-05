@@ -5603,3 +5603,169 @@ Stack trace:
 REQUEST_URI=/monitor-lite/do?q=fourier+x2%2Cpi%2F2
 HTTP_REFERER=http://localhost/monitor-lite/
 ---
+2015/08/30 18:01:48 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in /var/www/monitor-src/framework/yiilite.php:3665
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(3653): CController->invalidActionParams(Object(CorrigirQuestao))
+#1 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CorrigirQuestao))
+#2 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CorrigirQuestao), Array)
+#3 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('CorrigirQuestao')
+#4 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('meuEspaco/quest...')
+#5 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#6 /var/www/monitor-lite/index.php(15): CApplication->run()
+#7 {main}
+REQUEST_URI=/monitor-lite/meuEspaco/questoes/default/CorrigirQuestao?id=11&qstId=4&_=1440968483697
+HTTP_REFERER=http://localhost/monitor-lite/meuEspaco/questoes/default/do/id/4
+---
+2015/08/30 21:02:26 [error] [exception.CException] exception 'CException' with message 'A propriedade "CWebUser.nome" não está definida.' in /var/www/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(4166): CComponent->__get('nome')
+#1 /var/www/monitor-lite/protected/modules/meuEspaco/views/site/index.php(1): CWebUser->__get('nome')
+#2 /var/www/monitor-src/framework/yiilite.php(3493): require('/var/www/monito...')
+#3 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, true)
+#4 /var/www/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/var/www/monito...', Array, true)
+#5 /var/www/monitor-src/framework/yiilite.php(3872): CController->renderPartial('index', Array, true)
+#6 /var/www/monitor-lite/protected/modules/meuEspaco/controllers/SiteController.php(18): CController->render('index', Array)
+#7 /var/www/monitor-src/framework/yiilite.php(4139): SiteController->actionIndex()
+#8 /var/www/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#9 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#12 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('meuEspaco/site/...')
+#13 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /var/www/monitor-lite/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/monitor-lite/meuEspaco/site/index
+HTTP_REFERER=http://localhost/monitor-lite/do?q=fourier+x2%2Cpi%2F2
+---
+2015/08/30 21:02:28 [error] [exception.CException] exception 'CException' with message 'A propriedade "CWebUser.nome" não está definida.' in /var/www/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(4166): CComponent->__get('nome')
+#1 /var/www/monitor-lite/protected/modules/meuEspaco/views/site/index.php(1): CWebUser->__get('nome')
+#2 /var/www/monitor-src/framework/yiilite.php(3493): require('/var/www/monito...')
+#3 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, true)
+#4 /var/www/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/var/www/monito...', Array, true)
+#5 /var/www/monitor-src/framework/yiilite.php(3872): CController->renderPartial('index', Array, true)
+#6 /var/www/monitor-lite/protected/modules/meuEspaco/controllers/SiteController.php(18): CController->render('index', Array)
+#7 /var/www/monitor-src/framework/yiilite.php(4139): SiteController->actionIndex()
+#8 /var/www/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#9 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#12 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('meuEspaco/site/...')
+#13 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /var/www/monitor-lite/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/monitor-lite/meuEspaco/site/index
+---
+2015/08/30 21:02:32 [error] [exception.CException] exception 'CException' with message 'A propriedade "CWebUser.nome" não está definida.' in /var/www/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(4166): CComponent->__get('nome')
+#1 /var/www/monitor-lite/protected/modules/meuEspaco/views/site/index.php(1): CWebUser->__get('nome')
+#2 /var/www/monitor-src/framework/yiilite.php(3493): require('/var/www/monito...')
+#3 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, true)
+#4 /var/www/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/var/www/monito...', Array, true)
+#5 /var/www/monitor-src/framework/yiilite.php(3872): CController->renderPartial('index', Array, true)
+#6 /var/www/monitor-lite/protected/modules/meuEspaco/controllers/SiteController.php(18): CController->render('index', Array)
+#7 /var/www/monitor-src/framework/yiilite.php(4139): SiteController->actionIndex()
+#8 /var/www/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#9 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('')
+#12 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('meuEspaco/site')
+#13 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /var/www/monitor-lite/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/monitor-lite/meuEspaco/site/
+---
+2015/08/30 21:02:34 [error] [exception.CException] exception 'CException' with message 'A propriedade "CWebUser.nome" não está definida.' in /var/www/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(4166): CComponent->__get('nome')
+#1 /var/www/monitor-lite/protected/modules/meuEspaco/views/site/index.php(1): CWebUser->__get('nome')
+#2 /var/www/monitor-src/framework/yiilite.php(3493): require('/var/www/monito...')
+#3 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, true)
+#4 /var/www/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/var/www/monito...', Array, true)
+#5 /var/www/monitor-src/framework/yiilite.php(3872): CController->renderPartial('index', Array, true)
+#6 /var/www/monitor-lite/protected/modules/meuEspaco/controllers/SiteController.php(18): CController->render('index', Array)
+#7 /var/www/monitor-src/framework/yiilite.php(4139): SiteController->actionIndex()
+#8 /var/www/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#9 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('')
+#12 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('meuEspaco/site')
+#13 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /var/www/monitor-lite/index.php(15): CApplication->run()
+#15 {main}
+REQUEST_URI=/monitor-lite/meuEspaco/site/
+---
+2015/08/31 00:31:46 [error] [exception.CException] exception 'CException' with message 'A propriedade "ResolverQuestionario.tecladoTemplate" não está definida.' in /var/www/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /var/www/monitor-src/shared/widgets/Questionario/views/__subtemplatePreencherExpressao.php(29): CComponent->__get('tecladoTemplate')
+#1 /var/www/monitor-src/framework/yiilite.php(3497): require('/var/www/monito...')
+#2 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, false)
+#3 /var/www/monitor-src/framework/yiilite.php(6198): CBaseController->renderFile('/var/www/monito...', Array, false)
+#4 /var/www/monitor-src/shared/widgets/Questionario/views/_templatePreencherExpressao.php(54): CWidget->render('shared.widgets....', Array)
+#5 /var/www/monitor-src/framework/yiilite.php(3497): require('/var/www/monito...')
+#6 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, false)
+#7 /var/www/monitor-src/framework/yiilite.php(6198): CBaseController->renderFile('/var/www/monito...', Array, false)
+#8 /var/www/monitor-src/shared/widgets/Questionario/views/main.php(46): CWidget->render('_templatePreenc...', Array)
+#9 /var/www/monitor-src/framework/yiilite.php(3497): require('/var/www/monito...')
+#10 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, false)
+#11 /var/www/monitor-src/framework/yiilite.php(6198): CBaseController->renderFile('/var/www/monito...', Array, false)
+#12 /var/www/monitor-src/shared/widgets/Questionario/ResolverQuestionario.php(29): CWidget->render('main', Array)
+#13 /var/www/monitor-src/framework/yiilite.php(3526): ResolverQuestionario->run()
+#14 /var/www/monitor-src/shared/modules/questoes/views/default/do.php(13): CBaseController->widget('shared.widgets....', Array)
+#15 /var/www/monitor-src/framework/yiilite.php(3493): require('/var/www/monito...')
+#16 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, true)
+#17 /var/www/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/var/www/monito...', Array, true)
+#18 /var/www/monitor-src/framework/yiilite.php(3872): CController->renderPartial('do', Array, true)
+#19 /var/www/monitor-src/shared/modules/questoes/controllers/DefaultController.php(41): CController->render('do', Array)
+#20 [internal function]: DefaultController->actionDo('2')
+#21 /var/www/monitor-src/framework/yiilite.php(4121): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#22 /var/www/monitor-src/framework/yiilite.php(4138): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#23 /var/www/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#24 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#25 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('do')
+#27 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('meuEspaco/quest...')
+#28 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#29 /var/www/monitor-lite/index.php(15): CApplication->run()
+#30 {main}
+REQUEST_URI=/monitor-lite/meuEspaco/questoes/default/do/id/2
+---
+2015/08/31 00:54:47 [error] [exception.Exception] exception 'Exception' with message 'Teclado teclado-2' não encontrado.' in /var/www/monitor-src/shared/widgets/Teclado/ViewTeclado.php:28
+Stack trace:
+#0 /var/www/monitor-src/framework/yiilite.php(3502): ViewTeclado->init()
+#1 /var/www/monitor-src/framework/yiilite.php(3525): CBaseController->createWidget('shared.widgets....', Array)
+#2 /var/www/monitor-src/shared/widgets/Questionario/views/__subtemplatePreencherExpressao.php(25): CBaseController->widget('shared.widgets....', Array)
+#3 /var/www/monitor-src/framework/yiilite.php(3497): require('/var/www/monito...')
+#4 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, false)
+#5 /var/www/monitor-src/framework/yiilite.php(6198): CBaseController->renderFile('/var/www/monito...', Array, false)
+#6 /var/www/monitor-src/shared/widgets/Questionario/views/_templatePreencherExpressao.php(54): CWidget->render('shared.widgets....', Array)
+#7 /var/www/monitor-src/framework/yiilite.php(3497): require('/var/www/monito...')
+#8 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, false)
+#9 /var/www/monitor-src/framework/yiilite.php(6198): CBaseController->renderFile('/var/www/monito...', Array, false)
+#10 /var/www/monitor-src/shared/widgets/Questionario/views/main.php(46): CWidget->render('_templatePreenc...', Array)
+#11 /var/www/monitor-src/framework/yiilite.php(3497): require('/var/www/monito...')
+#12 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, false)
+#13 /var/www/monitor-src/framework/yiilite.php(6198): CBaseController->renderFile('/var/www/monito...', Array, false)
+#14 /var/www/monitor-src/shared/widgets/Questionario/ResolverQuestionario.php(29): CWidget->render('main', Array)
+#15 /var/www/monitor-src/framework/yiilite.php(3526): ResolverQuestionario->run()
+#16 /var/www/monitor-src/shared/modules/questoes/views/default/do.php(13): CBaseController->widget('shared.widgets....', Array)
+#17 /var/www/monitor-src/framework/yiilite.php(3493): require('/var/www/monito...')
+#18 /var/www/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/var/www/monito...', Array, true)
+#19 /var/www/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/var/www/monito...', Array, true)
+#20 /var/www/monitor-src/framework/yiilite.php(3872): CController->renderPartial('do', Array, true)
+#21 /var/www/monitor-src/shared/modules/questoes/controllers/DefaultController.php(41): CController->render('do', Array)
+#22 [internal function]: DefaultController->actionDo('1')
+#23 /var/www/monitor-src/framework/yiilite.php(4121): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#24 /var/www/monitor-src/framework/yiilite.php(4138): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#25 /var/www/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#26 /var/www/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#27 /var/www/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 /var/www/monitor-src/framework/yiilite.php(1761): CController->run('do')
+#29 /var/www/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('meuEspaco/quest...')
+#30 /var/www/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#31 /var/www/monitor-lite/index.php(15): CApplication->run()
+#32 {main}
+REQUEST_URI=/monitor-lite/meuEspaco/questoes/default/do/id/1
+---

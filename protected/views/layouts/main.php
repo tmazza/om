@@ -36,7 +36,6 @@
         <!--[if lt IE 9]>
         <script src='<?php echo Yii::app()->baseUrl ?>/webroot/monitor/js/html5.js'></script>
         <![endif]-->
-
     </head>
 
     <body class="feedback-content">

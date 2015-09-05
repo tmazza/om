@@ -9688,3 +9688,1950 @@ in /var/www/monitor-lite/index.php (15)
 in /var/www/monitor-src/shared/models/Topico.php (264)
 in /var/www/monitor-lite/protected/components/MonitorController.php (44)
 in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:47:51 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:47:51 [trace] [system.caching.CFileCache] Saving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" to cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:47:56 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:47:56 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:48:04 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:48:04 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:48:05 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:48:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:05 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:48:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:10 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:48:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:13 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:48:13 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:13 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:13 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:13 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:13 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:19 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:48:20 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:20 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:20 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:20 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:20 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:30 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:48:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:37 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:48:37 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:37 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:37 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:37 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:37 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:43 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:48:43 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:43 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:43 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:43 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:43 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:44 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:48:45 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:45 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:45 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:45 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:45 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:58 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:48:58 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:58 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:58 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:58 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:48:58 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:49:01 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:49:01 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:49:01 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:49:01 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:49:01 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:49:01 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:49:04 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:49:04 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:49:04 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:49:04 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:49:04 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:49:04 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:36 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:51:36 [trace] [system.caching.CFileCache] Saving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" to cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:51:39 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:51:39 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:51:39 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:51:39 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:51:45 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:51:45 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:51:56 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:51:56 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:51:57 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:51:57 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:52:03 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 17:52:03 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:52:03 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:52:03 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:52:03 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:52:03 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:52:03 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:52:03 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:52:03 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 17:52:03 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:14 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:01:14 [trace] [system.caching.CFileCache] Saving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" to cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:01:17 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:19 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:01:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:23 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:01:23 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:23 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:23 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:23 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:23 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:23 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:23 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:23 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:23 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:35 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:01:35 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:35 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:35 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:35 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:35 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:35 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:35 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:35 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:35 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:47 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:01:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:48 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:01:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:48 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+2015/08/30 18:01:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:01:53 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:53 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:53 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:53 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:53 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:53 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:53 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:53 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:01:53 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 18:33:48 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:33:48 [trace] [system.caching.CFileCache] Saving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" to cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:33:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:33:53 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:35:02 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:35:02 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:35:07 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:35:07 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:35:42 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:35:42 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:35:44 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:35:44 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:36:15 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 18:36:15 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:26 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:28 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:32 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:34 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "autor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "editor"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:38 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:38 [trace] [system.caching.CFileCache] Saving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" to cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:41 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:41 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:47 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:47 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:48 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:48 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:02:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:02:48 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:09 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:03:09 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:09 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:09 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:09 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:09 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:16 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:03:16 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:16 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:16 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:16 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:16 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:19 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:03:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:19 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:39 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/30 21:03:39 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:39 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:39 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:39 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/30 21:03:39 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:25:35 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:25:35 [trace] [system.caching.CFileCache] Saving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" to cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:25:48 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:25:48 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:25:52 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:25:52 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:25:52 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:25:52 [trace] [system.caching.CFileCache] Saving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" to cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:25:54 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:25:54 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:26:04 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:26:04 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:26:04 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:26:04 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:04 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:04 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:04 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:04 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:04 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:26:04 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:05 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:07 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:26:07 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:07 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:07 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:07 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:07 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:10 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:26:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:26:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:30 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:29:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:33 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:29:33 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:33 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:33 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:33 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:33 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:50 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:29:50 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:50 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:50 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:50 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:29:50 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:31:46 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:31:46 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:31:46 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:31:46 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:31:46 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:31:46 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:34:26 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:34:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:34:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:34:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:34:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:34:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:42:56 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:42:56 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:42:56 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:42:56 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:42:56 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:42:56 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:47:08 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:47:08 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:47:08 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:47:08 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:47:08 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:47:08 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:47:10 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:47:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:47:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:47:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:47:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:47:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:51:27 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:51:27 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:51:27 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:51:27 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:51:27 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:51:27 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:54:47 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:54:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:54:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:54:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:54:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:54:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:56:46 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:56:46 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:56:46 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:56:46 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:56:46 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:56:46 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:57:30 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:57:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:57:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:57:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:57:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:57:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:58:16 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:58:16 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:58:16 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:58:16 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:58:16 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:58:16 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:58:49 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 00:58:49 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:58:49 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:58:49 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:58:49 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 00:58:49 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:17 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 01:00:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:17 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:27 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 01:00:27 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:27 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:27 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:27 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:27 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:56 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 01:00:56 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:56 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:56 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:56 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:00:56 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:01:50 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 01:01:50 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:01:50 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:01:50 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:01:50 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:01:50 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:10:02 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 01:10:02 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:10:02 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:10:02 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:10:02 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:10:02 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:10:11 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 01:10:11 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:10:11 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:10:11 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:10:11 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:10:11 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:23:47 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 01:23:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:23:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:23:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:23:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:23:47 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:28:49 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 01:28:49 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:28:49 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:28:49 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:28:49 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:28:49 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:32:28 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 01:32:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:32:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:32:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:32:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:32:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:34:30 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 01:34:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:34:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:34:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:34:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:34:30 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:34:34 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 01:34:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:34:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:34:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:34:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 01:34:34 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:28 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 19:18:28 [trace] [system.caching.CFileCache] Saving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" to cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 19:18:33 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 19:18:33 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 19:18:37 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 19:18:37 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 19:18:38 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 19:18:38 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:38 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:38 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:38 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:38 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:38 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 19:18:38 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:38 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:38 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:38 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:38 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:41 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 19:18:41 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:41 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:41 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:41 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:41 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:43 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/08/31 19:18:43 [trace] [system.web.auth.CDbAuthManager] Checking permission "notebook"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:43 [trace] [system.web.auth.CDbAuthManager] Checking permission "aluno"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:43 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (112)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:43 [trace] [system.web.auth.CDbAuthManager] Checking permission "organizacao"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/08/31 19:18:43 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/monitor-src/shared/helpers/ShSeg.php (26)
+in /var/www/monitor-src/shared/components/EditorController.php (148)
+in /var/www/monitor-src/shared/components/EditorController.php (54)
+2015/09/05 17:33:05 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/monitor-lite/index.php (15)
+2015/09/05 17:33:05 [trace] [system.caching.CFileCache] Saving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" to cache
+in /var/www/monitor-src/shared/models/Topico.php (264)
+in /var/www/monitor-lite/protected/components/MonitorController.php (44)
+in /var/www/monitor-lite/index.php (15)
