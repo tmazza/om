@@ -1711,3 +1711,11 @@ box-shadow: inset 0px 3px 6px 0px rgba(207,203,207,1);	}
 .card-hint:hover .hide-hint {
 	display: inline;
 }
+
+.card-hidden{
+    display: none;
+}
+
+.card-show{
+    display: block;
+}

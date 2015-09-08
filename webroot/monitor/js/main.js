@@ -33,3 +33,11 @@ $(function() {
         $(this).addClass('current').next('dd').slideDown(500).siblings('dd').slideUp(500);
     });
 });
+
+$(function() {
+    $( "#accordion" ).accordion({
+        heightStyle: "content",
+        active: false,
+        collapsible: true
+    });
+});
