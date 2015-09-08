@@ -34,3 +34,5 @@ $this->widget('shared.widgets.Feedback.Feedback', array(
     }
     -->
 </style>
+
+<?php ShCode::getGoogleAnalytics();?>
