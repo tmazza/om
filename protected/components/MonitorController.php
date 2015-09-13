@@ -37,10 +37,9 @@ class MonitorController extends Controller {
     public $showMenuConteudo = true;
     // Define se dados para o facebook devem ser incluidos em layouts/main
     public $faceData = false;
-    
+
 
     protected function beforeAction($action) {
-        $this->layout = 'application.views.layouts.colunaDireita';
         $topicoDestaque = Topico::getDestaquesAleatorios(12);
         foreach ($topicoDestaque as $td) {
             $this->menuContexto[] = ShCode::makeItem($td->nome, $this->createUrl('topico/ver', array('id' => $td->id)), array(

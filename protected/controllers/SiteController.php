@@ -17,13 +17,12 @@ class SiteController extends MonitorController {
 
     public function actionIndex() {
         $this->layout = 'main';
-        $this->showMainSearch = true;
         $exemplos = ExemplosSearchCategoria::model()->findAll(array(
           'order'=>'ordem',
           'condition' => 'pai_id IS NULL',
         ));
         $this->render('index', array(
-            'cats' => $exemplos,
+            'exemplos' => $exemplos,
         ));
     }
 
@@ -63,7 +62,6 @@ class SiteController extends MonitorController {
     }
 
     public function actionLogin() {
-        $this->layout = 'semColunas';
         $model = new LoginForm;
 
         if (isset($_GET['provider'])){
@@ -145,7 +143,6 @@ class SiteController extends MonitorController {
      * Cadastra novo aluno
      */
     public function actionCadastro() {
-        $this->layout = 'semColunas';
         $model = new ShCadastro;
         $form = new CForm(ShCadastro::getForm(), $model);
 

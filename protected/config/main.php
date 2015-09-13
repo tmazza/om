@@ -5,6 +5,7 @@ Yii::setPathOfAlias('shared', __DIR__ . '/../../src/shared');
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => "O Monitor",
+    'theme'=>'material',
     'defaultController' => 'site',
     // preloading 'log' component
     'preload' => array('log'),

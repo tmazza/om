@@ -15,12 +15,12 @@ class SearchController extends MonitorController {
             'ParseInstrucao' => 'shared.actions.ParseInstrucao',
             'AutocompleteInstrucao' => 'shared.actions.AutocompleteInstrucao',
         );
-        
+
     }
 
     public function actionResults($s) {
         $this->showMainSearch  = false;
-        $this->layout = "semColunas";
+        // $this->layout = "semColunas";
         if (strlen($s) >= 1) {
             if (substr($s, 0, 1) === '=') {
                 $this->redirect($this->createUrl('ResultEq', array('s' => substr($s, 1, strlen($s) - 1))));
@@ -43,10 +43,10 @@ class SearchController extends MonitorController {
     public function actionResultEq() {
 		$this->faceData = true;
         $this->showMainSearch  = false;
-        $this->layout = "search";
+        // $this->layout = "search";
         $this->render('equationResults');
     }
-    
+
     public function actionExemplos($c){
 		$cat = ExemplosSearchCategoria::model()->findByPk((int) $c);
 		if(is_null($cat)){
@@ -130,7 +130,7 @@ class SearchController extends MonitorController {
         $porSubTopico = Topico::buscaTituloSubTopico($palavra);
         return array_merge($porNome, $porSubTopico);
     }
-    
+
     /**
      * Salvar link de processamento da busca
      */
@@ -142,7 +142,7 @@ class SearchController extends MonitorController {
 				$this->renderPartial('_savedSearch');
 			} else {
 				echo 'Não foi possível salvar.';
-			}			 
+			}
 		}
 	}
 
