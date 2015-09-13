@@ -38,6 +38,8 @@
             'class' => 'btn grey darken-2',
           )); ?>
           <br>
+          <br>
+          <br>
           <?= ViewHelper::getSocialLoginButtons(); ?>
           <br>
         </div>

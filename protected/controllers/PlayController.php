@@ -3,7 +3,6 @@
 class PlayController extends MonitorController {
 
     public function actionIndex($id) {
-        $this->layout = 'semColunas';
         $note = $this->getNote($id);
         if (is_null($note)) {
             $this->render('falha');

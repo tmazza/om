@@ -8,7 +8,25 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
         <div class="nav-wrapper">
           <form method="get" id='search-form' action="<?php echo $this->createUrl('site/index'); ?>">
             <div class="input-field" style="color:#000;">
-              <input id="search" name='q' value='<?=$query;?>' style='padding-left:1rem' type="search" required='true' autocomplete='off' placeholder="">
+
+
+              <?php
+              $this->widget('zii.widgets.jui.CJuiAutoComplete', array(
+                  'name' => 'q',
+                  'value' => $query,
+                  'source' => Yii::app()->controller->createUrl('search/AutocompleteInstrucao'),
+                  'options' => array(
+                      'minLength' => '1',
+                  ),
+                  'htmlOptions' => array(
+                      'id' => 'search',
+                      'autocomplete' => 'off',
+                      'required' => true,
+                      'style' => 'padding-left:1rem;border:none!important;box-shadow:none!important;',
+                      // 'type' => 'search',
+                  ),
+              ));
+              ?>
             </div>
           </form>
         </div>
@@ -22,7 +40,10 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
   </div>
   <div class='row'>
     <div class='col s12'>
-      <a onclick='$(this).next().slideToggle();' href='#!' class="btn-flat grey lighten-3 waves-effect waves-light hoverable tooltipped" data-delay='0' data-position='right' data-tooltip="Teclado">
+      <a href='<?=$this->createUrl('site/aleatorio')?>' class="btn-flat grey lighten-3 right waves-effect waves-light hoverable tooltipped" data-position='left' data-tooltip="Exemplo aleatório">
+        <?=CHtml::image(Yii::app()->baseUrl.'/themes/material/assets/img/media-shuffle.png','',array('style'=>'width:24px;padding-top:7px;'));?>
+      </a>
+      <a onclick='$(this).next().slideToggle();' href='#!' class="btn-flat grey lighten-3 waves-effect waves-light hoverable tooltipped" data-position='right' data-tooltip="Teclado">
         <i class="material-icons black-text">keyboard</i>
       </a>
       <?php
@@ -43,6 +64,7 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
     $this->widget('shared.widgets.Arquimedes.Arquimedes', array(
         'tecladoTemplate' => 'template3',
         'showSearchInput' => false,
+        'shareLinks' => $query,
     ));
 
     ?>

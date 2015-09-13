@@ -3,7 +3,12 @@
 /**
  * Utilizado por todos os da aplicação
  */
-class Controller extends CController implements IRootController {
+class MainController extends CController implements IRootController {
+
+
+    const INFO_FLASH = 'msg';
+    const ERRO_FLASH = 'msg-e';
+    const SUCS_FLASH = 'msg-s';
 
     public $pageTitle = '';
     private $orgID = 'monitor';

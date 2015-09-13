@@ -5,7 +5,7 @@
  *
  * @author tiago
  */
-class MonitorController extends Controller {
+class MonitorController extends MainController {
 
     /**
      * @var array the breadcrumbs of the current page. The value of this property will

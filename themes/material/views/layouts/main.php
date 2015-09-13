@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
-        <!-- <link rel='stylesheet' href='<?php //echo Yii::app()->baseUrl ?>/webroot/monitor/css/camada.css' type='text/css' media='all' /> -->
+        <link rel='stylesheet' href='<?= Yii::app()->baseUrl ?>/themes/material/assets/css/main.css' type='text/css' media='all' />
 
 		<?php if($this->faceData): ?>
 			<!-- Facebook -->
@@ -29,35 +29,105 @@
     </head>
 
     <body class='grey lighten-3'>
-      <div class='row' style='border-bottom: 2px solid #616161;'>
-        <div class='blue-grey darken-1 col s12' style='height:150px;'>
-          <div class="container">
-            <br>
-            <a href='<?=Yii::app()->baseUrl;?>'>
-              <img src='http://omonitor.io/webroot/logo.png' height="45px;" />
-            </a>
-            <div class='right'>
-              <?php if (Yii::app()->user->isGuest): ?>
-                <a href='<?=$this->createUrl('site/login')?>' class="white-text">
-                  <b class="hide-on-small-only">Cadastre-se / Login</b>
-                  <b class="hide-on-med-and-up">Entrar</b>
-                </a>
-              <?php else: ?>
-                <a href='<?=$this->createUrl('meuEspaco/default/index');?>' class="white-text">
-                  <b><?=Yii::app()->user->nome;?></b>
-                </a>
-                &nbsp; <?=CHtml::link('(Sair)',$this->createUrl('site/logout'),array('class'=>'grey-text'));?>
-              <?php endif; ?>
+      <nav class='blue-grey darken-1'>
+        <div class="container">
+         <div class="nav-wrapper">
+           <a class='brand-logo' style='padding-top:14px;' href='<?=Yii::app()->baseUrl;?>'>
+             <img src='http://omonitor.io/webroot/logo.png' height="45px;" />
+           </a>
+           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+           <ul class="right hide-on-med-and-down">
+             <li><a href="<?=$this->createUrl('sobre/apresentacao')?>">Sobre</a></li>
+             <li><a href="<?=$this->createUrl('instrucoes/index')?>">Instruções</a></li>
+             <li><a href="<?=$this->createUrl('topicos/index')?>">Tópicos</a></li>
+             <li><a href="<?=$this->createUrl('questionarios/index')?>">Questionários</a></li>
+             <?php if (Yii::app()->user->isGuest): ?>
+              <li>
+               <a href='<?=$this->createUrl('site/login')?>' class="white-text">
+                 <b class="">Cadastre-se / Login</b>
+               </a>
+              </li>
+             <?php else: ?>
+               <li>
+                 <a href='<?=$this->createUrl('meuEspaco/default/index');?>' class="white-text">
+                   <b><?=Yii::app()->user->nome;?></b>
+                 </a>
+                 <!-- &nbsp; <?=CHtml::link('(Sair)',$this->createUrl('site/logout'),array('class'=>'grey-text'));?> -->
+               </li>
+             <?php endif; ?>
 
-            </div>
-          </div>
+           </ul>
+           <ul class="side-nav" id="mobile-demo">
+             <?php if (Yii::app()->user->isGuest): ?>
+              <li>
+               <a href='<?=$this->createUrl('site/login')?>' class="black-text">
+                 <b class="">Cadastre-se / Login</b>
+               </a>
+              </li>
+             <?php else: ?>
+               <li>
+                 <a href='<?=$this->createUrl('meuEspaco/default/index');?>' class="black-text">
+                   <b><?=Yii::app()->user->nome;?></b>
+                 </a>
+               </li>
+             <?php endif; ?>
+             <li><a href="<?=$this->createUrl('sobre/apresentacao')?>">Sobre</a></li>
+             <li><a href="<?=$this->createUrl('instrucoes/index')?>">Instruções</a></li>
+             <li><a href="<?=$this->createUrl('topicos/index')?>">Tópicos</a></li>
+             <li><a href="<?=$this->createUrl('questionarios/index')?>">Questionários</a></li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+      <!-- header -->
+      <div class='row' style='border-bottom: 2px solid #616161;'>
+        <div class='blue-grey darken-1 col s12' style='height:100px;'>
         </div>
       </div>
+      <!-- fim header -->
+
+
+      <!-- content -->
       <div class='row'>
         <div class='col s12'>
           <?=$content;?>
         </div>
       </div>
+      <!-- fim content -->
+      <br><br><br>
+      <!-- footer -->
+      <div class='row' style='border-top: 3px solid #616161;margin-bottom:0px;'>
+        <div class='blue-grey darken-1 col s12' style='min-height:100px;'>
+          <div class="container">
+
+            <div class='row'>
+              <div class='col s6 m4' style="font-size:14px;">
+                  <br>
+                  <?= CHtml::link('Apresentação', $this->createUrl('sobre/apresentacao'),array('class'=>'white-text')); ?><br>
+                  <div class='divider grey'></div>
+                  <br>
+                  <?= CHtml::link('Modo de Usar', $this->createUrl('sobre/modoDeusar'),array('class'=>'white-text')); ?><br>
+                  <div class='divider grey'></div>
+                  <br>
+                  <?= CHtml::link('Plataformas', $this->createUrl('sobre/plataformas'),array('class'=>'white-text')); ?><br>
+                  <div class='divider grey'></div>
+                  <br>
+                  <?= CHtml::link('Referências', $this->createUrl('sobre/referencias'),array('class'=>'white-text')); ?><br>
+                  <div class='divider grey'></div>
+                  <br>
+                  <?= CHtml::link('Parceiros', $this->createUrl('sobre/parceiros'),array('class'=>'white-text')); ?>
+                  <div class='divider grey'></div>
+                  <br>
+              </div>
+              <div class='s6 m8'>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- fim footer -->
+
     </body>
 
 </html>
@@ -69,5 +139,7 @@
 <script>
 $(document).ready(function(){
   $('.modal-trigger').leanModal();
+  $(".button-collapse").sideNav();
+  $('.tooltipped').tooltip({delay: 0});
 });
 </script>

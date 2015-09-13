@@ -1,0 +1,22 @@
+.sage-auto h5 {
+  font-size: 17px;
+}
+.sage-auto .sagecell_bookmarks{
+  display: none;
+}
+.sage-auto .sagecell_spinner {
+    display: block;
+    position: relative;
+    height: 4px;
+    width: 100%;
+}
+.sage-auto img {
+  max-width: 100%;
+}
+
+.sage-auto [type="checkbox"]:not(:checked),
+.sage-auto [type="checkbox"]:checked {
+  position: relative;
+  left: 0px;
+  visibility: visible;
+}
