@@ -3,5 +3,6 @@
     <p class="flow-text center-align">
       Nenhum tópico publicado
     </p>
+    Você terá cada uma das instruções explicadas com detalhes em tópicos interativos.
   </div>
 </div>
