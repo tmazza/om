@@ -22,6 +22,7 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
                       'id' => 'search',
                       'autocomplete' => 'off',
                       'required' => true,
+                      // 'placeholder' => 'Use números, funções f(x), f(x,y) ou os exemplos de instruções abaixo',
                       'style' => 'padding-left:1rem;border:none!important;box-shadow:none!important;',
                       // 'type' => 'search',
                   ),
@@ -35,17 +36,32 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
     </div>
     <div class='col m1 hide-on-small-only'>&nbsp;</div>
   <div class='col s3 m1' style="padding-top:2px;"  id='OM'>
-      <a onclick="$('#search-form').submit();" class="right btn-floating btn-large waves-effect waves-light grey darken-3 ">=</a>
+      <a onclick="$('#search-form').submit();" class="right btn-floating btn-large waves-effect waves-light blue-grey lighten-1 ">=</a>
     </div>
   </div>
   <div class='row'>
     <div class='col s12'>
-      <a href='<?=$this->createUrl('site/aleatorio')?>' class="btn-flat grey lighten-3 right waves-effect waves-light hoverable tooltipped" data-position='left' data-tooltip="Exemplo aleatório">
-        <?=CHtml::image(Yii::app()->baseUrl.'/themes/material/assets/img/media-shuffle.png','',array('style'=>'width:24px;padding-top:7px;'));?>
-      </a>
-      <a onclick='$(this).next().slideToggle();' href='#!' class="btn-flat grey lighten-3 waves-effect waves-light hoverable tooltipped" data-position='right' data-tooltip="Teclado">
-        <i class="material-icons black-text">keyboard</i>
-      </a>
+      <div class='row'>
+        <div class='col s12 hide-on-large-only center-align'>
+          Use números, f(x), f(x,y) com o auxílio da calculadora ou  exemplos de instruções
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col s6 l2'>
+          <a onclick='$("#tec-btn-box-search").slideToggle();' href='#!' class="btn-flat grey lighten-3 waves-effect waves-light hoverable tooltipped" data-position='right' data-tooltip="Teclado">
+            <i style='font-size:1.7em' class="material-icons black-text">keyboard</i>
+          </a>
+        </div>
+        <div class='col s12 l8 hide-on-med-and-down center-align'>
+          Use números, f(x), f(x,y) com o auxílio da calculadora ou  exemplos de instruções
+        </div>
+        <div class='col s6 l2'>
+          <a href='<?=$this->createUrl('site/aleatorio')?>' class="btn-flat grey lighten-3 right waves-effect waves-light hoverable tooltipped" data-position='left' data-tooltip="Exemplo aleatório">
+            <?=CHtml::image(Yii::app()->baseUrl.'/themes/material/assets/img/media-shuffle.png','',array('style'=>'width:24px;padding-top:7px;'));?>
+          </a>
+        </div>
+      </div>
+
       <?php
       $this->widget('shared.widgets.Teclado.ViewTeclado', array(
           'inputID' => 'search',
@@ -69,22 +85,10 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
 
     ?>
 
-    <?php if (!$query): ?>
-      <p class='flow-text center-align grey-text text-darken-3'>
-        Use números, funções f(x),  f(x,y) ou os exemplos de instruções abaixo
-        <br>
-        <br>
-      </p>
-    <?php endif; ?>
-
-    <div class='divider'></div>
-    <br>
     <div class="row">
-      <div class="col m6 s12 flow-text">
-        Exemplos
-      </div>
-      <div class="col m6 s12">
-        <input type='search' id='se' placeholder="Buscar exemplo..." />
+      <div class="col  s12 flow-text">
+        Exemplos de instruções:
+        <input type='search' id='se' placeholder="Buscar..." />
       </div>
     </div>
     <div id='sr'></div>

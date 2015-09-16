@@ -17,7 +17,7 @@
 		<?php if($this->faceData): ?>
 			<!-- Facebook -->
 			<meta property="og:title" content="<?=isset($_GET['q']) ?  $_GET['q'] : null; ?>"/>
-			<meta property="og:image" content="http://omonitor.io/dev/monitor-lite/webroot/logo-face3.png"/>
+			<meta property="og:image" content="http://omonitor.io/webroot/logo-face3.png"/>
 			<meta property="og:site_name" content="O Monitor"/>
 			<meta property="og:description" content="Calcule problemas matemáticos em diversas áreas: ... - O Monitor"/>
 		<?php endif; ?>
@@ -29,18 +29,30 @@
     </head>
 
     <body class='grey lighten-3'>
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-67685098-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
       <nav class='blue-grey darken-1'>
         <div class="container">
          <div class="nav-wrapper">
            <a class='brand-logo' style='padding-top:14px;' href='<?=Yii::app()->baseUrl;?>'>
-             <img src='http://omonitor.io/webroot/logo.png' height="45px;" />
+             <img src='http://omonitor.io/webroot/logo2.png' height="45px;" />
            </a>
            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
            <ul class="right hide-on-med-and-down">
-             <li><a href="<?=$this->createUrl('sobre/apresentacao')?>">Sobre</a></li>
-             <li><a href="<?=$this->createUrl('instrucoes/index')?>">Instruções</a></li>
-             <li><a href="<?=$this->createUrl('topicos/index')?>">Tópicos</a></li>
              <li><a href="<?=$this->createUrl('questionarios/index')?>">Questionários</a></li>
+             <li><a href="<?=$this->createUrl('instrucoes/index')?>">Instruções</a></li>
+             <li><a href="<?=$this->createUrl('sobre/apresentacao')?>">Sobre</a></li>
+             <!-- <li><a href="<?//=$this->createUrl('topicos/index')?>">Tópicos</a></li> -->
              <?php if (Yii::app()->user->isGuest): ?>
               <li>
                <a href='<?=$this->createUrl('site/login')?>' class="white-text">
@@ -71,10 +83,10 @@
                  </a>
                </li>
              <?php endif; ?>
-             <li><a href="<?=$this->createUrl('sobre/apresentacao')?>">Sobre</a></li>
-             <li><a href="<?=$this->createUrl('instrucoes/index')?>">Instruções</a></li>
-             <li><a href="<?=$this->createUrl('topicos/index')?>">Tópicos</a></li>
              <li><a href="<?=$this->createUrl('questionarios/index')?>">Questionários</a></li>
+             <li><a href="<?=$this->createUrl('instrucoes/index')?>">Instruções</a></li>
+             <li><a href="<?=$this->createUrl('sobre/apresentacao')?>">Sobre</a></li>
+             <!-- <li><a href="<?//=$this->createUrl('topicos/index')?>">Tópicos</a></li> -->
            </ul>
          </div>
        </div>
@@ -127,7 +139,11 @@
         </div>
       </div>
       <!-- fim footer -->
-
+      <?php
+          $this->widget('shared.widgets.Feedback.Feedback', array(
+              'mensagem' => "Deixe seu feedback ... ",
+              'autor_id' => Mensagem::ParaGustavoMendes))
+      ?>
     </body>
 
 </html>

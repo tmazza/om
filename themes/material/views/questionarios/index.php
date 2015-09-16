@@ -1,6 +1,6 @@
 <div class="container" style="margin-top:-49px;">
   <div class="card-panel">
-    <h5 class='center-align'>Questonários</h5>
+    <h5 class='center-align'>Questionários</h5>
     <p class='grey-text text-darken-3'>
       Teste os seus conhecimentos! Resolva os questionários quantas vezes quiser e obtenha os gabaritos na hora.
     </p>

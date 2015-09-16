@@ -6095,3 +6095,209 @@ Stack trace:
 REQUEST_URI=/dev/monitor-lite/instrucoes/index
 HTTP_REFERER=http://localhost:8080/dev/monitor-lite/?q=campotraj++-x3%2Bx%2By%2C-x
 ---
+2015/09/14 16:55:33 [error] [php] Uninitialized string offset: 12 (/opt/code/dev/monitor-src/shared/widgets/Arquimedes/Arquimedes.php:140)
+Stack trace:
+#0 /opt/code/dev/monitor-lite/themes/material/views/site/index.php(68): SiteController->widget()
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require()
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3472): SiteController->renderInternal()
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3904): SiteController->renderFile()
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(3872): SiteController->renderPartial()
+#5 /opt/code/dev/monitor-lite/protected/controllers/SiteController.php(26): SiteController->render()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(4139): SiteController->actionIndex()
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams()
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3637): SiteController->runAction()
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(3627): SiteController->runActionWithFilters()
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(1761): SiteController->run()
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController()
+#12 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#13 /opt/code/dev/monitor-lite/index.php(19): CWebApplication->run()
+REQUEST_URI=/dev/monitor-lite/?q=funcoesairy+
+in /opt/code/dev/monitor-src/shared/widgets/Arquimedes/Arquimedes.php (140)
+in /opt/code/dev/monitor-src/shared/widgets/Arquimedes/Arquimedes.php (44)
+in /opt/code/dev/monitor-lite/themes/material/views/site/index.php (68)
+2015/09/15 20:29:37 [error] [exception.CException] exception 'CException' with message 'A propriedade "QuestionariosController.assetsPath" não está definida.' in /opt/code/dev/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /opt/code/dev/monitor-lite/themes/material/views/layouts/main.php(36): CComponent->__get('assetsPath')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require('/opt/code/dev/m...')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, true)
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3874): CBaseController->renderFile('/opt/code/dev/m...', Array, true)
+#4 /opt/code/dev/monitor-lite/protected/controllers/QuestionariosController.php(23): CController->render('index', Array)
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(4139): QuestionariosController->actionIndex()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/i...')
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#12 /opt/code/dev/monitor-lite/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/index
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/?q=efeitolinear
+---
+2015/09/15 20:30:29 [error] [exception.CException] exception 'CException' with message 'A propriedade "QuestionariosController.assetsSha" não está definida.' in /opt/code/dev/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /opt/code/dev/monitor-lite/themes/material/views/layouts/main.php(36): CComponent->__get('assetsSha')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require('/opt/code/dev/m...')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, true)
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3874): CBaseController->renderFile('/opt/code/dev/m...', Array, true)
+#4 /opt/code/dev/monitor-lite/protected/controllers/QuestionariosController.php(23): CController->render('index', Array)
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(4139): QuestionariosController->actionIndex()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/i...')
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#12 /opt/code/dev/monitor-lite/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/index
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/?q=efeitolinear
+---
+2015/09/15 20:30:30 [error] [exception.CException] exception 'CException' with message 'A propriedade "QuestionariosController.assetsSha" não está definida.' in /opt/code/dev/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /opt/code/dev/monitor-lite/themes/material/views/layouts/main.php(36): CComponent->__get('assetsSha')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require('/opt/code/dev/m...')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, true)
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3874): CBaseController->renderFile('/opt/code/dev/m...', Array, true)
+#4 /opt/code/dev/monitor-lite/protected/controllers/QuestionariosController.php(23): CController->render('index', Array)
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(4139): QuestionariosController->actionIndex()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/i...')
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#12 /opt/code/dev/monitor-lite/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/index
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/?q=efeitolinear
+---
+2015/09/15 20:31:09 [error] [exception.CException] exception 'CException' with message 'A propriedade "QuestionariosController.assetsSha" não está definida.' in /opt/code/dev/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /opt/code/dev/monitor-lite/themes/material/views/layouts/main.php(36): CComponent->__get('assetsSha')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require('/opt/code/dev/m...')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, true)
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3874): CBaseController->renderFile('/opt/code/dev/m...', Array, true)
+#4 /opt/code/dev/monitor-lite/protected/controllers/QuestionariosController.php(23): CController->render('index', Array)
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(4139): QuestionariosController->actionIndex()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/i...')
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#12 /opt/code/dev/monitor-lite/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/index
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/?q=efeitolinear
+---
+2015/09/15 20:31:20 [error] [exception.CException] exception 'CException' with message 'A propriedade "QuestionariosController.assetsSha" não está definida.' in /opt/code/dev/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /opt/code/dev/monitor-lite/themes/material/views/layouts/main.php(36): CComponent->__get('assetsSha')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require('/opt/code/dev/m...')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, true)
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3874): CBaseController->renderFile('/opt/code/dev/m...', Array, true)
+#4 /opt/code/dev/monitor-lite/protected/controllers/QuestionariosController.php(23): CController->render('index', Array)
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(4139): QuestionariosController->actionIndex()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/i...')
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#12 /opt/code/dev/monitor-lite/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/index
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/?q=efeitolinear
+---
+2015/09/15 20:31:21 [error] [exception.CException] exception 'CException' with message 'A propriedade "QuestionariosController.assetsSha" não está definida.' in /opt/code/dev/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /opt/code/dev/monitor-lite/themes/material/views/layouts/main.php(36): CComponent->__get('assetsSha')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require('/opt/code/dev/m...')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, true)
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3874): CBaseController->renderFile('/opt/code/dev/m...', Array, true)
+#4 /opt/code/dev/monitor-lite/protected/controllers/QuestionariosController.php(23): CController->render('index', Array)
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(4139): QuestionariosController->actionIndex()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/i...')
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#12 /opt/code/dev/monitor-lite/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/index
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/?q=efeitolinear
+---
+2015/09/15 20:31:45 [error] [exception.CException] exception 'CException' with message 'A propriedade "QuestionariosController.assetsPath" não está definida.' in /opt/code/dev/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /opt/code/dev/monitor-lite/themes/material/views/layouts/main.php(36): CComponent->__get('assetsPath')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require('/opt/code/dev/m...')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, true)
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3874): CBaseController->renderFile('/opt/code/dev/m...', Array, true)
+#4 /opt/code/dev/monitor-lite/protected/controllers/QuestionariosController.php(23): CController->render('index', Array)
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(4139): QuestionariosController->actionIndex()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/i...')
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#12 /opt/code/dev/monitor-lite/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/index
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/?q=efeitolinear
+---
+2015/09/15 20:32:21 [error] [exception.CException] exception 'CException' with message 'A propriedade "QuestionariosController.assetsPath" não está definida.' in /opt/code/dev/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /opt/code/dev/monitor-lite/themes/material/views/layouts/main.php(36): CComponent->__get('assetsPath')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require('/opt/code/dev/m...')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, true)
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3874): CBaseController->renderFile('/opt/code/dev/m...', Array, true)
+#4 /opt/code/dev/monitor-lite/protected/controllers/QuestionariosController.php(23): CController->render('index', Array)
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(4139): QuestionariosController->actionIndex()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/i...')
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#12 /opt/code/dev/monitor-lite/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/index
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/?q=efeitolinear
+---
+2015/09/15 20:32:45 [error] [exception.CException] exception 'CException' with message 'A propriedade "QuestionariosController.assetsPath" não está definida.' in /opt/code/dev/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /opt/code/dev/monitor-lite/themes/material/views/layouts/main.php(36): CComponent->__get('assetsPath')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require('/opt/code/dev/m...')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, true)
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3874): CBaseController->renderFile('/opt/code/dev/m...', Array, true)
+#4 /opt/code/dev/monitor-lite/protected/controllers/QuestionariosController.php(23): CController->render('index', Array)
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(4139): QuestionariosController->actionIndex()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/i...')
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#12 /opt/code/dev/monitor-lite/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/index
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/?q=efeitolinear
+---
+2015/09/15 22:28:31 [error] [php] implode(): Invalid arguments passed (/opt/code/dev/monitor-src/shared/helpers/ShEmail.php:37)
+Stack trace:
+#0 /opt/code/dev/monitor-lite/protected/controllers/SiteController.php(77): LoginForm->socialLogin()
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(4139): SiteController->actionLogin()
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams()
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3637): SiteController->runAction()
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(3627): SiteController->runActionWithFilters()
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(1761): SiteController->run()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController()
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#8 /opt/code/dev/monitor-lite/index.php(19): CWebApplication->run()
+REQUEST_URI=/dev/monitor-lite/login?provider=facebook
+in /opt/code/dev/monitor-src/shared/helpers/ShEmail.php (37)
+in /opt/code/dev/monitor-lite/protected/models/form/LoginForm.php (89)
+in /opt/code/dev/monitor-lite/protected/controllers/SiteController.php (77)
