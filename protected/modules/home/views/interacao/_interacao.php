@@ -36,7 +36,7 @@
     <br>
     <br>
 
-    <div class="box-body" id='code-edit-<?= $note->id ?>'>
+    <div class="sage-int" id='code-edit-<?= $note->id ?>'>
         <textarea id='note-code-<?= $note->id; ?>'><?php echo CHtml::decode(stripslashes($note->codigo)); ?></textarea>
     </div>
     <br>

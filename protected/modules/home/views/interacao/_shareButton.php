@@ -6,7 +6,7 @@ echo CHtml::ajaxLink('<i class="material-icons">share</i>', $this->createUrl('/h
 . '$("#'.$id.'").html(html); '
 . 'return false; }',
     ), array(
-      'title' => 'Tornar privado',
+      'title' => 'Gerar link publico',
       'id' =>  hash('crc32',microtime(true)) . 'share-' . $note->id,
       'class' => 'btn-flat waves-effect',
     ));

@@ -23,7 +23,6 @@ class InteracaoController extends HomeController {
     }
 
     public function actionNovaInteracao($tipo) {
-        sleep(1);
         $note = Notebook::criarNova($tipo);
         if ($note->save()) {
             $content = '<div id="note-'.$note->id.'">';

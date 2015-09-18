@@ -1,10 +1,16 @@
-.sage-auto h5 {
-  font-size: 17px;
+.sage-auto select, .sage-int select {
+  display: block!important;
 }
-.sage-auto .sagecell_bookmarks{
+.sagecell_poweredBy {
   display: none;
 }
-.sage-auto .sagecell_spinner {
+.sage-auto h5,.sage-int h5 {
+  font-size: 17px;
+}
+.sage-auto .sagecell_bookmarks,.sage-int .sagecell_bookmarks{
+  display: none;
+}
+.sage-auto .sagecell_spinner,.sage-int  .sagecell_spinner{
     display: block;
     position: relative;
     height: 4px;
@@ -15,8 +21,14 @@
 }
 
 .sage-auto [type="checkbox"]:not(:checked),
-.sage-auto [type="checkbox"]:checked {
+.sage-auto [type="checkbox"]:checked,
+.sage-int [type="checkbox"]:not(:checked),
+.sage-int [type="checkbox"]:checked {
   position: relative;
   left: 0px;
   visibility: visible;
+}
+/*-- sagecell de interações --*/
+.sage-int .sagecell_sessionOutput {
+  border: 1px solid #ddd!important;
 }

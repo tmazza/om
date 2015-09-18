@@ -14,7 +14,13 @@
 class DefaultController extends HomeController {
 
     public function actionIndex() {
-      $this->render('index');
+      $notes = Notebook::model()->doAutor()->findAll(array(
+        'condition' => 'sharing = 1',
+        'order' => 'dataEdicao DESC',
+      ));
+      $this->render('index',array(
+        'notes' => $notes,
+      ));
     }
 
 }

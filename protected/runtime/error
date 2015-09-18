@@ -10591,3 +10591,37 @@ Stack trace:
 #13 {main}
 REQUEST_URI=/dev/monitor-lite/home/interacao/undoShare/id/489?_=1442539533924
 ---
+2015/09/17 23:59:38 [error] [php] Undefined variable: notes (/opt/code/dev/monitor-lite/protected/modules/home/views/default/index.php:6)
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3904): DefaultController->renderFile()
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3872): DefaultController->renderPartial()
+#2 /opt/code/dev/monitor-lite/protected/modules/home/controllers/DefaultController.php(17): DefaultController->render()
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(4139): DefaultController->actionIndex()
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams()
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(3637): DefaultController->runAction()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3627): DefaultController->runActionWithFilters()
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(1761): DefaultController->run()
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController()
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#10 /opt/code/dev/monitor-lite/index.php(20): CWebApplication->run()
+REQUEST_URI=/dev/monitor-lite/home
+in /opt/code/dev/monitor-lite/protected/modules/home/views/default/index.php (6)
+in /opt/code/dev/monitor-lite/protected/modules/home/controllers/DefaultController.php (17)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/09/18 00:01:46 [error] [php] Undefined variable: note (/opt/code/dev/monitor-lite/protected/modules/home/views/default/index.php:8)
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3904): DefaultController->renderFile()
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3872): DefaultController->renderPartial()
+#2 /opt/code/dev/monitor-lite/protected/modules/home/controllers/DefaultController.php(23): DefaultController->render()
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(4139): DefaultController->actionIndex()
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams()
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(3637): DefaultController->runAction()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3627): DefaultController->runActionWithFilters()
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(1761): DefaultController->run()
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController()
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#10 /opt/code/dev/monitor-lite/index.php(20): CWebApplication->run()
+REQUEST_URI=/dev/monitor-lite/home
+in /opt/code/dev/monitor-lite/protected/modules/home/views/default/index.php (8)
+in /opt/code/dev/monitor-lite/protected/modules/home/controllers/DefaultController.php (23)
+in /opt/code/dev/monitor-lite/index.php (20)

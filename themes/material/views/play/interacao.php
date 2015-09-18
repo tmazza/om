@@ -4,22 +4,25 @@
           <div class='row'>
             <div class='col s12 m7'>
                 <div class="textRight" style="color: #aaa;">
-                    Utilizando linguagem <?= CHtml::link(ucfirst($note->getLanguage()), $this->createUrl('linguagem/'.$note->getLanguage())); ?>. Autor: <b><?=$note->autor->perfil->nome;?></b>
+                  Autor: <b><?=$note->autor->perfil->nome;?></b>
                 </div>
             </div>
-            <div class='col s12 m5 right-align'>
+            <div class='col s12 m5'>
+              <div class="right">
+              &nbsp;&nbsp;
+              &nbsp;&nbsp;
+                <?php
+                $url =  urlencode('http://' . $_SERVER['HTTP_HOST'].Yii::app()->request->url);
+                ShView::shareLinks($url);
+                ?>
+              </div>
               <?php
-              echo CHtml::ajaxLink('Copiar código', $this->createUrl('play/copy', array(
+              echo CHtml::ajaxLink('<i class="tiny material-icons left">content_copy</i>Copiar código', $this->createUrl('play/copy', array(
                           'id' => $note->publicId,
                       )), array(
                   'update' => '#feedback-copy',
                   'beforeSend' => 'js: function() { $("#feedback-copy").html("Copiando..."); }',
-              ));
-              ?>
-              &nbsp;&nbsp;
-              <?php
-              $url =  urlencode('http://' . $_SERVER['HTTP_HOST'].Yii::app()->request->url);
-              ShView::shareLinks($url);
+              ),array('class'=>'right'));
               ?>
             </div>
           </div>
@@ -36,6 +39,16 @@
                   </div>
               </div>
           </div>
+
+          <div class="row">
+            <div class='col s6'>
+              &nbsp;
+            </div>
+            <div class='col s6 right-align grey-text'>
+              Utilizando linguagem <?= CHtml::link(ucfirst($note->getLanguage()), $this->createUrl('linguagem/'.$note->getLanguage())); ?>.
+            </div>
+          </div>
+
       </div>
   </div>
 </div>

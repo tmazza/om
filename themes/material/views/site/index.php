@@ -86,10 +86,10 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
     ?>
 
     <div class="row">
-      <div class="col  s12 flow-text">
+      <h6 class="col  s12">
         Exemplos de instruções:
         <input type='search' id='se' placeholder="Buscar..." />
-      </div>
+      </h6>
     </div>
     <div id='sr'></div>
     <?php $this->renderPartial('exemplos',array('exemplos'=>$exemplos)); ?>
