@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('America/Sao_Paulo');
 // remove the following lines when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG', !in_array($_SERVER['HTTP_HOST'], array('omonitor.io','www.omonitor.io', 'omonitor.net','www.omonitor.net', 'omonitor.info','www.omonitor.info', 'omonitor.xyz','www.omonitor.xyz')));
 

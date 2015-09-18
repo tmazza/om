@@ -6,5 +6,6 @@ return array(
     'topico/<id:\d+>/<nome>' => 'topico/ver',
     'topico/<id>/<nome>' => 'topico/ver',
     'play/<id>' => 'play/index',
+    '/home' => '/home/default/index',
     '/<q>' => 'site/index',
 );

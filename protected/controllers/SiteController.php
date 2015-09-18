@@ -75,7 +75,7 @@ class SiteController extends MonitorController {
 
         if (isset($_GET['provider'])){
             if($model->socialLogin($_GET['provider'])){
-                $this->redirect($this->createUrl('/meuEspaco/default/index'));
+                $this->redirect($this->createUrl('/home/default/index'));
             }else {
                 $this->redirect($this->createUrl('site/index'));
             }
@@ -85,7 +85,7 @@ class SiteController extends MonitorController {
         if (isset($_POST['LoginForm'])) {
             $model->attributes = $_POST['LoginForm'];
             if ($model->validate() && $model->login()) {
-                $this->redirect($this->createUrl('meuEspaco/default/index'));
+                $this->redirect($this->createUrl('/home/default/index'));
             }
         }
         $this->render('login', array('model' => $model));

@@ -49,19 +49,19 @@
            </a>
            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
            <ul class="right hide-on-med-and-down">
-             <li><a href="<?=$this->createUrl('questionarios/index')?>">Questionários</a></li>
-             <li><a href="<?=$this->createUrl('instrucoes/index')?>">Instruções</a></li>
-             <li><a href="<?=$this->createUrl('sobre/apresentacao')?>">Sobre</a></li>
+             <li><a href="<?=$this->createUrl('/questionarios/index')?>">Questionários</a></li>
+             <li><a href="<?=$this->createUrl('/instrucoes/index')?>">Instruções</a></li>
+             <li><a href="<?=$this->createUrl('/sobre/apresentacao')?>">Sobre</a></li>
              <!-- <li><a href="<?//=$this->createUrl('topicos/index')?>">Tópicos</a></li> -->
              <?php if (Yii::app()->user->isGuest): ?>
               <li>
-               <a href='<?=$this->createUrl('site/login')?>' class="white-text">
+               <a href='<?=$this->createUrl('/site/login')?>' class="white-text">
                  <b class="">Cadastre-se / Login</b>
                </a>
               </li>
              <?php else: ?>
                <li>
-                 <a href='<?=$this->createUrl('meuEspaco/default/index');?>' class="white-text">
+                 <a href='<?=$this->createUrl('/home/default/index');?>' class="white-text">
                    <b><?=Yii::app()->user->nome;?></b>
                  </a>
                  <!-- &nbsp; <?=CHtml::link('(Sair)',$this->createUrl('site/logout'),array('class'=>'grey-text'));?> -->
@@ -72,20 +72,20 @@
            <ul class="side-nav" id="mobile-demo">
              <?php if (Yii::app()->user->isGuest): ?>
               <li>
-               <a href='<?=$this->createUrl('site/login')?>' class="black-text">
+               <a href='<?=$this->createUrl('/site/login')?>' class="black-text">
                  <b class="">Cadastre-se / Login</b>
                </a>
               </li>
              <?php else: ?>
                <li>
-                 <a href='<?=$this->createUrl('meuEspaco/default/index');?>' class="black-text">
+                 <a href='<?=$this->createUrl('/home/default/index');?>' class="black-text">
                    <b><?=Yii::app()->user->nome;?></b>
                  </a>
                </li>
              <?php endif; ?>
-             <li><a href="<?=$this->createUrl('questionarios/index')?>">Questionários</a></li>
-             <li><a href="<?=$this->createUrl('instrucoes/index')?>">Instruções</a></li>
-             <li><a href="<?=$this->createUrl('sobre/apresentacao')?>">Sobre</a></li>
+             <li><a href="<?=$this->createUrl('/questionarios/index')?>">Questionários</a></li>
+             <li><a href="<?=$this->createUrl('/instrucoes/index')?>">Instruções</a></li>
+             <li><a href="<?=$this->createUrl('/sobre/apresentacao')?>">Sobre</a></li>
              <!-- <li><a href="<?//=$this->createUrl('topicos/index')?>">Tópicos</a></li> -->
            </ul>
          </div>

@@ -4,17 +4,22 @@
           <div class='row'>
             <div class='col s12 m7'>
                 <div class="textRight" style="color: #aaa;">
-                    Utilizando linguagem <?= CHtml::link(ucfirst($note->getLanguage()), $this->createUrl('linguagem/'.$note->getLanguage())); ?>. Autor: <?= CHtml::link($note->autor->perfil->nome, $this->createUrl('user/index',array('id'=>$note->user_id))); ?>
+                    Utilizando linguagem <?= CHtml::link(ucfirst($note->getLanguage()), $this->createUrl('linguagem/'.$note->getLanguage())); ?>. Autor: <b><?=$note->autor->perfil->nome;?></b>
                 </div>
             </div>
             <div class='col s12 m5 right-align'>
               <?php
-              echo CHtml::ajaxLink('Copiar para o meu notebook', $this->createUrl('play/copy', array(
+              echo CHtml::ajaxLink('Copiar código', $this->createUrl('play/copy', array(
                           'id' => $note->publicId,
                       )), array(
                   'update' => '#feedback-copy',
                   'beforeSend' => 'js: function() { $("#feedback-copy").html("Copiando..."); }',
               ));
+              ?>
+              &nbsp;&nbsp;
+              <?php
+              $url =  urlencode('http://' . $_SERVER['HTTP_HOST'].Yii::app()->request->url);
+              ShView::shareLinks($url);
               ?>
             </div>
           </div>

@@ -9,13 +9,13 @@ class MeuEspacoController extends EditorController {
 
 
     public function beforeAction($action) {
-        $this->layout = 'meuEspaco.views.layouts.main';
+      $this->layout = 'meuEspaco.views.layots.main';
         return parent::beforeAction($action);
     }
-        /**
-     *
-     * @return type
-     */
+    /**
+    *
+    * @return type
+    */
     protected function getCursosMatriculados() {
         return Curso::getCursosMatriculados();
     }
@@ -27,5 +27,5 @@ class MeuEspacoController extends EditorController {
     public function getAluno() {
         return $this->getUserPerfil();
     }
-   
+
 }

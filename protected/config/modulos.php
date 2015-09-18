@@ -6,6 +6,7 @@ return array(
         'password' => '345',
         'ipFilters' => array('127.0.0.1','::1'),
     ),
+    'home',
     'meuEspaco' => array(
         'modulosHabilitados' => array(
 //            'publicacoes',
