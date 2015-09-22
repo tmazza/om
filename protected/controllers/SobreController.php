@@ -16,7 +16,7 @@ class SobreController extends MonitorController {
                 ShCode::makeItem('Modo de usar', $this->createUrl('sobre/modoDeusar')),
                 ShCode::makeItem('Plataformas', $this->createUrl('sobre/plataformas')),
                 ShCode::makeItem('Referências', $this->createUrl('sobre/referencias')),
-                ShCode::makeItem('Parceiros', $this->createUrl('sobre/parceiros')),
+                // ShCode::makeItem('Parceiros', $this->createUrl('sobre/parceiros')),
             );
             return true;
         } else {
@@ -52,12 +52,12 @@ class SobreController extends MonitorController {
         ));
     }
 
-    public function actionParceiros() {
-        $this->render('paginaSimples', array(
-            'org' => $this->getOrg(),
-            'attr' => 'parceiros',
-        ));
-    }
+    // public function actionParceiros() {
+    //     $this->render('paginaSimples', array(
+    //         'org' => $this->getOrg(),
+    //         'attr' => 'parceiros',
+    //     ));
+    // }
 
     private function getOrg() {
         return Organizacao::model()->findByAttributes(array(

@@ -10,7 +10,7 @@
           <?= CHtml::link('Modo de Usar', $this->createUrl('sobre/modoDeusar'),array('class'=>'black-text collection-item')); ?>
           <?= CHtml::link('Plataformas', $this->createUrl('sobre/plataformas'),array('class'=>'black-text collection-item')); ?>
           <?= CHtml::link('Referências', $this->createUrl('sobre/referencias'),array('class'=>'black-text collection-item')); ?>
-          <?= CHtml::link('Parceiros', $this->createUrl('sobre/parceiros'),array('class'=>'black-text collection-item')); ?>
+          <!-- <?//= CHtml::link('Parceiros', $this->createUrl('sobre/parceiros'),array('class'=>'black-text collection-item')); ?> -->
         </ul>
       </div>
       <div class='col l9 s12' style="">

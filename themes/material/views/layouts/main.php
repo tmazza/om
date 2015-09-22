@@ -127,9 +127,9 @@
                   <?= CHtml::link('Referências', $this->createUrl('sobre/referencias'),array('class'=>'white-text')); ?><br>
                   <div class='divider grey'></div>
                   <br>
-                  <?= CHtml::link('Parceiros', $this->createUrl('sobre/parceiros'),array('class'=>'white-text')); ?>
-                  <div class='divider grey'></div>
-                  <br>
+                  <!-- <?//= CHtml::link('Parceiros', $this->createUrl('sobre/parceiros'),array('class'=>'white-text')); ?> -->
+                  <!-- <div class='divider grey'></div> -->
+                  <!-- <br> -->
               </div>
               <div class='s6 m8'>
               </div>

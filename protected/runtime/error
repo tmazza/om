@@ -10625,3 +10625,14 @@ REQUEST_URI=/dev/monitor-lite/home
 in /opt/code/dev/monitor-lite/protected/modules/home/views/default/index.php (8)
 in /opt/code/dev/monitor-lite/protected/modules/home/controllers/DefaultController.php (23)
 in /opt/code/dev/monitor-lite/index.php (20)
+2015/09/22 18:35:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "parceiros" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('parceiros')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('parceiros')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('sobre/parceiros')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/sobre/parceiros
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/sobre/apresentacao
+---
