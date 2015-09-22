@@ -11,8 +11,8 @@
         . '}',
     );
     echo CHtml::ajaxLink('Sage', $this->createUrl('/home/interacao/novaInteracao', array('tipo' => Notebook::Sage)), $ajaxBehaviour, array('class' => 'btn blue-grey darken-1'));
-    echo ' ' . CHtml::ajaxLink('Singular', $this->createUrl('/home/interacao/novaInteracao', array('tipo' => Notebook::Singular)), $ajaxBehaviour, array('class' => 'btn blue-grey darken-1'));
-    echo ' ' .CHtml::ajaxLink('R', $this->createUrl('/home/interacao/novaInteracao', array('tipo' => Notebook::R)), $ajaxBehaviour, array('class' => 'btn blue-grey darken-1'));
+    // echo ' ' . CHtml::ajaxLink('Singular', $this->createUrl('/home/interacao/novaInteracao', array('tipo' => Notebook::Singular)), $ajaxBehaviour, array('class' => 'btn blue-grey darken-1'));
+    // echo ' ' .CHtml::ajaxLink('R', $this->createUrl('/home/interacao/novaInteracao', array('tipo' => Notebook::R)), $ajaxBehaviour, array('class' => 'btn blue-grey darken-1'));
     echo ' ' .CHtml::ajaxLink('Python', $this->createUrl('/home/interacao/novaInteracao', array('tipo' => Notebook::Python)), $ajaxBehaviour, array('class' => 'btn blue-grey darken-1'));
     ?>
 </div>
