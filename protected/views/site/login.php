@@ -47,11 +47,6 @@ $this->breadcrumbs = array(
                 <br><br>
                 <?= CHtml::link('Cadastro usando meu email', $this->createUrl('site/cadastro'), array('style' => 'font-size: 16px;')); ?>
                 <br><br>
-                <section class="widget" style="margin: 0 auto; margin-top: 20px; min-width: 300px; max-width: 400px;">
-                    <div class="">
-                        <?= ViewHelper::getSocialLoginButtons(); ?>
-                    </div>
-                </section>
                 <br>
             </div>
         </section>

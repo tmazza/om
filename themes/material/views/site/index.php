@@ -43,7 +43,7 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
     <div class='col s12'>
       <div class='row'>
         <div class='col s12 hide-on-large-only center-align'>
-          Use números, f(x), f(x,y) com o auxílio da calculadora ou  exemplos de instruções
+          Use números, f(x) ou f(x,y) com o auxílio da Calculadora ou use instruções como nos Exemplos
         </div>
       </div>
       <div class='row'>
@@ -53,7 +53,7 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
           </a>
         </div>
         <div class='col s12 l8 hide-on-med-and-down center-align'>
-          Use números, f(x), f(x,y) com o auxílio da calculadora ou  exemplos de instruções
+          Use números, f(x) ou f(x,y) com o auxílio da Calculadora ou use instruções como nos Exemplos
         </div>
         <div class='col s6 l2'>
           <a href='<?=$this->createUrl('site/aleatorio')?>' class="btn-flat grey lighten-3 right waves-effect waves-light hoverable tooltipped" data-position='left' data-tooltip="Exemplo aleatório">
@@ -87,7 +87,7 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
 
     <div class="row">
       <h6 class="col  s12">
-        Exemplos de instruções:
+        Exemplos:
         <input type='search' id='se' placeholder="Buscar..." />
       </h6>
     </div>
@@ -99,11 +99,12 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
 $('#se').keyup(function(){
   $('#sr').html('<div class="progress"><div class="indeterminate"></div></div>');
 
-  var s = $(this).val();
+  var s = $(this).val().trim();
   nodes = []
   if(s.length > 0){
     $('.s').each(function(){
-      if($(this).text().toLowerCase().indexOf(s.toLowerCase()) !== -1){
+      var txt = $(this).text().toLowerCase() + '-' +  $(this).next().text().toLowerCase();
+      if(txt.indexOf(s.toLowerCase()) !== -1){
         nodes.push($(this).parent().parent().clone());
       }
     });

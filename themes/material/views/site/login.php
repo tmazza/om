@@ -25,22 +25,23 @@
             <?php echo CHtml::submitButton('Entrar', array('class' => 'grey darken-3 btn btn-primary right')); ?>
             <br>
             <br>
-            <div class="textRight">
-                <?= CHtml::link('Esqueci minha senha', '#', array('class' => '')); ?>
-            </div>
+            <!-- <div class="textRight"> -->
+                <!-- <?//= CHtml::link('Esqueci minha senha', '#', array('class' => '')); ?> -->
+            <!-- </div> -->
             <?php $this->endWidget(); ?>
         </div>
         <div class="col  m6 s12 center-align">
           <div class="hide-on-med-and-up divider"></div>
           <br><br><br>
-          <?= CHtml::link('Cadastro usando meu email', $this->createUrl('site/cadastro'), array(
+          <?= CHtml::link('Cadastre-se', $this->createUrl('site/cadastro'), array(
             // 'style' => 'font-size: 16px;',
             'class' => 'btn grey darken-2',
           )); ?>
           <br>
           <br>
           <br>
-          <?= ViewHelper::getSocialLoginButtons(); ?>
+          <br>
+          <?//= ViewHelper::getSocialLoginButtons(); ?>
           <br>
         </div>
     </div>

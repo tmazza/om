@@ -16,7 +16,7 @@
                 <br>
                 <section class="widget" style="margin: 0 auto; margin-top: 20px; min-width: 300px; max-width: 400px;">
                     <div class="">
-                        <?= ViewHelper::getSocialLoginButtons(); ?>
+                        <?//= ViewHelper::getSocialLoginButtons(); ?>
                     </div>
                 </section>
                 <br>

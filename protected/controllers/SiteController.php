@@ -163,13 +163,13 @@ class SiteController extends MonitorController {
                     'email' => $model->email,
                 ));
                 if ($model->logaUsuario($user)) {
-                    $this->redirect($this->createUrl('/meuEspaco/default/index'));
+                    $this->redirect($this->createUrl('/home'));
                 } else {
-                    $this->rediect($this->createUrl('site/index'));
+                    $this->rediect($this->createUrl('/site/index'));
                 }
             } else {
                 Yii::app()->user->setFlash('msg-e', 'Bem vindo!');
-                $this->redirect($this->createUrl('site/index'));
+                $this->redirect($this->createUrl('/site/index'));
             }
         } else {
             $this->render('cadastro', array(
