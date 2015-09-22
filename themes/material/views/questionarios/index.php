@@ -1,8 +1,8 @@
 <div class="container" style="margin-top:-49px;">
   <div class="card-panel">
     <h5 class='center-align'>Questionários</h5>
-    <p class='grey-text text-darken-3'>
-      Teste os seus conhecimentos! Resolva os questionários quantas vezes quiser e obtenha os gabaritos na hora.
+    <p class='center-align grey-text text-darken-1 hide-on-small-only'>
+      O Monitor confere suas respostas para diversos tipos de questões.
     </p>
   </div>
   <br>

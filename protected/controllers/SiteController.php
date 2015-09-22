@@ -71,6 +71,8 @@ class SiteController extends MonitorController {
     }
 
     public function actionLogin() {
+        $this->pageTitle = 'Login - O Monitor';
+
         $model = new LoginForm;
 
         if (isset($_GET['provider'])){
@@ -152,6 +154,7 @@ class SiteController extends MonitorController {
      * Cadastra novo aluno
      */
     public function actionCadastro() {
+        $this->pageTitle = 'Cadastro - O Monitor';
         $model = new ShCadastro;
         $form = new CForm(ShCadastro::getForm(), $model);
 

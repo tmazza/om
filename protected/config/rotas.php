@@ -9,5 +9,8 @@ return array(
     '/home' => '/home/default/index',
     '/questionarios' => '/questionarios/index',
     '/questionario/<id>' => '/questionarios/ver',
+    '/instrucoes' => '/instrucoes/index',
+    '/instrucao/<nome>-<id>' => '/instrucoes/ver',
+    '/instrucao/<id>' => '/instrucoes/ver',
     '/<q>' => 'site/index',
 );

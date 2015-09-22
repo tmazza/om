@@ -25,6 +25,7 @@ class SobreController extends MonitorController {
     }
 
     public function actionApresentacao() {
+        $this->pageTitle = 'Apresentação - O Monitor';
         $this->render('paginaSimples', array(
             'org' => $this->getOrg(),
             'attr' => 'apresentacao',
@@ -32,6 +33,7 @@ class SobreController extends MonitorController {
     }
 
     public function actionModoDeUsar() {
+        $this->pageTitle = 'Modo de usar - O Monitor';
         $this->render('paginaSimples', array(
             'org' => $this->getOrg(),
             'attr' => 'modoDeUsar',
@@ -39,6 +41,7 @@ class SobreController extends MonitorController {
     }
 
     public function actionPlataformas() {
+        $this->pageTitle = 'Plataformas - O Monitor';
         $this->render('paginaSimples', array(
             'org' => $this->getOrg(),
             'attr' => 'plataformas',
@@ -46,6 +49,7 @@ class SobreController extends MonitorController {
     }
 
     public function actionReferencias() {
+        $this->pageTitle = 'Referências - O Monitor';
         $this->render('paginaSimples', array(
             'org' => $this->getOrg(),
             'attr' => 'referencias',
@@ -53,6 +57,7 @@ class SobreController extends MonitorController {
     }
 
     // public function actionParceiros() {
+    //     $this->pageTitle = 'Parceiros - O Monitor';
     //     $this->render('paginaSimples', array(
     //         'org' => $this->getOrg(),
     //         'attr' => 'parceiros',

@@ -4,7 +4,10 @@
         <!-- META TAGS -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>O Monitor</title>
+        <meta name="description" content="<?=$this->descricao?>">
+        <meta name="keywords" content="resolver,matemática,função,plotar,corrigir,o monitor,monitor,OM,equação,sage,sagemath,solução,algebra,geometria,diferenciais">
+        <meta name="author" content="Tiago M. de Paula">
+        <title><?=$this->pageTitle;?></title>
         <link rel="shortcut icon" href="<?php echo Yii::app()->baseUrl ?>/webroot/monitor/images/favicon.png?v=2" />
         <!-- Google icon fonts -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -138,6 +141,14 @@
           </div>
         </div>
       </div>
+      <script>
+      $(document).ready(function(){
+        $('.modal-trigger').leanModal();
+        $(".button-collapse").sideNav();
+        $('.tooltipped').tooltip({delay: 50});
+      });
+      </script>
+
       <!-- fim footer -->
       <?php
           $this->widget('shared.widgets.Feedback.Feedback', array(
@@ -152,10 +163,3 @@
     display: none;
   }
 </style>
-<script>
-$(document).ready(function(){
-  $('.modal-trigger').leanModal();
-  $(".button-collapse").sideNav();
-  $('.tooltipped').tooltip({delay: 0});
-});
-</script>
