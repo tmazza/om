@@ -116,4 +116,8 @@ $('#se').keyup(function(){
   }
 });
 
+
+$(document).ready(function(){
+  $('#search').focus();
+});
 </script>
