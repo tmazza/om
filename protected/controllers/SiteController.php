@@ -158,7 +158,7 @@ class SiteController extends MonitorController {
     /**
      * Cadastra novo aluno
      */
-    public function actionCadastro() {
+    public function actionCadastro($b=false) {
         $this->pageTitle = 'Cadastro - O Monitor';
         $model = new ShCadastro;
         $form = new CForm(ShCadastro::getForm(), $model);
@@ -171,7 +171,11 @@ class SiteController extends MonitorController {
                     'email' => $model->email,
                 ));
                 if ($model->logaUsuario($user)) {
+                  if($b){
+                    $this->redirect(base64_decode($b));
+                  } else {
                     $this->redirect($this->createUrl('/home'));
+                  }
                 } else {
                     $this->rediect($this->createUrl('/site/index'));
                 }
