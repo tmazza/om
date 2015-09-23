@@ -53,7 +53,10 @@ class SiteController extends MonitorController {
     public function actionError($msg = null) {
         if (is_null($msg)) {
             if ($error = Yii::app()->errorHandler->error) {
-                echo $error['message'];
+                  $this->render('error', array(
+                      'message' => $error['message'],
+                      'code' => $error['code'],
+                  ));
             }
         } else {
             $this->render('error', array(
@@ -72,9 +75,7 @@ class SiteController extends MonitorController {
 
     public function actionLogin() {
         $this->pageTitle = 'Login - O Monitor';
-
         $model = new LoginForm;
-
         if (isset($_GET['provider'])){
             if($model->socialLogin($_GET['provider'])){
                 $this->redirect($this->createUrl('/home/default/index'));

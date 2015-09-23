@@ -7,7 +7,7 @@ defined('YII_DEBUG') or define('YII_DEBUG', !in_array($_SERVER['HTTP_HOST'], arr
 $yii = dirname(__FILE__) . '/src/framework/yiilite.php';
 $config = dirname(__FILE__) . '/protected/config/main.php';
 
-//define('YII_DEBUG', true);
+// define('YII_DEBUG', false);
 // specify how many levels of call stack should be shown in each log message
 defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL', 3);
 

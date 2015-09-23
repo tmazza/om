@@ -3,6 +3,7 @@
 class PlayController extends MonitorController {
 
     public function actionIndex($id) {
+        $this->pageTitle = 'Interação - O Monitor';
         $note = $this->getNote($id);
         if (is_null($note)) {
             $this->render('falha');

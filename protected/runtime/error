@@ -10895,3 +10895,533 @@ Stack trace:
 REQUEST_URI=/dev/monitor-lite/site/topicos
 in /opt/code/dev/monitor-lite/protected/controllers/SiteController.php (31)
 in /opt/code/dev/monitor-lite/index.php (20)
+2015/09/22 20:45:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:46:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:47:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:47:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:47:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:48:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:48:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:48:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:48:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:48:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:48:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:49:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:49:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:50:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:50:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:50:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:53:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:53:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:53:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:54:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:54:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:55:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:55:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:55:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:55:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:55:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:56:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:56:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:56:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:56:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:57:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/a...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/asd
+---
+2015/09/22 20:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 20:58:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 20:58:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 20:59:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 20:59:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 20:59:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 20:59:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 20:59:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 20:59:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 21:00:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 21:00:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 21:00:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 21:00:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 21:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
+2015/09/22 21:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "asd" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('asd')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('asd')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/asd')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/site/asd
+---
