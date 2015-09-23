@@ -7,7 +7,7 @@
   </div>
   <br>
   <?php foreach ($questionarios as $qst):?>
-    <a href='<?=$this->createUrl('questionarios/ver',array('id'=>$qst->id))?>'>
+    <a href='<?=$this->createUrl('questionarios/ver',array('id'=>$qst->id,'nome'=>ShCode::toUrl($qst->nome)))?>'>
       <div class='card-panel'>
         <?=$qst->nome?>
       </div>

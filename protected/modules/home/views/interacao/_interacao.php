@@ -8,24 +8,14 @@
     });
 </script>
 <div class="card-panel">
-    <div class='flow-text'>
+    <div id='title'>
       <?php
       $hash = hash('crc32',microtime(true));
-      echo CHtml::ajaxLink('  <i class="material-icons red-text text-lighten-2 right">clear</i>',$this->createUrl('/home/interacao/delete',array(
-        'id'=>$note->id,
-      )),array(
-          'success' => 'js: function(){ $("#note-' . $note->id . '").slideUp(); }',
-      ),array(
-        'confirm' => 'Confirma exclusão de interação?',
-        'title' => 'Excluir',
-        'id' => $hash . 'delete-note-'.$note->id,
+      $this->renderPartial('titulo',array(
+        'note' => $note,
+        'hash' => $hash,
       ));
       ?>
-
-      <a href='#!' onclick="hideInteracao(<?=$note->id?>)" title='Minimizar'>
-          <i class="material-icons black-text right">remove</i>
-      </a>
-      <?= ucfirst($note->getLanguage()); ?>
     </div>
     <br>
     <div class="divider"></div>

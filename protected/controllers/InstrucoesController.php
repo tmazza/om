@@ -24,7 +24,7 @@ class InstrucoesController extends MonitorController{
         $this->redirect($this->createUrl('/site/index'));
       }
 
-      $this->pageTitle = lcfirst($instrucao->descricao) . ' - O Monitor';
+      $this->pageTitle = ucfirst($instrucao->descricao) . ' - O Monitor';
 
       $this->render('ver', array(
         'instrucao' => $instrucao,

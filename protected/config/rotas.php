@@ -8,6 +8,7 @@ return array(
     'play/<id>' => '/play/index',
     '/home' => '/home/default/index',
     '/questionarios' => '/questionarios/index',
+    '/questionario/<nome>-<id>' => '/questionarios/ver',
     '/questionario/<id>' => '/questionarios/ver',
     '/instrucoes' => '/instrucoes/index',
     '/instrucao/<nome>-<id>' => '/instrucoes/ver',

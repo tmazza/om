@@ -73,7 +73,7 @@ class SiteController extends MonitorController {
         require_once Yii::getPathOfAlias('shared.extensions') . '/hybridauth-' . HybridAuthIdentity::VERSION . '/hybridauth/index.php';
     }
 
-    public function actionLogin() {
+    public function actionLogin($b=false) {
         $this->pageTitle = 'Login - O Monitor';
         $model = new LoginForm;
         if (isset($_GET['provider'])){
@@ -88,7 +88,11 @@ class SiteController extends MonitorController {
         if (isset($_POST['LoginForm'])) {
             $model->attributes = $_POST['LoginForm'];
             if ($model->validate() && $model->login()) {
-                $this->redirect($this->createUrl('/home/default/index'));
+                if($b){
+                  $this->redirect(base64_decode($b));
+                } else {
+                  $this->redirect($this->createUrl('/home/default/index'));
+                }
             }
         }
         $this->render('login', array('model' => $model));
