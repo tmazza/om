@@ -33,7 +33,7 @@ _gaq.push(['sagecell._trackPageview']);
     sagecell.jQuery = $;
     sagecell.URLs = {};
     // sagecell.root = 'http://omonitor.info:8080/';
-    sagecell.root = 'http://52.89.109.111';
+    sagecell.root = 'http://52.88.217.115';
     // sagecell.root = 'http://aleph.sagemath.org';
     (function() {
         /* Read the Sage Cell server's  root url from one of the following locations:
