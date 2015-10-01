@@ -225,6 +225,8 @@ class SiteController extends MonitorController {
       $replacement = 'pretty_print(html(\'\1\'))';
       $code = preg_replace($pattern, $replacement, $code);
 
+      // ERRO! esta diplicando prittty print em alguns casos
+
       // procura por html("..."[ ]%
       $pattern = "/html\(\"(.*)\"( )*%(.*)\)/";
       $replacement = 'pretty_print(html("\1" % \3))';
@@ -248,14 +250,27 @@ class SiteController extends MonitorController {
     //   $this->render('aa',array('c'=>$change));
     // }
 
+    //
+    // public function actionIt(){
+    //   $insts = InstrucaoCodigo::model()->findAll();
+    //   foreach ($insts as $i) {
+    //     $i->template = addslashes($this->htmlToPrettyPrint(stripslashes($i->template)));
+    //     echo $i->id.',';
+    //     $i->update(array('template'));
+    //   }
+    // }
 
-    public function actionIt(){
+    public function actionRpp(){
       $insts = InstrucaoCodigo::model()->findAll();
       foreach ($insts as $i) {
-        $i->template = addslashes($this->htmlToPrettyPrint(stripslashes($i->template)));
+        $i->template = addslashes($this->removePrettyPrintDuplicados(stripslashes($i->template)));
         echo $i->id.',';
         $i->update(array('template'));
       }
+    }
+
+    private function removePrettyPrintDuplicados($code){
+      return str_replace('pretty_print(pretty_print(','pretty_print((',$code);
     }
 
 
