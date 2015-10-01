@@ -21,3 +21,10 @@
         </p>
   </div>
 </div>
+<?php if(YII_DEBUG): ?>
+<pre>
+<?php
+print_r($error);
+?>
+</pre>
+<?php endif; ?>

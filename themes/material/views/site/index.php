@@ -8,8 +8,6 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
         <div class="nav-wrapper">
           <form method="get" id='search-form' action="<?php echo $this->createUrl('site/index'); ?>">
             <div class="input-field" style="color:#000;">
-
-
               <?php
               $this->widget('zii.widgets.jui.CJuiAutoComplete', array(
                   'name' => 'q',
@@ -41,8 +39,8 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
   </div>
   <div class='row'>
     <div class='col s12'>
-      <div class='row'>
-        <div class='col s12 hide-on-large-only center-align'>
+      <div class='row hide-on-large-only '>
+        <div class='col s12 center-align'>
           Use números, f(x) ou f(x,y) com o auxílio da Calculadora ou use instruções como nos Exemplos
         </div>
       </div>
@@ -85,12 +83,12 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
 
     ?>
 
-    <div class="row">
-      <h6 class="col  s12">
-        Exemplos:
-        <input type='search' id='se' placeholder="Buscar..." />
-      </h6>
-    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card-panel">
+      Exemplos:
+      <input type='search' id='se' placeholder="Buscar..." />
     <div id='sr'></div>
     <?php $this->renderPartial('exemplos',array('exemplos'=>$exemplos)); ?>
   </div>

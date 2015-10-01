@@ -54,6 +54,7 @@ class SiteController extends MonitorController {
         if (is_null($msg)) {
             if ($error = Yii::app()->errorHandler->error) {
                   $this->render('error', array(
+                      'error' => Yii::app()->errorHandler->error,
                       'message' => $error['message'],
                       'code' => $error['code'],
                   ));
@@ -242,6 +243,8 @@ class SiteController extends MonitorController {
       $org = Organizacao::model()->findByAttributes(array('orgID' => 'monitor'));
       $code = stripslashes(unserialize($org->equationResults));
       $change = $this->htmlToPrettyPrint($code);
+      $org->equationResults = serialize(addslashes($change));
+      $org->update(array('equationResults'));
       $this->render('aa',array('c'=>$change));
     }
 
