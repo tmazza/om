@@ -211,10 +211,39 @@ class SiteController extends MonitorController {
         }
     }
 
-    public function actionTeste() {
-        $this->layout = 'semColunas';
+    /**
+     * Converte de html para pretty_print
+     */
+    private function htmlToPrettyPrint($code){
+      // procura por html("...")
+      $pattern = '/html\("(.*)"\)/U';
+      $replacement = 'pretty_print(html(\'\1\'))';
+      $code = preg_replace($pattern, $replacement, $code);
+      // procura por html('...')
+      $pattern = "/html\('(.*)'\)/U";
+      $replacement = 'pretty_print(html(\'\1\'))';
+      $code = preg_replace($pattern, $replacement, $code);
 
-        $this->render('aa');
+      // procura por html("..."[ ]%
+      $pattern = "/html\(\"(.*)\"( )*%(.*)\)/";
+      $replacement = 'pretty_print(html("\1" % \3))';
+      $code = preg_replace($pattern, $replacement, $code);
+      // procura por html('...'[ ]%
+      $pattern = "/html\('(.*)'( )*%(.*)\)/";
+      $replacement = 'pretty_print(html(\'\1\' % \3))';
+      $code = preg_replace($pattern, $replacement, $code);
+
+      return $code;
+
     }
+
+
+    public function actionCb(){
+      $org = Organizacao::model()->findByAttributes(array('orgID' => 'monitor'));
+      $code = stripslashes(unserialize($org->equationResults));
+      $change = $this->htmlToPrettyPrint($code);
+      $this->render('aa',array('c'=>$change));
+    }
+
 
 }

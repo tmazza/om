@@ -11453,3 +11453,57 @@ Stack trace:
 REQUEST_URI=/dev/monitor-lite/questionario/ver/id/6
 HTTP_REFERER=http://localhost:8080/dev/monitor-lite/login?b=L2Rldi9tb25pdG9yLWxpdGUvcXVlc3Rpb25hcmlvL3Zlci9pZC82
 ---
+2015/10/01 16:31:16 [error] [php] Undefined variable: string (/opt/code/dev/monitor-lite/protected/controllers/SiteController.php:238)
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams()
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3637): SiteController->runAction()
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3627): SiteController->runActionWithFilters()
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1761): SiteController->run()
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController()
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#6 /opt/code/dev/monitor-lite/index.php(20): CWebApplication->run()
+REQUEST_URI=/dev/monitor-lite/site/teste
+in /opt/code/dev/monitor-lite/protected/controllers/SiteController.php (238)
+in /opt/code/dev/monitor-lite/protected/controllers/SiteController.php (227)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 16:31:23 [error] [php] Undefined variable: string (/opt/code/dev/monitor-lite/protected/controllers/SiteController.php:236)
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams()
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3637): SiteController->runAction()
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3627): SiteController->runActionWithFilters()
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1761): SiteController->run()
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController()
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#6 /opt/code/dev/monitor-lite/index.php(20): CWebApplication->run()
+REQUEST_URI=/dev/monitor-lite/site/teste
+in /opt/code/dev/monitor-lite/protected/controllers/SiteController.php (236)
+in /opt/code/dev/monitor-lite/protected/controllers/SiteController.php (227)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 16:31:30 [error] [php] Undefined variable: string (/opt/code/dev/monitor-lite/protected/controllers/SiteController.php:236)
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams()
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(3637): SiteController->runAction()
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3627): SiteController->runActionWithFilters()
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1761): SiteController->run()
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController()
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#6 /opt/code/dev/monitor-lite/index.php(20): CWebApplication->run()
+REQUEST_URI=/dev/monitor-lite/site/teste
+in /opt/code/dev/monitor-lite/protected/controllers/SiteController.php (236)
+in /opt/code/dev/monitor-lite/protected/controllers/SiteController.php (227)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 16:33:36 [error] [exception.CDbException] exception 'CDbException' with message 'A tabela "organizacao" não possui uma coluna chamada "orgId".' in /opt/code/dev/monitor-src/framework/db/schema/CDbCommandBuilder.php:697
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(8053): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 /opt/code/dev/monitor-lite/protected/controllers/SiteController.php(241): CActiveRecord->findByAttributes(Array)
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(4139): SiteController->actioncb()
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('cb')
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('site/cb')
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#9 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/dev/monitor-lite/site/cb
+---

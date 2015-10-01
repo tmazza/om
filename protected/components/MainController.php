@@ -10,7 +10,7 @@ class MainController extends CController implements IRootController {
     const ERRO_FLASH = 'msg-e';
     const SUCS_FLASH = 'msg-s';
 
-    public $pageTitle = 'O Monitor';
+    public $pageTitle = 'O Monitor - Resolve, confere e ilustra ';
     public $descricao =  'O Monitor é uma interface para o programa Sage cujas capacidades simbólica e numérica garantem respostas desde contas simples até o cálculo simbólico, envolvendo conceitos avançados. As capacidades gráficas permitem exibir imagens e animações interativas.';
     private $orgID = 'monitor';
     protected $activeSagecell = true;

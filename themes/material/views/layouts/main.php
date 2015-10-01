@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="<?=$this->descricao?>">
         <meta name="keywords" content="resolver,matemática,função,plotar,corrigir,o monitor,monitor,OM,equação,sage,sagemath,solução,algebra,geometria,diferenciais">
-        <meta name="author" content="Tiago M. de Paula">
+        <meta name="author" content="O Monitor">
         <title><?=$this->pageTitle;?></title>
         <link rel="shortcut icon" href="<?php echo Yii::app()->baseUrl ?>/webroot/monitor/images/favicon.png?v=2" />
         <!-- Google icon fonts -->
@@ -38,9 +38,9 @@
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-67685098-1', 'auto');
-    ga('send', 'pageview');
+    //
+    // ga('create', 'UA-67685098-1', 'auto');
+    // ga('send', 'pageview');
 
     </script>
 
