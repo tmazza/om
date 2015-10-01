@@ -260,14 +260,14 @@ class SiteController extends MonitorController {
     //   }
     // }
 
-    public function actionRpp(){
-      $insts = InstrucaoCodigo::model()->findAll();
-      foreach ($insts as $i) {
-        $i->template = addslashes($this->removePrettyPrintDuplicados(stripslashes($i->template)));
-        echo $i->id.',';
-        $i->update(array('template'));
-      }
-    }
+    // public function actionRpp(){
+    //   $insts = InstrucaoCodigo::model()->findAll();
+    //   foreach ($insts as $i) {
+    //     $i->template = addslashes($this->removePrettyPrintDuplicados(stripslashes($i->template)));
+    //     echo $i->id.',';
+    //     $i->update(array('template'));
+    //   }
+    // }
 
     private function removePrettyPrintDuplicados($code){
       return str_replace('pretty_print(pretty_print(','pretty_print((',$code);

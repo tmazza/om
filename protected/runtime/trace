@@ -1956,3 +1956,133 @@ in /opt/code/dev/monitor-lite/index.php (20)
 in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
 in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
 in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:35:11 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:35:11 [trace] [system.caching.CFileCache] Saving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" to cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:44:17 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:44:17 [trace] [system.caching.CFileCache] Saving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" to cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:44:17 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:44:17 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:44:19 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:44:19 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:44:19 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:44:19 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:44:25 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:44:25 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:44:26 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:44:26 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:55:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:55:53 [trace] [system.caching.CFileCache] Saving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" to cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:55:54 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-src/shared/widgets/Arquimedes/views/main.php (3)
+2015/10/01 18:55:54 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:55:54 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:56:22 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:56:22 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:56:43 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:56:43 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:57:26 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:57:26 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:57:38 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:57:38 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:57:45 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:57:45 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:58:44 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:58:44 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:58:56 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:58:56 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:59:47 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 18:59:47 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 19:00:09 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 19:00:09 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 19:00:19 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 19:00:19 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 19:00:27 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 19:00:27 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 19:00:28 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/01 19:00:28 [trace] [system.caching.CFileCache] Serving "yii:dbquery:fetchAll:mysql:host=localhost;dbname=#monitor1;port=8000:root:SELECT * FROM `topico` `t` WHERE ((comDestaque = 1) AND (publicado = 1 AND publico = 1)) AND (t.excluido = 0):a:0:{}" from cache
+in /opt/code/dev/monitor-src/shared/models/Topico.php (264)
+in /opt/code/dev/monitor-lite/protected/components/MonitorController.php (43)
+in /opt/code/dev/monitor-lite/index.php (20)

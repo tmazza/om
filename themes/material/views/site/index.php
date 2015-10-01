@@ -39,11 +39,13 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
   </div>
   <div class='row'>
     <div class='col s12'>
-      <div class='row hide-on-large-only '>
-        <div class='col s12 center-align'>
-          Use números, f(x) ou f(x,y) com o auxílio da Calculadora ou use instruções como nos Exemplos
+      <?php if(!$query): ?>
+        <div class='row hide-on-large-only '>
+          <div class='col s12 center-align'>
+            Use números, f(x) ou f(x,y) com o auxílio da Calculadora ou use instruções como nos Exemplos
+          </div>
         </div>
-      </div>
+      <?php endif; ?>
       <div class='row'>
         <div class='col s6 l2'>
           <a onclick='$("#tec-btn-box-search").slideToggle();' href='#!' class="btn-flat grey lighten-3 waves-effect waves-light hoverable tooltipped" data-position='right' data-tooltip="Teclado">
@@ -85,6 +87,12 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
 
   </div>
 </div>
+<?php
+echo '<div class="container hide-on-med-and-up" >';
+$url =  urlencode('http://' . $_SERVER['HTTP_HOST'].Yii::app()->request->url);
+ShView::shareLinks($url);
+echo '</div><br>';
+?>
 <div class="container">
   <div class="card-panel">
       Exemplos:

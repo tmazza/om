@@ -89,7 +89,6 @@
              <li><a href="<?=$this->createUrl('/questionarios/index')?>">Questionários</a></li>
              <li><a href="<?=$this->createUrl('/instrucoes/index')?>">Instruções</a></li>
              <li><a href="<?=$this->createUrl('/sobre/apresentacao')?>">Sobre</a></li>
-             <li><a href="<?=$this->createUrl('/sobre/apresentacao')?>">Sobre</a></li>
              <?php if (!Yii::app()->user->isGuest): ?>
              <li><a href="<?=$this->createUrl('/site/logout')?>">Sair</a></li>
              <?php endif; ?>
