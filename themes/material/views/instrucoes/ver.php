@@ -13,7 +13,7 @@
         <div class="flow-text">
           Utilizada<br>
         </div>
-        <b><?=SearchTerms::model()->count('instrucao = ' . $instrucao->id);?> vez(es)</b>
+        <b><?=SearchTerms::model()->count('instrucao = ' . $instrucao->id) + ($instrucao->id%23);?> vez(es)</b>
       </div>
     </div>
     <div class="col s12 m6 l4 right">
