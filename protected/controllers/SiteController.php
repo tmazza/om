@@ -239,13 +239,23 @@ class SiteController extends MonitorController {
     }
 
 
-    public function actionCb(){
-      $org = Organizacao::model()->findByAttributes(array('orgID' => 'monitor'));
-      $code = stripslashes(unserialize($org->equationResults));
-      $change = $this->htmlToPrettyPrint($code);
-      $org->equationResults = serialize(addslashes($change));
-      $org->update(array('equationResults'));
-      $this->render('aa',array('c'=>$change));
+    // public function actionCb(){
+    //   $org = Organizacao::model()->findByAttributes(array('orgID' => 'monitor'));
+    //   $code = stripslashes(unserialize($org->equationResults));
+    //   $change = $this->htmlToPrettyPrint($code);
+    //   $org->equationResults = serialize(addslashes($change));
+    //   $org->update(array('equationResults'));
+    //   $this->render('aa',array('c'=>$change));
+    // }
+
+
+    public function actionIt(){
+      $insts = InstrucaoCodigo::model()->findAll();
+      foreach ($insts as $i) {
+        $i->template = addslashes($this->htmlToPrettyPrint(stripslashes($i->template)));
+        echo $i->id.',';
+        $i->update(array('template'));
+      }
     }
 
 
