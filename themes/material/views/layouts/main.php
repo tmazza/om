@@ -137,7 +137,11 @@
                   <!-- <div class='divider grey'></div> -->
                   <!-- <br> -->
               </div>
-              <div class='s6 m8'>
+              <div class='s6 m8 right-align white-text'>
+                <br><br><Br>
+                  Dúvidas ou sugestões?
+                  Email para: <br>
+                <a class='white-text' href='mailto:contato@omonitor.io'>contato@omonitor.io</a>
               </div>
             </div>
 
