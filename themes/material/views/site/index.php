@@ -73,19 +73,18 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
     </div>
   </div>
 
-  <div class='card-panel'>
 
-    <!--TESTE share-->
-    <?php
-    $this->widget('shared.widgets.Arquimedes.Arquimedes', array(
-        'tecladoTemplate' => 'template3',
-        'showSearchInput' => false,
-        'shareLinks' => $query,
-    ));
-
-    ?>
-
-  </div>
+  <?php if($query): ?>
+    <div class='card-panel'>
+      <?php
+      $this->widget('shared.widgets.Arquimedes.Arquimedes', array(
+          'tecladoTemplate' => 'template3',
+          'showSearchInput' => false,
+          'shareLinks' => $query,
+      ));
+      ?>
+    </div>
+  <?php endif; ?>
 </div>
 <?php
 echo '<div class="container hide-on-med-and-up" >';
