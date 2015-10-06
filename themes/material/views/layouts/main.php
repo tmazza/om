@@ -48,7 +48,8 @@
         <div class="container">
          <div class="nav-wrapper">
            <a class='brand-logo' style='padding-top:14px;' href='/'>
-             <img src='http://omonitor.io/webroot/logo2.png' height="45px;" />
+             <img src='<?=Yii::app()->baseUrl?>/webroot/logo2.png' height="45px;" />
+             <!-- <img src='http://omonitor.io/webroot/logo2.png' height="45px;" /> -->
            </a>
            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
            <ul class="right hide-on-med-and-down">
