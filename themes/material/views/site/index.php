@@ -37,16 +37,16 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
       <a onclick="$('#search-form').submit();" class="right btn-floating btn-large waves-effect waves-light blue-grey lighten-1 ">=</a>
     </div>
   </div>
-  <div class='row'>
+  <div class='row' style="margin-bottom: 0px;">
     <div class='col s12'>
       <?php if(!$query): ?>
-        <div class='row hide-on-large-only '>
+        <div class='row hide-on-large-only '  style="margin-bottom: 0px;">
           <div class='col s12 center-align'>
             <a class="waves-effect waves-light btn-flat modal-trigger" href="#como-utilizar">Como utilizar?</a>
           </div>
         </div>
       <?php endif; ?>
-      <div class='row'>
+      <div class='row'  style="margin-bottom: 0px;">
         <div class='col s6 l2'>
           <a onclick='$("#tec-btn-box-search").slideToggle();' href='#!' class="btn-flat grey lighten-3 waves-effect waves-light hoverable tooltipped" data-position='right' data-tooltip="Teclado">
             <i style='font-size:1.7em' class="material-icons black-text">keyboard</i>
