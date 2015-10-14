@@ -23,7 +23,13 @@ class SiteController extends MonitorController {
         ));
         $this->render('index', array(
             'exemplos' => $exemplos,
+            'comoUsar' => $this->getComoUsar(),
         ));
+    }
+
+    private function getComoUsar(){
+      $org = Organizacao::model()->findByAttributes(array('orgID'=>$this->orgID));
+      return is_null($org) ? null : $org->como_usar;
     }
 
     public function actionTopicos() {

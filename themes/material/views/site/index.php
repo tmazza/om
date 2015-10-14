@@ -42,7 +42,7 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
       <?php if(!$query): ?>
         <div class='row hide-on-large-only '>
           <div class='col s12 center-align'>
-            Use números, f(x) ou f(x,y) com o auxílio da Calculadora ou use instruções como nos Exemplos
+            <a class="waves-effect waves-light btn-flat modal-trigger" href="#como-utilizar">Como utilizar?</a>
           </div>
         </div>
       <?php endif; ?>
@@ -53,7 +53,7 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
           </a>
         </div>
         <div class='col s12 l8 hide-on-med-and-down center-align'>
-          Use números, f(x) ou f(x,y) com o auxílio da Calculadora ou use instruções como nos Exemplos
+          <a class="waves-effect waves-light btn-flat modal-trigger" href="#como-utilizar">Como utilizar?</a>
         </div>
         <div class='col s6 l2'>
           <a href='<?=$this->createUrl('site/aleatorio')?>' class="btn-flat grey lighten-3 right waves-effect waves-light hoverable tooltipped" data-position='left' data-tooltip="Exemplo aleatório">
@@ -100,6 +100,19 @@ echo '</div><br>';
     <?php $this->renderPartial('exemplos',array('exemplos'=>$exemplos)); ?>
   </div>
 </div>
+
+
+<div id="como-utilizar" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4 class="light">Como utilizar?</h4>
+      <p><?=$comoUsar;?></p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect btn-flat">Ok</a>
+    </div>
+</div>
+
+
 <script>
 $('#se').keyup(function(){
   $('#sr').html('<div class="progress"><div class="indeterminate"></div></div>');
