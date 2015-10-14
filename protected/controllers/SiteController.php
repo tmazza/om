@@ -39,7 +39,7 @@ class SiteController extends MonitorController {
     }
 
     public function actionAleatorio(){
-      $exemplos = CHtml::listData(ExemplosSearch::model()->findAll(),'id','valor');
+      $exemplos = CHtml::listData(ExemplosSearch::model()->findAll("publicado = 1"),'id','valor');
       $ids = array_keys($exemplos);
       $sel = rand(0,count($ids)-1);
       $this->redirect($this->createUrl('site/index',array(
