@@ -1,5 +1,6 @@
 <?php
 $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? false : $_GET['q'];
+$textoComoUsar = 'Como usar?';
 ?>
 <div class="container" style="margin-top:-49px;">
   <div class='row'>
@@ -42,7 +43,7 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
       <?php if(!$query): ?>
         <div class='row hide-on-large-only '  style="margin-bottom: 0px;">
           <div class='col s12 center-align'>
-            <a class="waves-effect waves-light btn-flat modal-trigger" href="#como-utilizar">Como utilizar?</a>
+            <a class="waves-effect waves-light btn-flat modal-trigger" href="#como-utilizar"><?=$textoComoUsar;?></a>
           </div>
         </div>
       <?php endif; ?>
@@ -53,7 +54,7 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
           </a>
         </div>
         <div class='col s12 l8 hide-on-med-and-down center-align'>
-          <a class="waves-effect waves-light btn-flat modal-trigger" href="#como-utilizar">Como utilizar?</a>
+          <a class="waves-effect waves-light btn-flat modal-trigger" href="#como-utilizar"><?=$textoComoUsar;?></a>
         </div>
         <div class='col s6 l2'>
           <a href='<?=$this->createUrl('site/aleatorio')?>' class="btn-flat grey lighten-3 right waves-effect waves-light hoverable tooltipped" data-position='left' data-tooltip="Exemplo aleatório">
@@ -104,7 +105,7 @@ echo '</div><br>';
 
 <div id="como-utilizar" class="modal modal-fixed-footer">
     <div class="modal-content">
-      <h4 class="light">Como utilizar?</h4>
+      <h4 class="light"><?=$textoComoUsar;?></h4>
       <p><?=$comoUsar;?></p>
     </div>
     <div class="modal-footer">
