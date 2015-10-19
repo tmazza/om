@@ -87,8 +87,9 @@ return array(
                 array(
                     'class' => 'CEmailLogRoute',
                     'levels' => 'error, warning',
-                    'emails' => array('tiagomdepaula@gmail.com'),
+                    'emails' => 'tiagomdepaula@gmail.com',
                 ),
+
 //                array(
 //                    'class' => 'ext.yii-debug-toolbar.YiiDebugToolbarRoute',
 //                    'ipFilters' => array('127.0.0.1', '::1'),

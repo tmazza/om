@@ -11,13 +11,14 @@ class SobreController extends MonitorController {
         if (parent::beforeAction($action)) {
             $this->titleMenuContexto = 'O Monitor';
             $this->showMenuConteudo = false;
-            $this->menuContexto = array(
-                ShCode::makeItem('Apresentação', $this->createUrl('sobre/apresentacao')),
-                ShCode::makeItem('Modo de usar', $this->createUrl('sobre/modoDeusar')),
-                ShCode::makeItem('Plataformas', $this->createUrl('sobre/plataformas')),
-                ShCode::makeItem('Referências', $this->createUrl('sobre/referencias')),
-                // ShCode::makeItem('Parceiros', $this->createUrl('sobre/parceiros')),
-            );
+            // $this->menuContexto = array(
+            //     ShCode::makeItem('Apresentação', $this->createUrl('/sobre/apresentacao')),
+            //     ShCode::makeItem('Modo de usar', $this->createUrl('/sobre/modoDeusar')),
+            //     ShCode::makeItem('Plataformas', $this->createUrl('/sobre/plataformas')),
+            //     ShCode::makeItem('Referências', $this->createUrl('/sobre/referencias')),
+            //     ShCode::makeItem('Primeiras Impressões', $this->createUrl('/sobre/comentarios')),
+            //     // ShCode::makeItem('Parceiros', $this->createUrl('sobre/parceiros')),
+            // );
             return true;
         } else {
             return false;
@@ -63,6 +64,14 @@ class SobreController extends MonitorController {
     //         'attr' => 'parceiros',
     //     ));
     // }
+
+    public function actionComentarios() {
+        $this->pageTitle = 'Primeiras Impressões - O Monitor';
+        $this->render('paginaSimples', array(
+            'org' => $this->getOrg(),
+            'attr' => 'comentarios',
+        ));
+    }
 
     private function getOrg() {
         return Organizacao::model()->findByAttributes(array(

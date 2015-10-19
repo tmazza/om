@@ -13,5 +13,10 @@ return array(
     '/instrucoes'                           => '/instrucoes/index',
     '/instrucao/<nome>-<id>'                => '/instrucoes/ver',
     '/instrucao/<id>'                       => '/instrucoes/ver',
+    '/primeiras-impressoes'                 => '/sobre/comentarios',
+    '/apresentação'                         => '/sobre/apresentacao',
+    '/referências'                          => '/sobre/referencias',
+    '/plataformas'                          => '/sobre/plataformas',
+    '/modo-de-usar'                         => '/sobre/modoDeusar',
     '/<q>'                                  => '/site/index',
 );

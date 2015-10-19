@@ -122,16 +122,14 @@
               <div class='col s6 m4' style="font-size:14px;">
                   <br>
                   <?= CHtml::link('Apresentação', $this->createUrl('sobre/apresentacao'),array('class'=>'white-text')); ?><br>
-                  <div class='divider grey'></div>
                   <br>
                   <?= CHtml::link('Modo de Usar', $this->createUrl('sobre/modoDeusar'),array('class'=>'white-text')); ?><br>
-                  <div class='divider grey'></div>
                   <br>
                   <?= CHtml::link('Plataformas', $this->createUrl('sobre/plataformas'),array('class'=>'white-text')); ?><br>
-                  <div class='divider grey'></div>
                   <br>
                   <?= CHtml::link('Referências', $this->createUrl('sobre/referencias'),array('class'=>'white-text')); ?><br>
-                  <div class='divider grey'></div>
+                  <br>
+                  <?= CHtml::link('Primeiras Impressões', $this->createUrl('sobre/comentarios'),array('class'=>'white-text')); ?><br>
                   <br>
                   <!-- <?//= CHtml::link('Parceiros', $this->createUrl('sobre/parceiros'),array('class'=>'white-text')); ?> -->
                   <!-- <div class='divider grey'></div> -->
@@ -142,6 +140,13 @@
                   Dúvidas ou sugestões?
                   Email para: <br>
                 <a class='white-text' href='mailto:contato@omonitor.io'>contato@omonitor.io</a>
+              </div>
+            </div>
+            <br><br>
+            <div class="row">
+              <div class="col s12">
+                <a class='left' style="margin-right: 5px;" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+                <a xmlns:cc="http://creativecommons.org/ns#" href="http://omonitor.io" property="cc:attributionName" rel="cc:attributionURL">omonitor.io</a> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons - Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional</a>.
               </div>
             </div>
 

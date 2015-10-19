@@ -520,3 +520,77 @@ REQUEST_URI=/dev/monitor-lite/instrucao/140
 in /opt/code/dev/monitor-lite/themes/material/views/instrucoes/ver.php (36)
 in /opt/code/dev/monitor-lite/protected/controllers/InstrucoesController.php (31)
 in /opt/code/dev/monitor-lite/index.php (20)
+2015/10/19 11:38:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "comentarios" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('comentarios')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('comentarios')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('sobre/comentari...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/sobre/comentarios
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/
+---
+2015/10/19 11:41:17 [error] [exception.CException] exception 'CException' with message 'A propriedade "Organizacao.comentarios" não está definida.' in /opt/code/dev/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(7401): CComponent->__get('comentarios')
+#1 /opt/code/dev/monitor-lite/themes/material/views/sobre/paginaSimples.php(18): CActiveRecord->__get('comentarios')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require('/opt/code/dev/m...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, true)
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/opt/code/dev/m...', Array, true)
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(3872): CController->renderPartial('paginaSimples', Array, true)
+#6 /opt/code/dev/monitor-lite/protected/controllers/SobreController.php(57): CController->render('paginaSimples', Array)
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(4139): SobreController->actionReferencias()
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('referencias')
+#12 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('sobre/referenci...')
+#13 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#15 {main}
+REQUEST_URI=/dev/monitor-lite/sobre/referencias
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/sobre/apresentacao
+---
+2015/10/19 11:41:23 [error] [exception.CException] exception 'CException' with message 'A propriedade "Organizacao.comentarios" não está definida.' in /opt/code/dev/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(7401): CComponent->__get('comentarios')
+#1 /opt/code/dev/monitor-lite/themes/material/views/sobre/paginaSimples.php(18): CActiveRecord->__get('comentarios')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require('/opt/code/dev/m...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, true)
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/opt/code/dev/m...', Array, true)
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(3872): CController->renderPartial('paginaSimples', Array, true)
+#6 /opt/code/dev/monitor-lite/protected/controllers/SobreController.php(57): CController->render('paginaSimples', Array)
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(4139): SobreController->actionReferencias()
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('referencias')
+#12 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('sobre/referenci...')
+#13 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#15 {main}
+REQUEST_URI=/dev/monitor-lite/sobre/referencias
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/sobre/apresentacao
+---
+2015/10/19 11:43:10 [error] [exception.CException] exception 'CException' with message 'A propriedade "Organizacao.comentarios" não está definida.' in /opt/code/dev/monitor-src/framework/yiilite.php:617
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(7401): CComponent->__get('comentarios')
+#1 /opt/code/dev/monitor-lite/themes/material/views/sobre/paginaSimples.php(18): CActiveRecord->__get('comentarios')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require('/opt/code/dev/m...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, true)
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/opt/code/dev/m...', Array, true)
+#5 /opt/code/dev/monitor-src/framework/yiilite.php(3872): CController->renderPartial('paginaSimples', Array, true)
+#6 /opt/code/dev/monitor-lite/protected/controllers/SobreController.php(73): CController->render('paginaSimples', Array)
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(4139): SobreController->actionComentarios()
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('comentarios')
+#12 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('sobre/comentari...')
+#13 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#14 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#15 {main}
+REQUEST_URI=/dev/monitor-lite/primeiras-impressoes
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/refer%C3%AAncias
+---
