@@ -246,6 +246,14 @@ class SiteController extends MonitorController {
 
     }
 
+    // public function actionCamadas(){
+    //   $org = Organizacao::model()->findByAttributes(array('orgID' => 'monitor'));
+    //   $code = stripslashes(unserialize($org->equationResults));
+    //   $change = $this->htmlToPrettyPrint($code);
+    //   $org->equationResults = serialize(addslashes($change));
+    //   $org->update(array('equationResults'));
+    //   $this->render('aa',array('c'=>$change));
+    // }
 
     // public function actionCb(){
     //   $org = Organizacao::model()->findByAttributes(array('orgID' => 'monitor'));

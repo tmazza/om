@@ -52,7 +52,7 @@
            </a>
            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
            <ul class="right hide-on-med-and-down">
-             <li><a href="<?=$this->createUrl('/questionarios/index')?>">Questionários</a></li>
+             <!-- <li><a href="<?//=$this->createUrl('/questionarios/index')?>">Questionários</a></li> -->
              <li><a href="<?=$this->createUrl('/instrucoes/index')?>">Instruções</a></li>
              <li><a href="<?=$this->createUrl('/sobre/apresentacao')?>">Sobre</a></li>
              <!-- <li><a href="<?//=$this->createUrl('topicos/index')?>">Tópicos</a></li> -->

@@ -4,6 +4,11 @@ class QuestionariosController extends MonitorController{
   public $questionario;
   public $template = '2';
 
+  protected function beforeAction($action){
+    $this->redirect($this->createUrl('/'));
+    return parent::beforeAction($action);
+  }
+
   public function actions() {
       return array(
           'CorrigirQuestao' => array(

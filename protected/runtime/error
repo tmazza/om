@@ -594,3 +594,163 @@ Stack trace:
 REQUEST_URI=/dev/monitor-lite/primeiras-impressoes
 HTTP_REFERER=http://localhost:8080/dev/monitor-lite/refer%C3%AAncias
 ---
+2015/11/28 14:11:09 [error] [php] Undefined offset: 0 (/opt/code/dev/monitor-src/shared/widgets/Questionario/views/_templatePreencherExpressao.php:29)
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(6198): ResolverQuestionario->renderFile()
+#1 /opt/code/dev/monitor-src/shared/widgets/Questionario/views/main.php(12): ResolverQuestionario->render()
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3497): require()
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3472): ResolverQuestionario->renderInternal()
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(6198): ResolverQuestionario->renderFile()
+#5 /opt/code/dev/monitor-src/shared/widgets/Questionario/ResolverQuestionario.php(29): ResolverQuestionario->render()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3526): ResolverQuestionario->run()
+#7 /opt/code/dev/monitor-lite/themes/material/views/questionarios/ver.php(15): QuestionariosController->widget()
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require()
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(3472): QuestionariosController->renderInternal()
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(3904): QuestionariosController->renderFile()
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(3872): QuestionariosController->renderPartial()
+#12 /opt/code/dev/monitor-lite/protected/controllers/QuestionariosController.php(37): QuestionariosController->render()
+#13 unknown(0): QuestionariosController->actionVer()
+#14 /opt/code/dev/monitor-src/framework/yiilite.php(4121): ReflectionMethod->invokeArgs()
+#15 /opt/code/dev/monitor-src/framework/yiilite.php(4138): CInlineAction->runWithParamsInternal()
+#16 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams()
+#17 /opt/code/dev/monitor-src/framework/yiilite.php(3637): QuestionariosController->runAction()
+#18 /opt/code/dev/monitor-src/framework/yiilite.php(3627): QuestionariosController->runActionWithFilters()
+#19 /opt/code/dev/monitor-src/framework/yiilite.php(1761): QuestionariosController->run()
+#20 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController()
+#21 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#22 /opt/code/dev/monitor-lite/index.php(20): CWebApplication->run()
+REQUEST_URI=/dev/monitor-lite/questionario/calculo-i-%28uma-variavel%29-4
+in /opt/code/dev/monitor-src/shared/widgets/Questionario/views/_templatePreencherExpressao.php (29)
+in /opt/code/dev/monitor-src/shared/widgets/Questionario/views/main.php (12)
+in /opt/code/dev/monitor-src/shared/widgets/Questionario/ResolverQuestionario.php (29)
+2015/11/28 14:17:58 [error] [php] Undefined offset: 0 (/opt/code/dev/monitor-src/shared/widgets/Questionario/views/_templatePreencherExpressao.php:29)
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(6198): ResolverQuestionario->renderFile()
+#1 /opt/code/dev/monitor-src/shared/widgets/Questionario/views/main.php(12): ResolverQuestionario->render()
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3497): require()
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3472): ResolverQuestionario->renderInternal()
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(6198): ResolverQuestionario->renderFile()
+#5 /opt/code/dev/monitor-src/shared/widgets/Questionario/ResolverQuestionario.php(29): ResolverQuestionario->render()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3526): ResolverQuestionario->run()
+#7 /opt/code/dev/monitor-lite/themes/material/views/questionarios/ver.php(15): QuestionariosController->widget()
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require()
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(3472): QuestionariosController->renderInternal()
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(3904): QuestionariosController->renderFile()
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(3872): QuestionariosController->renderPartial()
+#12 /opt/code/dev/monitor-lite/protected/controllers/QuestionariosController.php(37): QuestionariosController->render()
+#13 unknown(0): QuestionariosController->actionVer()
+#14 /opt/code/dev/monitor-src/framework/yiilite.php(4121): ReflectionMethod->invokeArgs()
+#15 /opt/code/dev/monitor-src/framework/yiilite.php(4138): CInlineAction->runWithParamsInternal()
+#16 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams()
+#17 /opt/code/dev/monitor-src/framework/yiilite.php(3637): QuestionariosController->runAction()
+#18 /opt/code/dev/monitor-src/framework/yiilite.php(3627): QuestionariosController->runActionWithFilters()
+#19 /opt/code/dev/monitor-src/framework/yiilite.php(1761): QuestionariosController->run()
+#20 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController()
+#21 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#22 /opt/code/dev/monitor-lite/index.php(20): CWebApplication->run()
+REQUEST_URI=/dev/monitor-lite/questionario/calculo-ii-%28mais-de-uma-variavel%29-3
+in /opt/code/dev/monitor-src/shared/widgets/Questionario/views/_templatePreencherExpressao.php (29)
+in /opt/code/dev/monitor-src/shared/widgets/Questionario/views/main.php (12)
+in /opt/code/dev/monitor-src/shared/widgets/Questionario/ResolverQuestionario.php (29)
+2015/11/28 14:38:31 [error] [exception.CException] exception 'CException' with message 'RespostaForm and its behaviors do not have a method or closure named "getSequencias".' in /opt/code/dev/monitor-src/framework/yiilite.php:711
+Stack trace:
+#0 /opt/code/dev/monitor-src/shared/widgets/Questionario/views/_templatePreencherExpressao.php(5): CComponent->__call('getSequencias', Array)
+#1 /opt/code/dev/monitor-src/shared/widgets/Questionario/views/_templatePreencherExpressao.php(5): RespostaForm->getSequencias()
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3497): require('/opt/code/dev/m...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, false)
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(6198): CBaseController->renderFile('/opt/code/dev/m...', Array, false)
+#5 /opt/code/dev/monitor-src/shared/widgets/Questionario/views/main.php(12): CWidget->render('_templatePreenc...', Array)
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3497): require('/opt/code/dev/m...')
+#7 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, false)
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(6198): CBaseController->renderFile('/opt/code/dev/m...', Array, false)
+#9 /opt/code/dev/monitor-src/shared/widgets/Questionario/ResolverQuestionario.php(29): CWidget->render('main', Array)
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(3526): ResolverQuestionario->run()
+#11 /opt/code/dev/monitor-lite/themes/material/views/questionarios/ver.php(15): CBaseController->widget('shared.widgets....', Array)
+#12 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require('/opt/code/dev/m...')
+#13 /opt/code/dev/monitor-src/framework/yiilite.php(3472): CBaseController->renderInternal('/opt/code/dev/m...', Array, true)
+#14 /opt/code/dev/monitor-src/framework/yiilite.php(3904): CBaseController->renderFile('/opt/code/dev/m...', Array, true)
+#15 /opt/code/dev/monitor-src/framework/yiilite.php(3872): CController->renderPartial('ver', Array, true)
+#16 /opt/code/dev/monitor-lite/protected/controllers/QuestionariosController.php(37): CController->render('ver', Array)
+#17 [internal function]: QuestionariosController->actionVer('1')
+#18 /opt/code/dev/monitor-src/framework/yiilite.php(4121): ReflectionMethod->invokeArgs(Object(QuestionariosController), Array)
+#19 /opt/code/dev/monitor-src/framework/yiilite.php(4138): CAction->runWithParamsInternal(Object(QuestionariosController), Object(ReflectionMethod), Array)
+#20 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams(Array)
+#21 /opt/code/dev/monitor-src/framework/yiilite.php(3637): CController->runAction(Object(CInlineAction))
+#22 /opt/code/dev/monitor-src/framework/yiilite.php(3627): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('ver')
+#24 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/v...')
+#25 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#26 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#27 {main}
+REQUEST_URI=/dev/monitor-lite/questionario/teste-1
+HTTP_REFERER=http://localhost:8080/dev/monitor-lite/questionarios
+---
+2015/11/28 14:41:04 [error] [php] Undefined variable: selecionados (/opt/code/dev/monitor-src/shared/widgets/Questionario/views/_templatePreencherExpressao.php:7)
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(6198): ResolverQuestionario->renderFile()
+#1 /opt/code/dev/monitor-src/shared/widgets/Questionario/views/main.php(12): ResolverQuestionario->render()
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(3497): require()
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(3472): ResolverQuestionario->renderInternal()
+#4 /opt/code/dev/monitor-src/framework/yiilite.php(6198): ResolverQuestionario->renderFile()
+#5 /opt/code/dev/monitor-src/shared/widgets/Questionario/ResolverQuestionario.php(29): ResolverQuestionario->render()
+#6 /opt/code/dev/monitor-src/framework/yiilite.php(3526): ResolverQuestionario->run()
+#7 /opt/code/dev/monitor-lite/themes/material/views/questionarios/ver.php(15): QuestionariosController->widget()
+#8 /opt/code/dev/monitor-src/framework/yiilite.php(3493): require()
+#9 /opt/code/dev/monitor-src/framework/yiilite.php(3472): QuestionariosController->renderInternal()
+#10 /opt/code/dev/monitor-src/framework/yiilite.php(3904): QuestionariosController->renderFile()
+#11 /opt/code/dev/monitor-src/framework/yiilite.php(3872): QuestionariosController->renderPartial()
+#12 /opt/code/dev/monitor-lite/protected/controllers/QuestionariosController.php(37): QuestionariosController->render()
+#13 unknown(0): QuestionariosController->actionVer()
+#14 /opt/code/dev/monitor-src/framework/yiilite.php(4121): ReflectionMethod->invokeArgs()
+#15 /opt/code/dev/monitor-src/framework/yiilite.php(4138): CInlineAction->runWithParamsInternal()
+#16 /opt/code/dev/monitor-src/framework/yiilite.php(3652): CInlineAction->runWithParams()
+#17 /opt/code/dev/monitor-src/framework/yiilite.php(3637): QuestionariosController->runAction()
+#18 /opt/code/dev/monitor-src/framework/yiilite.php(3627): QuestionariosController->runActionWithFilters()
+#19 /opt/code/dev/monitor-src/framework/yiilite.php(1761): QuestionariosController->run()
+#20 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController()
+#21 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#22 /opt/code/dev/monitor-lite/index.php(20): CWebApplication->run()
+REQUEST_URI=/dev/monitor-lite/questionario/teste-1
+in /opt/code/dev/monitor-src/shared/widgets/Questionario/views/_templatePreencherExpressao.php (7)
+in /opt/code/dev/monitor-src/shared/widgets/Questionario/views/main.php (12)
+in /opt/code/dev/monitor-src/shared/widgets/Questionario/ResolverQuestionario.php (29)
+2015/12/11 11:02:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "index" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('index')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/i...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/
+---
+2015/12/11 11:02:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "index" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('index')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/i...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/
+---
+2015/12/11 11:02:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "index" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('index')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/i...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/
+---
+2015/12/11 11:02:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "index" solicitada.' in /opt/code/dev/monitor-src/framework/yiilite.php:3750
+Stack trace:
+#0 /opt/code/dev/monitor-src/framework/yiilite.php(3632): CController->missingAction('index')
+#1 /opt/code/dev/monitor-src/framework/yiilite.php(1761): CController->run('index')
+#2 /opt/code/dev/monitor-src/framework/yiilite.php(1681): CWebApplication->runController('questionarios/i...')
+#3 /opt/code/dev/monitor-src/framework/yiilite.php(1202): CWebApplication->processRequest()
+#4 /opt/code/dev/monitor-lite/index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/dev/monitor-lite/questionarios/
+---
