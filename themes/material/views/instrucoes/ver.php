@@ -2,48 +2,42 @@
   <div class="card-panel">
     <h5 class=''>
       <?=$instrucao->descricao;?>
-      <?php if(count($instrucao->nomes) > 0): ?>
-      <?php endif; ?>
     </h5>
   </div>
 
-  <div class="row">
-    <div class="col s12 m6 l3">
-      <div class="card-panel center-align">
-        <div class="flow-text">
-          Utilizada<br>
-        </div>
-        <b><?=SearchTerms::model()->count('instrucao = ' . $instrucao->id) + ($instrucao->id%23);?> vez(es)</b>
-      </div>
+  <a href='<?=$this->createUrl('site/index',array('q'=>$instrucao->nomes[0]->id));?>'>
+    <div class="card-panel center-align">
+      <span class="btn btn-primary">Executar interação</span>
     </div>
-    <div class="col s12 m6 l4 right">
-      <div class="right-align flow-text">
-        <a href='<?=$this->createUrl('site/index',array('q'=>$instrucao->nomes[0]->id));?>'>
-          <div class="card-panel center-align">
-            <span class=" tooltipped" data-tooltip='Executar interação.' title='Executar interação.'>
-              Interagir <i class='material-icons right' style="padding-top:8px;">send</i>
-            </span>
-          </div>
-        </a>
-      </div>
-    </div>
-
-  </div>
+  </a>
 
   <div class="row">
-    <div class="col s12">
+    <div class="col s12 m6">
       <div class="card-panel">
-        <?php if(count($instrucao->templates) > 0): ?>
-          <?php $t=$instrucao->templates[0];?>
-          <div class='sage-auto'>
-            <script type="text/sagecell">
-              <?=ShView::mergeDataToTemplate(stripslashes($t->template),array());?>
-            </script>
-          </div>
-        <?php endif; ?>
+        <span class="center-align flow-text">Interações relacionadas</span>
+        <br>
+        <div class="divider"></div>
+        <br>
+        <?php
+        $apelidos = CHtml::listData($instrucao->nomes,'id','id');
+        $apelidos[] = 'asads';
+        $apelidos = array_map(function($i) { return "valor LIKE '{$i}%'"; },$apelidos);
+        $exemplos = ExemplosSearch::model()->findAll(implode(' OR ', $apelidos));
+        $relacionados = [];
+        foreach ($exemplos as $e) {
+          if(!is_null($e->categoria)){
+             $relacionados = array_merge($relacionados,$e->categoria->exemplos);
+          }
+        }
+        foreach ($relacionados as $r) {
+          if($r->id !== $instrucao->id){
+            echo CHtml::link($r->valor,$this->createUrl('/site/index',array('q'=>$r->valor))) .  '<br>';
+          }
+        }
+        ?>
       </div>
     </div>
-    <div class="col s12">
+    <div class="col s12 m6">
       <div class="card-panel">
         <span class="center-align flow-text">Apelidos</span>
         <br>

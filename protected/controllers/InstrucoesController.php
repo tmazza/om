@@ -15,8 +15,6 @@ class InstrucoesController extends MonitorController{
     }
 
     public function actionVer($id){
-
-
       $instrucao = Instrucao::model()->with('nomes')->findByPk((int)$id,array(
         'condition' => 'publicado = 1',
       ));
