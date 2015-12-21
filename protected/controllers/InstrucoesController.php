@@ -23,6 +23,7 @@ class InstrucoesController extends MonitorController{
       }
 
       $this->pageTitle = ucfirst($instrucao->descricao) . ' - O Monitor';
+      $this->descricao = 'Instrução ' . $instrucao->descricao;
 
       $this->render('ver', array(
         'instrucao' => $instrucao,
