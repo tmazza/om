@@ -29,9 +29,11 @@
              $relacionados = array_merge($relacionados,$e->categoria->exemplos);
           }
         }
+        $print = [];
         foreach ($relacionados as $r) {
-          if($r->id !== $instrucao->id){
+          if($r->id !== $instrucao->id && !in_array($r->id,$print)){
             echo CHtml::link($r->valor,$this->createUrl('/site/index',array('q'=>$r->valor))) .  '<br>';
+            $print[] = $r->id;
           }
         }
         ?>
