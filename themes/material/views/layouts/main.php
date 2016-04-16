@@ -52,7 +52,6 @@
            </a>
            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
            <ul class="right hide-on-med-and-down">
-             <!-- <li><a href="<?//=$this->createUrl('/questionarios/index')?>">Questionários</a></li> -->
              <li><a href="<?=$this->createUrl('/instrucoes/index')?>">Instruções</a></li>
              <li><a href="<?=$this->createUrl('/sobre/apresentacao')?>">Sobre</a></li>
              <!-- <li><a href="<?//=$this->createUrl('topicos/index')?>">Tópicos</a></li> -->
@@ -86,7 +85,6 @@
                  </a>
                </li>
              <?php endif; ?>
-             <li><a href="<?=$this->createUrl('/questionarios/index')?>">Questionários</a></li>
              <li><a href="<?=$this->createUrl('/instrucoes/index')?>">Instruções</a></li>
              <li><a href="<?=$this->createUrl('/sobre/apresentacao')?>">Sobre</a></li>
              <?php if (!Yii::app()->user->isGuest): ?>
@@ -162,11 +160,6 @@
       </script>
 
       <!-- fim footer -->
-      <?php
-          $this->widget('shared.widgets.Feedback.Feedback', array(
-              'mensagem' => "Deixe seu feedback ... ",
-              'autor_id' => Mensagem::ParaGustavoMendes))
-      ?>
     </body>
 
 </html>
