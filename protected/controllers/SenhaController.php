@@ -8,9 +8,7 @@
 class SenhaController extends MonitorController {
 
     public function actionRecuperar() {
-        echo '<pre>';
-        print_r('TODO');
-        exit;
+      $this->render('index');
     }
 
 }
