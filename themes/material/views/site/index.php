@@ -3,41 +3,57 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
 $textoComoUsar = 'Como usar?';
 ?>
 <div class="container" style="margin-top:-49px;">
-  <div class='row'>
+  <div class='row' id='header-auto'>
     <div class='col m10 s9'>
       <nav class='white'>
         <div class="nav-wrapper">
           <form method="get" id='search-form' action="<?php echo $this->createUrl('site/index'); ?>">
             <div class="input-field" style="color:#000;">
               <?php
-              $this->widget('zii.widgets.jui.CJuiAutoComplete', array(
-                  'name' => 'q',
-                  'value' => $query,
-                  'source' => Yii::app()->controller->createUrl('search/AutocompleteInstrucao'),
-                  'options' => array(
-                      'minLength' => '1',
-                      'select'=>'js: function(event,ui){
-                        window.location.assign("/app/?q="+encodeURI(ui.item.value)+"#OM")
-                      }',
-                      'response'=>'js:function(event,ui){
-                        MathJax.Hub.Queue(["Typeset",MathJax.Hub,document.getElementById("ui-id-1")])
-                      }',
-                  ),
-                  'htmlOptions' => array(
-                      'id' => 'search',
+              echo CHtml::textField('q',$query,[
+                                      'id' => 'search',
                       'autocomplete' => 'off',
                       'required' => true,
                       // 'placeholder' => '',
                       'style' => 'padding-left:1rem;border:none!important;box-shadow:none!important;',
                       // 'type' => 'search',
-                  ),
-              ));
+                ]);
+              // $this->widget('zii.widgets.jui.CJuiAutoComplete', array(
+              //     'name' => 'q',
+              //     'value' => $query,
+              //     'source' => Yii::app()->controller->createUrl('/search/AutocompleteInstrucao'),
+              //     'options' => array(
+              //         'minLength' => '1',
+              //         'select'=>'js: function(event,ui){
+              //           window.location.assign("/app/?q="+encodeURI(ui.item.value)+"#OM")
+              //         }',
+              //         'response'=>'js:function(event,ui){
+              //           var items = document.getElementsByClassName("ui-menu-item");
+              //           $.each(items,function(k,v){
+              //             alert(JSON.stringify(k));
+              //             MathJax.Hub.Queue(["Typeset",MathJax.Hub,v]);
+              //           });
+              //         }',
+              //     ),
+              //     'htmlOptions' => array(
+              //         'id' => 'search',
+              //         'autocomplete' => 'off',
+              //         'required' => true,
+              //         // 'placeholder' => '',
+              //         'style' => 'padding-left:1rem;border:none!important;box-shadow:none!important;',
+              //         // 'type' => 'search',
+              //     ),
+              // ));
               ?>
             </div>
           </form>
         </div>
       </nav>
     </div>
+
+
+
+
     <div class='col m1 hide-on-small-only'>&nbsp;</div>
   <div class='col s3 m1' style="padding-top:2px;"  id='OM'>
       <a onclick="$('#search-form').submit();" class="right btn-floating btn-large waves-effect waves-light blue-grey lighten-1 ">=</a>
@@ -133,5 +149,20 @@ $('#se').keyup(function(){
 
 $(document).ready(function(){
   $('#search').focus();
+});
+</script>
+
+<script>
+$("#search").autocomplete({
+  minLength: 1,
+  'source':'<?=Yii::app()->controller->createUrl('/search/AutocompleteInstrucao')?>',
+  'select': function(event,ui){
+      window.location.assign("/app/?q="+encodeURI(ui.item.value)+"#OM");
+  },
+  'open':function(event,ui){ 
+    console.log("ok");
+    MathJax.Hub.Queue(["Typeset",MathJax.Hub,document.getElementById("ui-id-1")]);
+    console.log("---- end ok");
+  },
 });
 </script>
