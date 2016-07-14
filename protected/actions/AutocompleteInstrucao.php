@@ -35,13 +35,12 @@ class AutocompleteInstrucao extends CAction {
         $instrucoes=Yii::app()->cache->get('instrucoes');
         if($instrucoes===false) {
             $instrucoes = array_map(function($i){
-                $words = explode(',',$i->keywords);
                 return [
                     'label'=>$i->descricao,
-                    'value'=>$words[0], // TODO: join com instrucao nome
+                    'value'=>$i->apelido->id,
                     'query'=>ShView::normalizarSting($i->descricao),
                 ];
-            },Instrucao::model()->findAll("publicado=1"));
+            },Instrucao::model()->with('apelido')->findAll("publicado=1"));
             Yii::app()->cache->set('instrucoes',$instrucoes,60*2);
         }
         return $instrucoes;

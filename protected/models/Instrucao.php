@@ -32,6 +32,7 @@ class Instrucao extends CActiveRecord {
     public function relations() {
         return array(
             'nomes' => array(self::HAS_MANY, 'InstrucaoNome', 'instrucao_id'),
+            'apelido' => array(self::HAS_ONE, 'InstrucaoNome', 'instrucao_id'),
             'templates' => array(self::HAS_MANY, 'InstrucaoCodigo', 'instrucao_id'),
         );
     }
