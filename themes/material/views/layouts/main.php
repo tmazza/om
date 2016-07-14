@@ -18,17 +18,11 @@
         <link rel='stylesheet' href='<?= Yii::app()->baseUrl ?>/themes/material/assets/css/main.css' type='text/css' media='all' />
 
 		<?php if($this->faceData): ?>
-			<!-- Facebook -->
 			<meta property="og:title" content="<?=isset($_GET['q']) ?  $_GET['q'] : null; ?>"/>
 			<meta property="og:image" content="http://omonitor.io/webroot/logo-face3.png"/>
-			<meta property="og:site_name" content="O Monitor"/>
-			<meta property="og:description" content="Calcule problemas matemáticos em diversas áreas: ... - O Monitor"/>
+			<meta property="og:site_name" content="<?=$this->pageTitle;?>"/>
+			<meta property="og:description" content="<?=$this->descricao?>"/>
 		<?php endif; ?>
-
-        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-        <script src='<?php echo Yii::app()->baseUrl ?>/webroot/monitor/js/html5.js'></script>
-        <![endif]-->
     </head>
 
     <body class='grey lighten-3'>
@@ -46,51 +40,21 @@
       <nav class='blue-grey darken-1'>
         <div class="container">
          <div class="nav-wrapper">
-           <a class='brand-logo' style='padding-top:14px;' href='/'>
-             <img src='<?=Yii::app()->baseUrl?>/webroot/logo2.png' height="45px;" />
-             <!-- <img src='http://omonitor.io/webroot/logo2.png' height="45px;" /> -->
-           </a>
+           <?php
+           $img = CHtml::image(Yii::app()->baseUrl.'/webroot/logo2.png','O Monitor',[
+             'style'=>'height:45px',
+           ]);
+           echo CHtml::link($img,$this->createUrl('/site/index'),[
+             'class'=>'brand-logo',
+             'style'=>'padding-top:14px;',
+           ]);
+           ?>
            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
            <ul class="right hide-on-med-and-down">
-             <li><a href="<?=$this->createUrl('/instrucoes/index')?>">Instruções</a></li>
              <li><a href="<?=$this->createUrl('/sobre/apresentacao')?>">Sobre</a></li>
-             <!-- <li><a href="<?//=$this->createUrl('topicos/index')?>">Tópicos</a></li> -->
-             <?php if (Yii::app()->user->isGuest): ?>
-              <li>
-               <a href='<?=$this->createUrl('/site/login')?>' class="white-text">
-                 <b class="">Cadastre-se / Login</b>
-               </a>
-              </li>
-             <?php else: ?>
-               <li>
-                 <a href='<?=$this->createUrl('/home/default/index');?>' class="white-text">
-                   <b><?=Yii::app()->user->nome;?></b>
-                 </a>
-                 <!-- &nbsp; <?=CHtml::link('(Sair)',$this->createUrl('site/logout'),array('class'=>'grey-text'));?> -->
-               </li>
-             <?php endif; ?>
-
            </ul>
            <ul class="side-nav" id="mobile-demo">
-             <?php if (Yii::app()->user->isGuest): ?>
-              <li>
-               <a href='<?=$this->createUrl('/site/login')?>' class="black-text">
-                 <b class="">Cadastre-se / Login</b>
-               </a>
-              </li>
-             <?php else: ?>
-               <li>
-                 <a href='<?=$this->createUrl('/home/default/index');?>' class="black-text">
-                   <b><?=Yii::app()->user->nome;?></b>
-                 </a>
-               </li>
-             <?php endif; ?>
-             <li><a href="<?=$this->createUrl('/instrucoes/index')?>">Instruções</a></li>
              <li><a href="<?=$this->createUrl('/sobre/apresentacao')?>">Sobre</a></li>
-             <?php if (!Yii::app()->user->isGuest): ?>
-             <li><a href="<?=$this->createUrl('/site/logout')?>">Sair</a></li>
-             <?php endif; ?>
-             <!-- <li><a href="<?//=$this->createUrl('topicos/index')?>">Tópicos</a></li> -->
            </ul>
          </div>
        </div>

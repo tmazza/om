@@ -64,35 +64,25 @@ $textoComoUsar = 'Como usar?';
       </div>
 
       <?php
-      $this->widget('shared.widgets.Teclado.ViewTeclado', array(
+      $this->widget('application.widgets.Teclado.ViewTeclado', array(
           'inputID' => 'search',
           'tecladoID' => Teclado::Arquimedes,
           'template' => 'template5',
       ));
       ?>
-
     </div>
   </div>
-
-
   <?php if($query): ?>
     <div class='card-panel'>
       <?php
-      $this->widget('shared.widgets.Arquimedes.Arquimedes', array(
+      $this->widget('application.widgets.Arquimedes.Arquimedes', array(
           'tecladoTemplate' => 'template3',
           'showSearchInput' => false,
-          'shareLinks' => $query,
       ));
       ?>
     </div>
   <?php endif; ?>
 </div>
-<?php
-echo '<div class="container hide-on-med-and-up" >';
-$url =  urlencode('http://' . $_SERVER['HTTP_HOST'].Yii::app()->request->url);
-ShView::shareLinks($url);
-echo '</div><br>';
-?>
 <div class="container">
   <div class="card-panel">
       Exemplos:

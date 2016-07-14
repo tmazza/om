@@ -1,53 +1,42 @@
 <?php
-
-Yii::setPathOfAlias('shared', __DIR__ . '/../../src/shared');
-
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => "O Monitor",
     'theme'=>'material',
     'defaultController' => 'site',
-    // preloading 'log' component
     'preload' => array('log'),
-    // autoloading model and component classes
     'import' => array(
-        'application.vendors.*',
-        'application.models.form.*',
         'application.components.*',
+        'application.vendors.*',
+        'application.models.*',
+        'application.models.form.*',
         'application.helpers.*',
-        'shared.behaviors.*',
-        'shared.models.*',
-        'shared.models.forms.*',
-        'shared.components.*',
-        'shared.helpers.*',
-        'shared.extensions.imperavi-redactor-widget.*',
-        'shared.extensions.yii-debug-toolbar.*',
-        'shared.extensions.curl.*',
-        'shared.extensions..*',
     ),
     'language' => 'pt_br',
-    'modules' => require(dirname(__FILE__) . '/modulos.php'),
+    'modules' => array(
+        // 'gii' => array(
+        //     'class' => 'system.gii.GiiModule',
+        //     'password' => '',
+        //     'ipFilters' => array('127.0.0.1','::1'),
+        // ),
+    ),
     'aliases' => array(
         'foundation' => 'application.extensions.yiifoundation',
     ),
-    // application components
     'components' => array(
         'user' => array(
-            // enable cookie-based authentication
             'allowAutoLogin' => true,
         ),
         'cache' => array(
             'class' => 'CFileCache',
         ),
-        // uncomment the following to enable URLs in path-format
         'urlManager' => array(
             'urlFormat' => 'path',
             'caseSensitive' => true,
             'showScriptName' => false,
             'rules' => require(dirname(__FILE__) . '/rotas.php'),
         ),
-        'db' => require(dirname(__FILE__) . '/dbMonitor.php'),
-        'orgDb' => require(dirname(__FILE__) . '/database.php'),
+        'db' => require(dirname(__FILE__) . '/database.php'),
         'authManager' => array(
             'class' => 'CDbAuthManager',
             'connectionID' => 'db',
@@ -55,16 +44,11 @@ return array(
             'itemChildTable' => 'seg_authitemchild',
             'assignmentTable' => 'seg_authassignment',
         ),
-
-        //curl extension
         'curl' => array(
             'class' => 'shared.extensions.curl.Curl',
-            //'options' => array(/* additional curl options */),
         ),
-
         'errorHandler' => array(
-            // use 'site/error' action to display errors
-            'errorAction' => 'site/error',
+            'errorAction' => '/site/error',
         ),
         'log' => array(
             'class' => 'CLogRouter',
@@ -84,24 +68,10 @@ return array(
                     'levels' => 'trace',
                     'logFile' => 'trace',
                 ),
-                array(
-                    'class' => 'CEmailLogRoute',
-                    'levels' => 'error, warning',
-                    'emails' => 'tiagomdepaula@gmail.com',
-                ),
-
-//                array(
-//                    'class' => 'ext.yii-debug-toolbar.YiiDebugToolbarRoute',
-//                    'ipFilters' => array('127.0.0.1', '::1'),
-//                ),
-//                 array(
-//                    'class'=>'CProfileLogRoute',
-//                    'report'=>'summary',
-//                ),
             ),
         ),
     ),
     'params' => array(
-        'adminEmail' => 'contata@XXXomonitor.com',
+        'adminEmail' => 'contata@omonitor.io',
     ),
 );

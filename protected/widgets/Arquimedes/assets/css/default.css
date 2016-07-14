@@ -1,0 +1,54 @@
+#arq-content{
+    background: #fff;
+    /*padding: 10px;*/
+    /*border: 1px solid #ddd;*/
+    border-radius: 0px;
+    margin-bottom: 40px;
+}
+#arq-code {
+    margin-top: 12px;
+}
+@media (max-width:600px){
+  .collection.with-header .collection-item {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+}
+.arq-submit-button {
+    display: inline-block;
+    vertical-align: top;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    display: inline-block;
+    vertical-align: top;
+    width: 9%;
+    height: 34px;
+}
+#arq-code .camada-sage {
+    width: 100%;
+}
+.ui-corner-all {
+    border-radius: 0px;
+}
+.ui-widget-header {
+    background: #3C8DBC;
+    color: white;
+}
+.ui-dialog {
+    z-index: 1000000!important;
+}
+#s-hist {
+	width: 93%;
+	overflow: hidden;
+	margin-bottom: 5px;
+	text-align: center;
+}
