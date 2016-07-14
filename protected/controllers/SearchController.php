@@ -5,7 +5,7 @@
  *
  * @author tiago
  */
-class SearchController extends MonitorController {
+class SearchController extends MainController {
 
     public $palavrasOriginais = array();
 
@@ -13,7 +13,7 @@ class SearchController extends MonitorController {
     public function actions() {
         return array(
             'ParseInstrucao' => 'shared.actions.ParseInstrucao',
-            'AutocompleteInstrucao' => 'shared.actions.AutocompleteInstrucao',
+            'AutocompleteInstrucao' => 'application.actions.AutocompleteInstrucao',
         );
 
     }
@@ -123,7 +123,7 @@ class SearchController extends MonitorController {
     }
 
     /**
-     * Para cada palavra busca ocorrencia em tópico e em subnbtopico
+     * Para cada palavra busca ocorrencia em tÃ³pico e em subnbtopico
      */
     private function buscaPalavra($palavra) {
         $porNome = Topico::buscaPorNome($palavra);
@@ -141,7 +141,7 @@ class SearchController extends MonitorController {
 			if(SearchLinks::inclui($q)){
 				$this->renderPartial('_savedSearch');
 			} else {
-				echo 'Não foi possível salvar.';
+				echo 'NÃ£o foi possÃ­vel salvar.';
 			}
 		}
 	}

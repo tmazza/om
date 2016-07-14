@@ -47,19 +47,6 @@ class InstrucaoCodigo extends CActiveRecord {
         );
     }
 
-    public function search() {
-        $criteria = new CDbCriteria;
-
-        $criteria->compare('id', $this->id);
-        $criteria->compare('descricao', $this->descricao, true);
-        $criteria->compare('template', $this->template);
-        $criteria->compare('ordem', $this->ordem);
-
-        return new CActiveDataProvider($this, array(
-            'criteria' => $criteria,
-        ));
-    }
-
     public static function model($className = __CLASS__) {
         return parent::model($className);
     }

@@ -28,7 +28,7 @@ class MainController extends CController {
             Yii::app()->clientScript->scriptMap['jquery-ui.js'] = false;
             Yii::app()->clientScript->scriptMap['jquery-ui.min.js'] = false;
         } else {
-            $sharedAssets = Yii::app()->assetManager->publish(Yii::getPathOfAlias('application.webroot'), false, -1, YII_DEBUG);
+            $sharedAssets = Yii::app()->assetManager->publish(Yii::getPathOfAlias('webroot.webroot'), false, -1, YII_DEBUG);
 
             Yii::app()->clientScript->registerCssFile($sharedAssets . '/css/sage-templates.css');
 

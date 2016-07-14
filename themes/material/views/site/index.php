@@ -16,12 +16,18 @@ $textoComoUsar = 'Como usar?';
                   'source' => Yii::app()->controller->createUrl('search/AutocompleteInstrucao'),
                   'options' => array(
                       'minLength' => '1',
+                      'select'=>'js: function(event,ui){
+                        window.location.assign("/app/?q="+encodeURI(ui.item.value)+"#OM")
+                      }',
+                      'response'=>'js:function(event,ui){
+                        MathJax.Hub.Queue(["Typeset",MathJax.Hub,document.getElementById("ui-id-1")])
+                      }',
                   ),
                   'htmlOptions' => array(
                       'id' => 'search',
                       'autocomplete' => 'off',
                       'required' => true,
-                      // 'placeholder' => 'Use números, funções f(x), f(x,y) ou os exemplos de instruções abaixo',
+                      // 'placeholder' => '',
                       'style' => 'padding-left:1rem;border:none!important;box-shadow:none!important;',
                       // 'type' => 'search',
                   ),
@@ -31,7 +37,6 @@ $textoComoUsar = 'Como usar?';
           </form>
         </div>
       </nav>
-
     </div>
     <div class='col m1 hide-on-small-only'>&nbsp;</div>
   <div class='col s3 m1' style="padding-top:2px;"  id='OM'>
@@ -83,14 +88,14 @@ $textoComoUsar = 'Como usar?';
     </div>
   <?php endif; ?>
 </div>
-<div class="container">
+<!-- <div class="container">
   <div class="card-panel">
       Exemplos:
       <input type='search' id='se' placeholder="Buscar..." />
     <div id='sr'></div>
-    <?php $this->renderPartial('exemplos',array('exemplos'=>$exemplos)); ?>
+    <?php //$this->renderPartial('exemplos',array('exemplos'=>$exemplos)); ?>
   </div>
-</div>
+</div> -->
 
 
 <div id="como-utilizar" class="modal modal-fixed-footer">

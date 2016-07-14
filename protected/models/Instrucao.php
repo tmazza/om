@@ -93,16 +93,15 @@ class Instrucao extends CActiveRecord {
                     ), true);
             $output .= $paramInput;
         }
-        // $org = Organizacao::model()->findByAttributes(array(
-        //     'orgID' => 'monitor',
-        // ));
+        $org = Organizacao::model()->findByAttributes(array(
+            'orgID' => 'monitor',
+        ));
 
         // Template usados na instrução
         $codes = $this->templates;
         foreach ($codes as $c) {
-            $traducoes = '' ; # ANTES: stripslashes(unserialize($org->traducoes)) . "\r\n"
             $output .= Yii::app()->controller->renderPartial($baseViewPath . '_template', array(
-                'conteudo' => $traducoes . ShView::mergeDataToTemplate($c->template, $data),
+                'conteudo' => stripslashes(unserialize($org->traducoes)) . "\r\n" . ShView::mergeDataToTemplate($c->template, $data),
                 'comando' => $c,
                 'n' => $c->id == 6 || $c->id == 7,
                     ), true);

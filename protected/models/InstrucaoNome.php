@@ -44,18 +44,6 @@ class InstrucaoNome extends CActiveRecord {
         );
     }
 
-    public function search() {
-        $criteria = new CDbCriteria;
-
-        $criteria->compare('id', $this->id, true);
-        $criteria->compare('entradas', $this->entradas, true);
-        $criteria->compare('instrucao_id', $this->instrucao_id);
-
-        return new CActiveDataProvider($this, array(
-            'criteria' => $criteria,
-        ));
-    }
-
     public static function model($className = __CLASS__) {
         return parent::model($className);
     }
