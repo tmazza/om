@@ -41,12 +41,24 @@ class AutocompleteInstrucao extends CAction {
                     'query'=>ShView::normalizarSting($i->descricao),
                 ];
             },Instrucao::model()->with('apelido')->findAll("publicado=1"));
-            Yii::app()->cache->set('instrucoes',$instrucoes,60*2);
+
+            $exemplos = array_map(function($e){
+                return [
+                    'label'=>'$'.$e->latex.'$',
+                    'value'=>$e->valor,
+                    'query'=>ShView::normalizarSting($e->latex),
+                ];
+            },ExemplosSearch::model()->findAll("publicado=1"));
+
+            Yii::app()->cache->set('instrucoes',$instrucoes+$exemplos,60*2);
         }
         return $instrucoes;
     }
 
 
+    /** 
+     * longest common subsequence por programação dinâmica
+     */
     private function lcs($a,$b){
         $m = strlen($a);
         $n = strlen($b);
