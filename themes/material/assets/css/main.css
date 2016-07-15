@@ -1,42 +1,30 @@
-.sage-auto select, .sage-int select {
-  display: block!important;
-}
-.sagecell_poweredBy {
-  display: none;
-}
-.sage-auto h5,.sage-int h5 {
-  font-size: 17px;
-}
-.sage-auto .sagecell_bookmarks {display: none;}
-.sage-auto .sagecell_spinner{
+.sage-auto select { display: block!important; }
+.sage-auto .sagecell_sessionOutput { border: none!important; }
+.sagecell_poweredBy { display: none; }
+.sage-auto h5 { font-size: 17px; }
+.sage-auto .sagecell_bookmarks { display: none; }
+.sage-auto .sagecell_spinner{ 
     display: block;
     position: relative;
     height: 20px;
     width: 20px;
 }
-.sage-auto img {
-  max-width: 100%;
-}
+.sage-auto img { max-width: 100%; }
 
 .sage-auto [type="checkbox"]:not(:checked),
-.sage-auto [type="checkbox"]:checked,
-.sage-int [type="checkbox"]:not(:checked),
-.sage-int [type="checkbox"]:checked {
-  position: relative;
-  left: 0px;
-  visibility: visible;
+.sage-auto [type="checkbox"]:checked{
+  position: relative!important;
+  left: 0px!important;
+  visibility: visible!important;
 }
 /*-- sagecell de interações --*/
-.sage-auto .sagecell_sessionOutput {
-  border: none!important;
-}
+.sage-auto .sagecell_sessionOutput {  border: none!important; }
 input.valid[type="text"], input.valid[type="text"]:focus, input.valid[type="password"], input.valid[type="password"]:focus, input.valid[type="email"], input.valid[type="email"]:focus, input.valid[type="url"], input.valid[type="url"]:focus, input.valid[type="time"], input.valid[type="time"]:focus, input.valid[type="date"], input.valid[type="date"]:focus, input.valid[type="datetime-local"], input.valid[type="datetime-local"]:focus, input.valid[type="tel"], input.valid[type="tel"]:focus, input.valid[type="number"], input.valid[type="number"]:focus, input.valid[type="search"], input.valid[type="search"]:focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus {
   border-bottom: 1px solid #ddd;
   box-shadow: 0px 1px 0px 0px #ddd;
 }
 @media all and (max-width: 600px) {
     .container {
-      width: 100%;
       width: 100%;
     }
     .card-panel {

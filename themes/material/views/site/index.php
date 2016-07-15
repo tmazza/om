@@ -24,34 +24,28 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
         </nav>
       </div>
       <div class='col m1 hide-on-small-only'>&nbsp;</div>
-      <div class='col s3 m1' style="padding-top:6px;">
+      <div class='col s3 m1' style="padding-top:2px;">
         <a onclick="$('#search-form').submit();" class="right btn-floating btn-large waves-effect waves-light blue-grey lighten-1 ">=</a>
       </div>
     </div>
     <div class='row' style="margin-bottom: 0px;">
       <div class='col s12'>
-        <?php if(!$query): ?>
-          <div class='row hide-on-large-only '  style="margin-bottom: 0px;">
-            <div class='col s12 center-align'>
-              <a class="waves-effect waves-light btn-flat modal-trigger" href="#como-utilizar">Como utilizar</a>
-            </div>
-          </div>
-        <?php endif; ?>
         <div class='row'  style="margin-bottom: 0px;">
-          <div class='col s6 l2'>
+          <div class='col s2 l2'>
             <a onclick='$("#tec-btn-box-search").slideToggle();' href='#!' class="btn-flat grey lighten-3 waves-effect waves-light hoverable tooltipped" data-position='right' data-tooltip="Teclado">
               <i style='font-size:1.7em' class="material-icons black-text">keyboard</i>
             </a>
           </div>
-          <div class='col s12 l8 hide-on-med-and-down center-align'>
-            <a class="waves-effect waves-light btn-flat modal-trigger" href="#como-utilizar">Como utilizar</a>
+          <div class='col s8 l8 center-align'>
+            <a class="waves-effect waves-light btn-flat" href="#como-utilizar" onclick="$('#como-usar').slideToggle();">Como usar?</a>
           </div>
-          <div class='col s6 l2'>
-            <a href='<?=$this->createUrl('site/aleatorio')?>' class="btn-flat grey lighten-3 right waves-effect waves-light hoverable tooltipped" data-position='left' data-tooltip="Exemplo aleatório">
+          <div class='col s2 l2'>
+            <a href='<?=$this->createUrl('site/aleatorio')?>' class="btn-flat grey lighten-3 right hoverable" title="Exemplo aleatório">
               <?=CHtml::image(Yii::app()->baseUrl.'/themes/material/assets/img/media-shuffle.png','',array('style'=>'width:24px;padding-top:7px;'));?>
             </a>
           </div>
         </div>
+        <div id='como-usar' class='card-panel' style="display: none;text-align:justify;"><?=$comoUsar;?></div>  
 
         <?php
         $this->widget('application.widgets.Teclado.ViewTeclado', array(
@@ -74,14 +68,12 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
     </div>
   <?php endif; ?>
 </div>
-  <br><br><br>
-  <br><br><br>
-<div class="container">
+<div class="container" style="margin-top:80px;">
   <?=CHtml::ajaxLink('Lista completa de exemplos',$this->createUrl('/site/exemplos'),[
     'success'=>'js:function(html){
       $("#ajax-exemplos").html(html);
       MathJax.Hub.Queue(["Typeset",MathJax.Hub,document.getElementById("ajax-exemplos")]);
-      $("#btn-ex").slideUp().remove();
+      $("#btn-ex").remove();
     }',
   ],[
     'id'=>'btn-ex',
@@ -89,25 +81,10 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
   <div id='ajax-exemplos'></div>
 </div>
 
-
-<div id="como-utilizar" class="modal modal-fixed-footer">
-    <div class="modal-content">
-      <h4 class="light">Como utilizar</h4>
-      <p><?=$comoUsar;?></p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect btn-flat">Ok</a>
-    </div>
-</div>
-
-
 <script>
 $(document).ready(function(){
   $('#search').focus();
 });
-</script>
-
-<script>
 $("#search").autocomplete({
   minLength: 1,
   'source':'<?=Yii::app()->controller->createUrl('/search/AutocompleteInstrucao')?>',

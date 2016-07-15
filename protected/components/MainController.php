@@ -21,7 +21,6 @@ class MainController extends CController {
         $this->descricao = 'O Monitor é uma interface para o programa Sage cujas capacidades simbólica e numérica garantem respostas desde contas simples até o cálculo simbólico, envolvendo conceitos avançados. As capacidades gráficas permitem exibir imagens e animações interativas.';
         $this->org = Organizacao::model()->findByAttributes(['orgID'=>'monitor']);
 
-
         if (Yii::app()->request->isAjaxRequest) {
             Yii::app()->clientScript->scriptMap['jquery.js'] = false;
             Yii::app()->clientScript->scriptMap['jquery.min.js'] = false;

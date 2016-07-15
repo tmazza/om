@@ -14,7 +14,6 @@
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
         <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
         <link rel='stylesheet' href='<?= Yii::app()->baseUrl ?>/themes/material/assets/css/main.css' type='text/css' media='all' />
 
 		<?php if($this->faceData): ?>
@@ -42,25 +41,22 @@
          <div class="nav-wrapper">
            <?php
            $img = CHtml::image(Yii::app()->baseUrl.'/webroot/logo2.png','O Monitor',[
-             'style'=>'height:45px',
+             'style'=>'height:30px;margin-top:15px;margin-left:8px;',
            ]);
            echo CHtml::link($img,$this->createUrl('/site/index'),[
-             'class'=>'brand-logo',
-             'style'=>'padding-top:14px;',
+             'class'=>'',
+             'style'=>'margin-top:20px',
            ]);
            ?>
-           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-           <ul class="right hide-on-med-and-down">
-             <li><a href="<?=$this->createUrl('/sobre/apresentacao')?>">Sobre</a></li>
-           </ul>
-           <ul class="side-nav" id="mobile-demo">
+           <ul class="right">
+             <li><a href="<?=$this->createUrl('/instrucoes/index')?>">Instruções</a></li>
              <li><a href="<?=$this->createUrl('/sobre/apresentacao')?>">Sobre</a></li>
            </ul>
          </div>
        </div>
      </nav>
       <!-- header -->
-      <div class='row' style='border-bottom: 2px solid #616161;'>
+      <div class='row' style='border-bottom: 1px solid #616161;'>
       </div>
       <!-- fim header -->
 
@@ -74,7 +70,7 @@
       <!-- fim content -->
       <br><br><br>
       <!-- footer -->
-      <div class='row' style='border-top: 3px solid #616161;margin-bottom:0px;'>
+      <div class='row' style='border-top: 2px solid #616161;margin-bottom:0px;'>
         <div class='blue-grey darken-1 col s12' style='min-height:100px;'>
           <div class="container">
 
@@ -113,15 +109,6 @@
           </div>
         </div>
       </div>
-      <script>
-      $(document).ready(function(){
-        $('.modal-trigger').leanModal();
-        $(".button-collapse").sideNav();
-        $('.tooltipped').tooltip({delay: 50});
-      });
-      </script>
-
-      <!-- fim footer -->
     </body>
 
 </html>
