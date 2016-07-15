@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="blue-grey darken-1"> 
     <head>
         <!-- META TAGS -->
         <meta charset="UTF-8" />
@@ -61,8 +61,6 @@
      </nav>
       <!-- header -->
       <div class='row' style='border-bottom: 2px solid #616161;'>
-        <div class='blue-grey darken-1 col s12' style='height:100px;'>
-        </div>
       </div>
       <!-- fim header -->
 

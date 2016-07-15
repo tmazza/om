@@ -1,4 +1,4 @@
-<div class="container" style="margin-top:-49px;">
+<div class="container">
   <div class="card-panel">
     <span class="flow-text"><?=$instrucao->descricao;?></span>
     <a href='<?=$this->createUrl('site/index',array('q'=>$instrucao->nomes[0]->id));?>'>

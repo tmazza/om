@@ -15,12 +15,7 @@ class SiteController extends MainController {
 
     public function actionIndex() {
         $this->layout = 'main';
-        $exemplos = ExemplosSearchCategoria::model()->findAll(array(
-          'order'=>'ordem',
-          'condition' => 'pai_id IS NULL',
-        ));
         $this->render('index', array(
-            'exemplos' => $exemplos,
             'comoUsar' => $this->getComoUsar(),
         ));
     }
@@ -55,9 +50,14 @@ class SiteController extends MainController {
         }
     }
 
-    public function actionSearch() {
-        Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/js/googleSearch.js');
-        $this->render("search");
+    public function actionExemplos(){
+      $exemplos = ExemplosSearchCategoria::model()->findAll(array(
+        'order'=>'ordem',
+        'condition' => 'pai_id IS NULL',
+      ));
+      $this->renderPartial('/site/exemplos',[
+        'exemplos'=>$exemplos,
+      ]);
     }
 
 }

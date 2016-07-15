@@ -1,96 +1,66 @@
 <?php
 $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? false : $_GET['q'];
-$textoComoUsar = 'Como usar?';
 ?>
-<div class="container" style="margin-top:-49px;">
-  <div class='row' id='header-auto'>
-    <div class='col m10 s9'>
-      <nav class='white'>
-        <div class="nav-wrapper">
-          <form method="get" id='search-form' action="<?php echo $this->createUrl('site/index'); ?>">
-            <div class="input-field" style="color:#000;">
-              <?php
-              echo CHtml::textField('q',$query,[
-                                      'id' => 'search',
-                      'autocomplete' => 'off',
-                      'required' => true,
-                      // 'placeholder' => '',
-                      'style' => 'padding-left:1rem;border:none!important;box-shadow:none!important;',
-                      // 'type' => 'search',
-                ]);
-              // $this->widget('zii.widgets.jui.CJuiAutoComplete', array(
-              //     'name' => 'q',
-              //     'value' => $query,
-              //     'source' => Yii::app()->controller->createUrl('/search/AutocompleteInstrucao'),
-              //     'options' => array(
-              //         'minLength' => '1',
-              //         'select'=>'js: function(event,ui){
-              //           window.location.assign("/app/?q="+encodeURI(ui.item.value)+"#OM")
-              //         }',
-              //         'response'=>'js:function(event,ui){
-              //           var items = document.getElementsByClassName("ui-menu-item");
-              //           $.each(items,function(k,v){
-              //             alert(JSON.stringify(k));
-              //             MathJax.Hub.Queue(["Typeset",MathJax.Hub,v]);
-              //           });
-              //         }',
-              //     ),
-              //     'htmlOptions' => array(
-              //         'id' => 'search',
-              //         'autocomplete' => 'off',
-              //         'required' => true,
-              //         // 'placeholder' => '',
-              //         'style' => 'padding-left:1rem;border:none!important;box-shadow:none!important;',
-              //         // 'type' => 'search',
-              //     ),
-              // ));
-              ?>
+<div class="container">
+  <br><br><br>
+  <div style="max-width: 600px; margin: 0 auto;">
+      <div class='row' id='header-auto'>
+      <div class='col m10 s9'>
+        <nav class='white'>
+          <div class="nav-wrapper">
+            <form method="get" id='search-form' action="<?php echo $this->createUrl('site/index'); ?>">
+              <div class="input-field" style="color:#000;">
+                <?php
+                echo CHtml::textField('q',$query,[
+                        'id' => 'search',
+                        'autocomplete' => 'off',
+                        'required' => true,
+                        'style' => 'padding-left:1rem;border:none!important;box-shadow:none!important;',
+                  ]);
+                ?>
+              </div>
+            </form>
+          </div>
+        </nav>
+      </div>
+      <div class='col m1 hide-on-small-only'>&nbsp;</div>
+      <div class='col s3 m1' style="padding-top:6px;">
+        <a onclick="$('#search-form').submit();" class="right btn-floating btn-large waves-effect waves-light blue-grey lighten-1 ">=</a>
+      </div>
+    </div>
+    <div class='row' style="margin-bottom: 0px;">
+      <div class='col s12'>
+        <?php if(!$query): ?>
+          <div class='row hide-on-large-only '  style="margin-bottom: 0px;">
+            <div class='col s12 center-align'>
+              <a class="waves-effect waves-light btn-flat modal-trigger" href="#como-utilizar">Como utilizar</a>
             </div>
-          </form>
-        </div>
-      </nav>
-    </div>
-
-
-
-
-    <div class='col m1 hide-on-small-only'>&nbsp;</div>
-  <div class='col s3 m1' style="padding-top:2px;"  id='OM'>
-      <a onclick="$('#search-form').submit();" class="right btn-floating btn-large waves-effect waves-light blue-grey lighten-1 ">=</a>
-    </div>
-  </div>
-  <div class='row' style="margin-bottom: 0px;">
-    <div class='col s12'>
-      <?php if(!$query): ?>
-        <div class='row hide-on-large-only '  style="margin-bottom: 0px;">
-          <div class='col s12 center-align'>
-            <a class="waves-effect waves-light btn-flat modal-trigger" href="#como-utilizar"><?=$textoComoUsar;?></a>
+          </div>
+        <?php endif; ?>
+        <div class='row'  style="margin-bottom: 0px;">
+          <div class='col s6 l2'>
+            <a onclick='$("#tec-btn-box-search").slideToggle();' href='#!' class="btn-flat grey lighten-3 waves-effect waves-light hoverable tooltipped" data-position='right' data-tooltip="Teclado">
+              <i style='font-size:1.7em' class="material-icons black-text">keyboard</i>
+            </a>
+          </div>
+          <div class='col s12 l8 hide-on-med-and-down center-align'>
+            <a class="waves-effect waves-light btn-flat modal-trigger" href="#como-utilizar">Como utilizar</a>
+          </div>
+          <div class='col s6 l2'>
+            <a href='<?=$this->createUrl('site/aleatorio')?>' class="btn-flat grey lighten-3 right waves-effect waves-light hoverable tooltipped" data-position='left' data-tooltip="Exemplo aleatório">
+              <?=CHtml::image(Yii::app()->baseUrl.'/themes/material/assets/img/media-shuffle.png','',array('style'=>'width:24px;padding-top:7px;'));?>
+            </a>
           </div>
         </div>
-      <?php endif; ?>
-      <div class='row'  style="margin-bottom: 0px;">
-        <div class='col s6 l2'>
-          <a onclick='$("#tec-btn-box-search").slideToggle();' href='#!' class="btn-flat grey lighten-3 waves-effect waves-light hoverable tooltipped" data-position='right' data-tooltip="Teclado">
-            <i style='font-size:1.7em' class="material-icons black-text">keyboard</i>
-          </a>
-        </div>
-        <div class='col s12 l8 hide-on-med-and-down center-align'>
-          <a class="waves-effect waves-light btn-flat modal-trigger" href="#como-utilizar"><?=$textoComoUsar;?></a>
-        </div>
-        <div class='col s6 l2'>
-          <a href='<?=$this->createUrl('site/aleatorio')?>' class="btn-flat grey lighten-3 right waves-effect waves-light hoverable tooltipped" data-position='left' data-tooltip="Exemplo aleatório">
-            <?=CHtml::image(Yii::app()->baseUrl.'/themes/material/assets/img/media-shuffle.png','',array('style'=>'width:24px;padding-top:7px;'));?>
-          </a>
-        </div>
-      </div>
 
-      <?php
-      $this->widget('application.widgets.Teclado.ViewTeclado', array(
-          'inputID' => 'search',
-          'tecladoID' => Teclado::Arquimedes,
-          'template' => 'template5',
-      ));
-      ?>
+        <?php
+        $this->widget('application.widgets.Teclado.ViewTeclado', array(
+            'inputID' => 'search',
+            'tecladoID' => Teclado::Arquimedes,
+            'template' => 'template5',
+        ));
+        ?>
+      </div>
     </div>
   </div>
   <?php if($query): ?>
@@ -104,19 +74,25 @@ $textoComoUsar = 'Como usar?';
     </div>
   <?php endif; ?>
 </div>
-<!-- <div class="container">
-  <div class="card-panel">
-      Exemplos:
-      <input type='search' id='se' placeholder="Buscar..." />
-    <div id='sr'></div>
-    <?php //$this->renderPartial('exemplos',array('exemplos'=>$exemplos)); ?>
-  </div>
-</div> -->
+  <br><br><br>
+  <br><br><br>
+<div class="container">
+  <?=CHtml::ajaxLink('Lista completa de exemplos',$this->createUrl('/site/exemplos'),[
+    'success'=>'js:function(html){
+      $("#ajax-exemplos").html(html);
+      MathJax.Hub.Queue(["Typeset",MathJax.Hub,document.getElementById("ajax-exemplos")]);
+      $("#btn-ex").slideUp().remove();
+    }',
+  ],[
+    'id'=>'btn-ex',
+  ]);?>
+  <div id='ajax-exemplos'></div>
+</div>
 
 
 <div id="como-utilizar" class="modal modal-fixed-footer">
     <div class="modal-content">
-      <h4 class="light"><?=$textoComoUsar;?></h4>
+      <h4 class="light">Como utilizar</h4>
       <p><?=$comoUsar;?></p>
     </div>
     <div class="modal-footer">
@@ -126,27 +102,6 @@ $textoComoUsar = 'Como usar?';
 
 
 <script>
-$('#se').keyup(function(){
-  $('#sr').html('<div class="progress"><div class="indeterminate"></div></div>');
-
-  var s = $(this).val().trim();
-  nodes = []
-  if(s.length > 0){
-    $('.s').each(function(){
-      var txt = $(this).text().toLowerCase() + '-' +  $(this).next().text().toLowerCase();
-      if(txt.indexOf(s.toLowerCase()) !== -1){
-        nodes.push($(this).parent().parent().clone());
-      }
-    });
-  }
-  $('#sr').text('');
-  for(i=0;i<nodes.length;i++){
-    $('#sr').append(nodes[i]);
-    $('#sr').append('<div class="divider"></div>');
-  }
-});
-
-
 $(document).ready(function(){
   $('#search').focus();
 });
@@ -157,7 +112,7 @@ $("#search").autocomplete({
   minLength: 1,
   'source':'<?=Yii::app()->controller->createUrl('/search/AutocompleteInstrucao')?>',
   'select': function(event,ui){
-      window.location.assign("/app/?q="+encodeURI(ui.item.value)+"#OM");
+      window.location.assign("/app/?q="+encodeURI(ui.item.value));
   },
   'open':function(event,ui){ 
     console.log("ok");

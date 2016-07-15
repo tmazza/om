@@ -28,10 +28,6 @@ class MainController extends CController {
             Yii::app()->clientScript->scriptMap['jquery-ui.js'] = false;
             Yii::app()->clientScript->scriptMap['jquery-ui.min.js'] = false;
         } else {
-            $sharedAssets = Yii::app()->assetManager->publish(Yii::getPathOfAlias('webroot.webroot'), false, -1, YII_DEBUG);
-
-            Yii::app()->clientScript->registerCssFile($sharedAssets . '/css/sage-templates.css');
-
             Yii::app()->clientScript->registerScript('sagecell-autoload', 'sagecell.makeSagecell({inputLocation: " .sage-auto",autoeval: true,evalButtonText: "Resolver",hide:["editor","language","evalButton","permalink","done","sessionFiles"]});');
 
             Yii::app()->clientScript->registerScriptFile('https://sagecell.sagemath.org/static/embedded_sagecell.js');

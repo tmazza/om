@@ -1,4 +1,4 @@
-<div class="container" style="margin-top:-49px;">
+<div class="container">
   <div class="card-panel">
     <div class='row'>
       <div class='col l3 s12'>
