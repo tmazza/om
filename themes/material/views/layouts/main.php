@@ -41,7 +41,7 @@
          <div class="nav-wrapper">
            <?php
            $img = CHtml::image(Yii::app()->baseUrl.'/webroot/logo2.png','O Monitor',[
-             'style'=>'height:30px;margin-top:15px;margin-left:8px;',
+             'style'=>'height:25px;margin-top:15px;margin-left:8px;',
            ]);
            echo CHtml::link($img,$this->createUrl('/site/index'),[
              'class'=>'',

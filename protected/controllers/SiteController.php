@@ -57,6 +57,7 @@ class SiteController extends MainController {
       ));
       $this->renderPartial('/site/exemplos',[
         'exemplos'=>$exemplos,
+        'nivel'=>0,
       ]);
     }
 

@@ -2,9 +2,13 @@
   <?php if(count($e->exemplos) > 0 || count($e->filhas) > 0): ?>
     <ul class="collection with-header" style="margin-bottom:0px;">
       <li class="collection-header" onclick="$(this).next().slideToggle();" style="cursor:pointer;">
-        <h6><?=$e->nome;?></h6>
+        <?php if($nivel == 0): ?>
+          <h5 style="font-size:1.3em"><?=$e->nome;?></h5>
+        <?php else: ?>
+          <h6><?=$e->nome;?></h6>
+        <?php endif; ?>
       </li>
-      <div style="display:none;" class='cat'>
+      <div style="display:none;background:#ddd" class='cat'>
         <?php foreach ($e->exemplos as $eg): ?>
           <a href='<?= $this->createUrl('site/index', array('q' => $eg->valor)); ?>#OM' class="collection-item">
             <div class="row">
@@ -20,7 +24,10 @@
         <?php endforeach; ?>
         <?php if (count($e->filhas) > 0): ?>
           <li class="collection-item">
-            <?php $this->renderPartial('exemplos',array('exemplos'=>$e->filhas)); ?>
+            <?php $this->renderPartial('exemplos',[
+              'exemplos'=>$e->filhas,
+              'nivel'=>$nivel+1,
+            ]); ?>
           </li>
         <?php endif; ?>
       </div>

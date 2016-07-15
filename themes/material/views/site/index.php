@@ -3,8 +3,8 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
 ?>
 <div class="container">
   <br><br><br>
-  <div style="max-width: 600px; margin: 0 auto;">
-      <div class='row' id='header-auto'>
+  <div style="max-width: 10600px; margin: 0 auto;">
+    <div class='row' id='header-auto'>
       <div class='col m10 s9'>
         <nav class='white'>
           <div class="nav-wrapper">
@@ -22,40 +22,42 @@ $query = !isset($_GET['q']) || (isset($_GET['q']) && strlen($_GET['q']) == 0) ? 
             </form>
           </div>
         </nav>
+
+        <div class='row' style="margin-bottom: 0px;margin-top:6px;">
+          <div class='col s12'>
+            <div class='row'  style="margin-bottom: 0px;">
+              <div class='col s2 l2'>
+                <a onclick='$("#tec-btn-box-search").slideToggle();' href='#!' class="btn-flat grey lighten-3 waves-effect waves-light hoverable tooltipped" data-position='right' data-tooltip="Teclado">
+                  <i style='font-size:1.7em' class="material-icons black-text">keyboard</i>
+                </a>
+              </div>
+              <div class='col s8 l8 center-align'>
+                <a class="waves-effect waves-light btn-flat" href="#como-utilizar" onclick="$('#como-usar').slideToggle();">Como usar?</a>
+              </div>
+              <div class='col s2 l2'>
+                <a href='<?=$this->createUrl('site/aleatorio')?>' class="btn-flat grey lighten-3 right hoverable" title="Exemplo aleatório">
+                  <?=CHtml::image(Yii::app()->baseUrl.'/themes/material/assets/img/media-shuffle.png','',array('style'=>'width:24px;padding-top:7px;'));?>
+                </a>
+              </div>
+            </div>
+            <?php
+            $this->widget('application.widgets.Teclado.ViewTeclado', array(
+                'inputID' => 'search',
+                'tecladoID' => Teclado::Arquimedes,
+                'template' => 'template5',
+            ));
+            ?>
+          </div>
+        </div>
+
+
       </div>
       <div class='col m1 hide-on-small-only'>&nbsp;</div>
       <div class='col s3 m1' style="padding-top:2px;">
         <a onclick="$('#search-form').submit();" class="right btn-floating btn-large waves-effect waves-light blue-grey lighten-1 ">=</a>
       </div>
     </div>
-    <div class='row' style="margin-bottom: 0px;">
-      <div class='col s12'>
-        <div class='row'  style="margin-bottom: 0px;">
-          <div class='col s2 l2'>
-            <a onclick='$("#tec-btn-box-search").slideToggle();' href='#!' class="btn-flat grey lighten-3 waves-effect waves-light hoverable tooltipped" data-position='right' data-tooltip="Teclado">
-              <i style='font-size:1.7em' class="material-icons black-text">keyboard</i>
-            </a>
-          </div>
-          <div class='col s8 l8 center-align'>
-            <a class="waves-effect waves-light btn-flat" href="#como-utilizar" onclick="$('#como-usar').slideToggle();">Como usar?</a>
-          </div>
-          <div class='col s2 l2'>
-            <a href='<?=$this->createUrl('site/aleatorio')?>' class="btn-flat grey lighten-3 right hoverable" title="Exemplo aleatório">
-              <?=CHtml::image(Yii::app()->baseUrl.'/themes/material/assets/img/media-shuffle.png','',array('style'=>'width:24px;padding-top:7px;'));?>
-            </a>
-          </div>
-        </div>
-        <div id='como-usar' class='card-panel' style="display: none;text-align:justify;"><?=$comoUsar;?></div>  
-
-        <?php
-        $this->widget('application.widgets.Teclado.ViewTeclado', array(
-            'inputID' => 'search',
-            'tecladoID' => Teclado::Arquimedes,
-            'template' => 'template5',
-        ));
-        ?>
-      </div>
-    </div>
+    <div id='como-usar' class='card-panel' style="display: none;text-align:justify;"><?=$comoUsar;?></div>
   </div>
   <?php if($query): ?>
     <div class='card-panel'>
