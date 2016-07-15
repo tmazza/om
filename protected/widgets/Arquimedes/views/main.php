@@ -1,6 +1,9 @@
 <?php
 if($this->instructionOn){
-	echo CHtml::link(ucfirst($this->instructionOn->descricao),Yii::app()->controller->createUrl('/instrucoes/ver',array('id'=>$this->instructionOn->id)));
+	echo CHtml::link(ucfirst($this->instructionOn->descricao),Yii::app()->controller->createUrl('/instrucoes/ver',array(
+        'id'=>$this->instructionOn->id,
+        'nome'=>$this->instructionOn->descricao,
+        )));
 }
 ?>
 <div id="arq-content">

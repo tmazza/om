@@ -27,7 +27,7 @@ class AutocompleteInstrucao extends CAction {
                 'value'=>$i['value']
             ];
         },array_slice($instrucoes,0,10));
-
+        
         echo json_encode($data);
     }
 
